@@ -24,9 +24,9 @@ Starten Sie die Kommandozeile \(Terminal\) und geben Sie die folgenden Befehle e
 
 ### Schritt 1: "War and Peace" von Leo Tolstoy herunterladen und anzeigen {#schritt-1-war-and-peace-von-leo-tolstoy-herunterladen-und-anzeigen}
 
-* `curl http://www.gutenberg.org/files/2600/2600-0.txt `
+* `curl http://www.gutenberg.org/files/2600/2600-0.txt`
   `>`
-  ` war_and_peace.txt`
+  `war_and_peace.txt`
 * `cat war_and_peace.txt | less`
 
 Der Anhang `| less` am zweiten Befehl zeigt den Text so an, dass Sie mit den Pfeiltasten scrollen können. Beenden können Sie die Ansicht mit der Taste `q`.
