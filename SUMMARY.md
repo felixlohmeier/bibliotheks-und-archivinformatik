@@ -8,10 +8,10 @@
   * [1.4 Wiederholung zu Metadatenstandards und Schnittstellen](kapitel-1/14-wiederholung-zu-metadatenstandards-und-schnittstellen.md)
   * [1.5 Übung: Metadaten über eine SRU-Schnittstelle laden](kapitel-1/15-ubung-metadaten-uber-eine-sru-schnittstelle-laden.md)
 * [Kapitel 2](kapitel-2.md)
-* Kapitel 3
-* Kapitel 4
-* Kapitel 5
-* Kapitel 6
-* Kapitel 7
+* [Kapitel 3](kapitel-3.md)
+* [Kapitel 4](kapitel-4.md)
+* [Kapitel 5](kapitel-5.md)
+* [Kapitel 6](kapitel-6.md)
+* [Kapitel 7](kapitel-7.md)
 * [Lerntagebücher](lerntagebucher.md)
 

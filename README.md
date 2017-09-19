@@ -20,7 +20,7 @@ Dieses Skript entsteht in der Zeit von September 2017 bis Januar 2018 im Rahmen 
 
 ## Inhalte
 
-Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung, Metadatenstandards
+Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und eine Wiederholung in Metadatenstandards \(21.09.2017\)
 
 * [1.1 Einführung ins Thema](/kapitel-1/11-einfuhrung-ins-thema.md)
 * [1.2 Installation der Arbeitsumgebung](/kapitel-1/12-installation-der-arbeitsumgebung.md)
@@ -28,17 +28,17 @@ Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung, Metadatensta
 * [1.4 Wiederholung zu Metadatenstandards und Schnittstellen](/kapitel-1/14-wiederholung-zu-metadatenstandards-und-schnittstellen.md)
 * [1.5 Übung: Metadaten über eine SRU-Schnittstelle laden](/kapitel-1/15-ubung-metadaten-uber-eine-sru-schnittstelle-laden.md)
 
-Kapitel 2: Bibliotheks- und Archivsysteme
+Kapitel 2: Bibliotheks- und Archivsysteme \(05.10.2017\)
 
-Kapitel 3: Übertragungsprotokolle und Crosswalks
+Kapitel 3: Übertragungsprotokolle und Crosswalks \(02.11.2017\)
 
-Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche
+Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche \(16.11.2017\)
 
-Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung
+Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung \(30.11.2017\)
 
-Kapitel 6: Metadaten in Publikationsrepositorien und Digitalisierungsplattformen
+Kapitel 6: Metadaten in Publikationsrepositorien und Digitalisierungsplattformen \(14.12.2017\)
 
-Kapitel 7: Linked Data, weitere Metadatenstandards, Abschluss
+Kapitel 7: Linked Data, weitere Metadatenstandards, Abschluss \(11.01.2018\)
 
 ## Lerntagebücher
 
