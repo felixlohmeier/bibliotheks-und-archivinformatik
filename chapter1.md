@@ -1,3 +1,10 @@
-# First Chapter
+# Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und eine Wiederholung von Metadatenstandards
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 8 Stunden Zeit:
+
+* 1.1 ...
+* 1.2 ...
+* 1.3 ...
+
+
+
