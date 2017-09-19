@@ -8,7 +8,7 @@ Wir arbeiten mit dem Linux-Betriebssystem **Ubuntu MATE 16.04** LTS. Wir nutzen 
 
 Im Kurs verwenden wir **vorbereitete USB-Sticks**, um das System auf eigenen Laptops zu booten.
 
-Wer dieses Skript im **Selbststudium außerhalb der HTW Chur** bearbeiten möchte, der kann sich die Software [VirtualBox](https://www.virtualbox.org/wiki/Downloads) \(kostenfrei erhältlich für Windows, MacOS und Linux\) installieren und die folgende Appliance herunterladen und importieren \(VirtualBox Manager aufrufen, STRG+A drücken und Datei auswählen\): [https://felixlohmeier.de/htw/htw-usb.ova](https://felixlohmeier.de/htw/htw-usb.ova)
+Wer dieses Skript im **Selbststudium außerhalb der HTW Chur** bearbeiten möchte, der kann sich die Software [VirtualBox](https://www.virtualbox.org/wiki/Downloads) \(kostenfrei erhältlich für Windows, MacOS und Linux\) installieren und die folgende Appliance herunterladen und importieren \(VirtualBox Manager aufrufen, STRG+A drücken und Datei auswählen\): [https://felixlohmeier.de/htw/htw-usb.ova](https://felixlohmeier.de/htw/htw-usb.ova) \(2,9 GB\)
 
 ![](/images/willkommen.png)
 
