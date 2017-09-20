@@ -18,3 +18,5 @@ Sie können dazu das Formular auf der Webseite [http://sru.swissbib.ch](http://s
 
 Tipp: Öffnen Sie zwei Browserfenster nebeneinander, um die Unterschiede leichter sehen zu können.
 
+![](/images/swissbib-sru.png)
+
