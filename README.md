@@ -61,7 +61,7 @@ In diesem praxisorientierten Kurs setzen Sie Open-Source-Komponenten ein, um ein
 
 ## Intention Openness
 
-Soweit möglich werden die Materialien für die Lehrveranstaltung an dieser Stelle online gestellt, damit sie vielleicht auch über den Kreis der SeminarteilnehmerInnen hinaus nützlich sind.
+Soweit möglich werden die Materialien für die Lehrveranstaltung an dieser Stelle online gestellt, damit sie vielleicht auch über den Kreis der SeminarteilnehmerInnen hinaus nützlich sind. Weitere Informationen dazu im Bibcast [Offene Lernskripte mit Gitbook](https://bibcast.openbiblio.eu/offene-lernskripte-mit-gitbook-erfahrungsbericht-aus-dem-seminar-wir-bauen-uns-einen-bibliothekskatalog-an-der-haw-hamburg/).
 
 ## Literaturempfehlungen zum Einstieg
 
