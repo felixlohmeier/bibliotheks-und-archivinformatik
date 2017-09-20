@@ -1,6 +1,6 @@
 # 1.2 Installation der Arbeitsumgebung
 
-Wir arbeiten mit dem Linux-Betriebssystem [**Ubuntu MATE**](https://ubuntu-mate.org/)** 16.04** LTS. Wir nutzen eine "Live"-Version mit persistentem Storage mit folgenden Besonderheiten:
+Wir arbeiten mit dem Linux-Betriebssystem [**Ubuntu MATE**](https://ubuntu-mate.org/)** 16.04** LTS. Wir nutzen eine "Live"-Version mit persistentem Storage. Dadurch gibt es folgende Besonderheiten:
 
 * Änderungen am System und eigene Daten werden in der Partition "**casper-rw**" gespeichert.
 * Die Partition "**usbdata**" kann zum Datenaustausch genutzt werden. Sie ist mit dem Dateisystem NTFS formatiert und kann auch auf einem Windows-Rechner eingelesen werden.

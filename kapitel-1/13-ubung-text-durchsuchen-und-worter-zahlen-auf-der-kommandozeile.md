@@ -24,9 +24,7 @@ Starten Sie die Kommandozeile \(Terminal\) und geben Sie die folgenden Befehle e
 
 ### Schritt 1: "War and Peace" von Leo Tolstoy herunterladen und anzeigen {#schritt-1-war-and-peace-von-leo-tolstoy-herunterladen-und-anzeigen}
 
-* `curl http://www.gutenberg.org/files/2600/2600-0.txt`
-  `>`
-  `war_and_peace.txt`
+* `curl http://www.gutenberg.org/files/2600/2600-0.txt > war_and_peace.txt`
 * `cat war_and_peace.txt | less`
 
 Der Anhang `| less` am zweiten Befehl zeigt den Text so an, dass Sie mit den Pfeiltasten scrollen können. Beenden können Sie die Ansicht mit der Taste `q`.
@@ -59,11 +57,9 @@ Die meisten Antworten finden sich über einfache Suchen im Internet. Meist reich
 ## Literatur {#literatur}
 
 * Ausführlichere Übung im Blog des Projekts Librecat/Catmandu: [https://librecatproject.wordpress.com/2014/12/04/day-4-grep-less-and-wc/](https://librecatproject.wordpress.com/2014/12/04/day-4-grep-less-and-wc/). Dabei bitte beachten: Die dort referenzierte Textdatei ist anders strukturiert als die obige _war\_and\_peace.txt_ und liefert daher andere Zählergebnisse.
-* Dreistündiger Einführungskurs "Shell Lessons for Librarians" im Projekt "Library Carpentry" 
-  [http://data-lessons.github.io/library-shell/](http://data-lessons.github.io/library-shell/)
+* Dreistündiger Einführungskurs "Shell Lessons for Librarians" im Projekt "Library Carpentry" [http://data-lessons.github.io/library-shell/](http://data-lessons.github.io/library-shell/)
 * Eine gute Einführung in die Linux-Kommandozeile bietet [http://linuxcommand.org](http://linuxcommand.org) von William E. Shotts, der auch ein kostenfreies [540-Seiten-Buch](http://linuxcommand.org/tlcl.php) darüber geschrieben hat.
-* Es gibt sehr viele praktische kleine Programme auf der Kommandozeile. Zur Übersicht eignet sich daher ein Spickzettel \("Cheatsheet"\) sehr gut. Ein Beispiel für die unzähligen Cheatsheets: 
-  [http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/).
+* Es gibt sehr viele praktische kleine Programme auf der Kommandozeile. Zur Übersicht eignet sich daher ein Spickzettel \("Cheatsheet"\) sehr gut. Ein Beispiel für die unzähligen Cheatsheets: [http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/).
 
 
 
