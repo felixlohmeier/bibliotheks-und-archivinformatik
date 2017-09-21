@@ -20,3 +20,21 @@ Tipp: Öffnen Sie zwei Browserfenster nebeneinander, um die Unterschiede leichte
 
 ![](/images/swissbib-sru.png)
 
+## Aufgabe 3: Speichern der Daten mit curl
+
+Sie können die heruntergeladenen Daten direkt aus dem Browser als Datei abspeichern oder mit dem in Kapitel 1.3 kennengelernten Programm curl herunterladen.
+
+Beispiel marcxml: 
+
+```
+curl "http://srhtw-chur-open-10-marcu.swissbib.ch/sru/search/defaultdb?query=+dc.possessingInstitution+%3D+E27&operation=searchRetrieve&recordSchema=info%3Asrw%2Fschema%2F1%2Fmarcxml-v1.1-light&maximumRecords=10&startRecord=0&recordPacking=XML&availableDBs=defaultdb&sortKeys=Submit+query"
+```
+
+Beispiel dc:
+
+```
+curl "http://sru.swissbib.ch/sru/search/defaultdb?query=+dc.anywhere+%3D+open+AND+dc.possessingInstitution+%3D+E27&operation=searchRetrieve&recordSchema=info%3Asru%2Fschema%2F1%2Fdc-v1.1-light&maximumRecords=10&startRecord=0&recordPacking=XML&availableDBs=defaultdb&sortKeys=Submit+query" > htw-chur-open-10-dc.xml
+```
+
+
+
