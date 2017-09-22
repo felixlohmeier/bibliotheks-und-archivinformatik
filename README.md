@@ -27,6 +27,7 @@ Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und eine Wied
 * [1.3 Übung: Text durchsuchen und Wörter zählen auf der Kommandozeile](/kapitel-1/13-ubung-text-durchsuchen-und-worter-zahlen-auf-der-kommandozeile.md)
 * [1.4 Metadatenstandards und Schnittstellen](/kapitel-1/14-metadatenstandards-und-schnittstellen.md)
 * [1.5 Übung: Metadaten über eine SRU-Schnittstelle laden](/kapitel-1/15-ubung-metadaten-uber-eine-sru-schnittstelle-laden.md)
+* [1.6 Metadaten ansehen mit OpenRefine](/kapitel-1/16-metadaten-ansehen-mit-openrefine.md)
 
 Kapitel 2: Bibliotheks- und Archivsysteme \(05.10.2017\)
 
