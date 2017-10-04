@@ -1,0 +1,17 @@
+{
+   "@context": "http://schema.org/",
+   "@type": "WebPage",
+   "name": "Skript zum Kurs 'Bibliotheks- und Archivinformatik' (Herbstsemester 2017) an der HTW Chur",
+   "about": "Das Skript ist eine Weiterentwicklung voriger Lehrveranstaltungen an der HAW Hamburg (Wintersemester 2016/17) und an der HS Hannover (Sommersemester 2017). Es ist für eine Lehrveranstaltung mit 4 ECTS konzipiert.",
+   "datePublished": "September 20, 2017",
+   "learningResourceType": "lesson plan",
+   "timeRequired": "7 days",
+   "typicalAgeRange": "18-65",
+   "audience": {
+      "@type": "EducationalAudience",
+      "educationalRole": "teacher"
+   },
+   "interactivityType": "mixed",
+   "url": "https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/content/",
+   "useRightsUrl": "http://creativecommons.org/licenses/by/4.0/"
+}
