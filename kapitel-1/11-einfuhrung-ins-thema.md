@@ -10,7 +10,7 @@ In diesem praxisorientierten Kurs setzen Sie Open-Source-Komponenten ein, um ein
 
 ## Vergleich zwischen OPAC und Discovery von Gerald Steilen \(2012\)
 
-[![](/images/steilen-2012.png)](http://www.slideshare.net/steilen/discoverysysteme-die-opacs-der-zukunft)
+[![](../images/steilen-2012.png)](http://www.slideshare.net/steilen/discoverysysteme-die-opacs-der-zukunft)
 
 Quelle: [http://www.slideshare.net/steilen/discoverysysteme-die-opacs-der-zukunft](http://www.slideshare.net/steilen/discoverysysteme-die-opacs-der-zukunft)
 
@@ -34,7 +34,7 @@ Funktionen zur Ausleihe, zur Verwaltung des Benutzerkontos und zur Anzeige von a
 
 ## Zwischenbilanz von Anne Christensen \(2014\)
 
-[![](/images/christensen-2014.png)](http://www.slideshare.net/xenzen/discoverysysteme-zwischenbilanz-fr-eine-bibliothekarische-lsung-in-einer-postbibliothekarischen-welt)
+[![](../images/christensen-2014.png)](http://www.slideshare.net/xenzen/discoverysysteme-zwischenbilanz-fr-eine-bibliothekarische-lsung-in-einer-postbibliothekarischen-welt)
 
 Quelle: [http://www.slideshare.net/xenzen/discoverysysteme-zwischenbilanz-fr-eine-bibliothekarische-lsung-in-einer-postbibliothekarischen-welt](http://www.slideshare.net/xenzen/discoverysysteme-zwischenbilanz-fr-eine-bibliothekarische-lsung-in-einer-postbibliothekarischen-welt)
 
@@ -62,7 +62,7 @@ Weil Discovery viele bibliothekarische Kernthemen betrifft \(sie nennt Katalogis
 
 ## Marktüberblick von Marshall Breeding \(2014\)
 
-[![](/images/breeding-2014.png)](https://journals.ala.org/ltr/issue/view/195)
+[![](../images/breeding-2014.png)](https://journals.ala.org/ltr/issue/view/195)
 
 Quelle: [https://journals.ala.org/ltr/issue/view/195](https://journals.ala.org/ltr/issue/view/195)
 

@@ -17,7 +17,6 @@ Im Ordner `openrefine-2.7` finden Sie jetzt das Programm OpenRefine.
 
 ```
 ~/openrefine-2.7/refine
-
 ```
 
 Die Tilde \(`~`\) ist ein Kürzel für ihr Benutzerverzeichnis. Dieser Befehl funktioniert immer, egal in welchem Verzeichnis Sie sich gerade befinden. Wenn Sie sich im Ordner von OpenRefine befinden \(`cd ~/openrefine-2.7`\) reicht ein simples `refine`

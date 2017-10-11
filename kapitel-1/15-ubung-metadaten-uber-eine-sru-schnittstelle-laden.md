@@ -18,7 +18,7 @@ Sie können dazu das Formular auf der Webseite [http://sru.swissbib.ch](http://s
 
 Tipp: Öffnen Sie zwei Browserfenster nebeneinander, um die Unterschiede leichter sehen zu können.
 
-![](/images/swissbib-sru.png)
+![](../images/swissbib-sru.png)
 
 ## Aufgabe 3: Speichern der Daten mit curl
 

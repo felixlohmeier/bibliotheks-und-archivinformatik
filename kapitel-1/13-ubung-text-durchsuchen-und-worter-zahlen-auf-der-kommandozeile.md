@@ -6,7 +6,7 @@ Im Laufe des Kursus verwenden wir des Öfteren die [Kommandozeile](https://de.wi
 
 Die Kommandozeile \(auch "[Terminal](https://wiki.ubuntuusers.de/Terminal/)" genannt\) von Ubuntu MATE erreichen wir über das Menü "Anwendungen -&gt; Systemwerkzeuge -&gt; MATE-Terminal".
 
-![](/images/mate-terminal.png)
+![](../images/mate-terminal.png)
 
 ## Installieren Sie das kleine Programm curl {#installieren-sie-das-kleine-programm-curl}
 
@@ -16,7 +16,7 @@ Für die folgende Übung wird das \(sehr\) kleine Programm curl benötigt. Bei v
 
 Nach dem kurzen Installationsprozess sollte es etwa so aussehen:
 
-![](/images/curl-installieren.png)
+![](../images/curl-installieren.png)
 
 ## Übung: Text durchsuchen und Wörter zählen {#übung-text-durchsuchen-und-wörter-zählen}
 

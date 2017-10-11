@@ -9,7 +9,7 @@
 
 "Die Datenübersetzerin" - [Interview mit Kirsten Jeude im Podcast der ZBW](https://www.youtube.com/watch?v=YwbRTDvt_sA)
 
-[![](/images/interview-kirsten-jeude.png)](https://www.youtube.com/watch?v=YwbRTDvt_sA)
+[![](../images/interview-kirsten-jeude.png)](https://www.youtube.com/watch?v=YwbRTDvt_sA)
 
 ## Metadatenformate und -standards
 
