@@ -1,17 +1,69 @@
 {
    "@context": "http://schema.org/",
-   "@type": "WebPage",
-   "name": "Skript zum Kurs 'Bibliotheks- und Archivinformatik' (Herbstsemester 2017) an der HTW Chur",
-   "about": "Das Skript ist eine Weiterentwicklung voriger Lehrveranstaltungen an der HAW Hamburg (Wintersemester 2016/17) und an der HS Hannover (Sommersemester 2017). Es ist für eine Lehrveranstaltung mit 4 ECTS konzipiert.",
-   "datePublished": "September 20, 2017",
-   "learningResourceType": "lesson plan",
+   "type": "Course",
+   "id": "https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/",
+   "name": "Bibliotheks- und Archivinformatik an der HTW Chur",
+   "creator": {
+       "name": "Felix Lohmeier",
+       "id": "https://orcid.org/0000-0003-3375-4362"
+   },
+   "hasCourseInstance": {
+     "type": "CourseInstance",
+     "startDate": "2017-09-21",
+     "endDate": "xx-xx-xxxx",
+     "courseMode": "onsite",
+     "offers": {
+         "type": "Offer",
+         "offeredBy": {
+             "id": "http://www.wikidata.org/entity/Q1622220",
+             "name": "HTW Chur"
+         }
+     }
+   },
+   "description": "Der Kurs ist eine Weiterentwicklung voriger Lehrveranstaltungen an der HAW Hamburg (Wintersemester 2016/17) und an der HS Hannover (Sommersemester 2017). Es ist für eine Lehrveranstaltung mit 4 ECTS konzipiert.",
+   "about": [ "libraries", "archives", "software", "protocols", "metadata" ],
+   "educationalCredentialAwarded": "4 ECTS",
+   "datePublished": "2017-09-20",
    "timeRequired": "7 days",
    "typicalAgeRange": "18-65",
    "audience": {
-      "@type": "EducationalAudience",
-      "educationalRole": "teacher"
+      "type": "EducationalAudience",
+      "educationalRole": "student"
    },
    "interactivityType": "mixed",
+   "hasPart": [
+
+        {
+
+           "id": "https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/kapitel-1.html",
+
+           "name": "Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und eine Wiederholung in Metadatenstandards",
+
+           "description": "...",
+
+           "hasPart": [ 
+
+               {
+
+    "id": "https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/kapitel-1/11-einfuhrung-ins-thema.html",
+
+    "name": "1.1 Einführung ins Thema"
+
+    },
+
+    {
+
+    "id": "https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/kapitel-1/12-installation-der-arbeitsumgebung.html",
+
+    "name": "1.2 Installation der Arbeitsumgebung"
+
+    }
+
+           ]
+
+        } 
+
+       ],
    "url": "https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/content/",
-   "useRightsUrl": "http://creativecommons.org/licenses/by/4.0/"
+   "license": "http://creativecommons.org/licenses/by/4.0/"
 }
