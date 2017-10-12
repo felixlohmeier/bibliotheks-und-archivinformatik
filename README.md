@@ -31,6 +31,12 @@ Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und eine Wied
 
 Kapitel 2: Bibliotheks- und Archivsysteme \(05.10.2017\)
 
+* [2.1 Metadatenflüsse der ETH-Bibliothek](/kapitel-2/21_metadatenflusse-der-eth-bibliothek.md)
+* [2.2 Datenstruktur von Archivsystemen](/kapitel-2/22_datenstruktur-von-archivsystemen.md)
+* [2.3 Online-Präsentation von Digitalisaten](/kapitel-2/23_online-praesentation-von-digitalisaten.md)
+* [2.4 Discovery-System Wissensportal](/kapitel-2/24_discovery-system-wissensportal.md)
+* [2.5 Datenbereitstellung für externe Portale](/kapitel-2/25_datenbereitstellung-fur-externe-portale.md)
+
 Kapitel 3: Übertragungsprotokolle und Crosswalks \(02.11.2017\)
 
 Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche \(16.11.2017\)
