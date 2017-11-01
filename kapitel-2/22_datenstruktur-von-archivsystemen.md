@@ -4,7 +4,7 @@ Als digitale Archivsysteme entwickelt wurden, orientierte sich die Datenstruktur
 
 ## Verzeichnungsstandard ISAD\(G\)
 
-Ein wichtiger Verzeichnungsstandard im Archivwesen wurde 1994 \(Revision 2000\) eingeführt, die "International Standard Archival Description \(General\)" - kurz \[ISAD\(G\)\]\([https://de.wikipedia.org/wiki/ISAD\(G](https://de.wikipedia.org/wiki/ISAD%28G)\)\). Grundsätzlich gibt es hier eine mehrstufige Verzeichnung im Provenienzprinzip, um den Entstehungszusammenhang abzubilden.
+Ein wichtiger Verzeichnungsstandard im Archivwesen wurde 1994 \(Revision 2000\) eingeführt, die "International Standard Archival Description \(General\)" - kurz [ISAD\(G\)](https://de.wikipedia.org/wiki/ISAD%28G). Grundsätzlich gibt es hier eine mehrstufige Verzeichnung im Provenienzprinzip, um den Entstehungszusammenhang abzubilden.
 
 Der Standard enthält 26 Verzeichnungselemente in 7 Informationsbereichen:
 
@@ -31,7 +31,7 @@ Grenzen von ISAD\(G\):
 2. Die Tektonik ist eindimensional \(keine Mehrfachzuordnung möglich\)
 3. Der Standard enthält keine Vorgaben zur Digitalisierung oder zur digitalen Langzeitarchivierung
 
-Um Normdateien verzeichnen zu können, wurde später ein ergänzender Standard "International Standard Archival Authority Record for Corporate Bodies, Persons, and Families" - kurz \[ISAAR\(CPF\)\]\([https://de.wikipedia.org/wiki/ISAAR\(CPF](https://de.wikipedia.org/wiki/ISAAR%28CPF)\)\) verabschiedet. Dieser wird in der Praxis wegen dem Zusatzaufwand bei der Erschließung jedoch nur selten verwendet. Die ETH-Bibliothek führt Register für Personen, Körperschaften, Orte und Sachen auch im Archivbereich nach bibliothekarischen Regeln, d.h. mit Rollenkennzeichnung nach RDA und Verzeichnung von GND-IDs.
+Um Normdateien verzeichnen zu können, wurde später ein ergänzender Standard "International Standard Archival Authority Record for Corporate Bodies, Persons, and Families" - kurz [ISAAR\(CPF\)](https://de.wikipedia.org/wiki/ISAAR%28CPF%29) verabschiedet. Dieser wird in der Praxis wegen dem Zusatzaufwand bei der Erschließung jedoch nur selten verwendet. Die ETH-Bibliothek führt Register für Personen, Körperschaften, Orte und Sachen auch im Archivbereich nach bibliothekarischen Regeln, d.h. mit Rollenkennzeichnung nach RDA und Verzeichnung von GND-IDs.
 
 Aktuell ist ein neuer Standard "Records in Contexts" \([RIC](https://de.wikipedia.org/wiki/Records_in_Contexts)\) in Entwicklung. Dieser zielt auf eine Weiterentwicklung in Richtung Linked Data und soll neue und mehrfache Beziehungen zwischen Entitäten ermöglichen. Bis dieser neue Standard in Archivsystemen verwendet wird, werden jedoch voraussichtlich noch einige Jahre vergehen.
 
