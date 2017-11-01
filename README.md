@@ -37,13 +37,13 @@ Kapitel 2: Bibliotheks- und Archivsysteme \(05.10.2017\)
 * [2.4 Discovery-System Wissensportal](/kapitel-2/24_discovery-system-wissensportal.md)
 * [2.5 Datenbereitstellung für externe Portale](/kapitel-2/25_datenbereitstellung-fur-externe-portale.md)
 
-Kapitel 3: Übertragungsprotokolle und Crosswalks \(02.11.2017\)
+Kapitel 3: Übertragungsprotokolle und Datentransformationen \(02.11.2017\)
 
 Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche \(16.11.2017\)
 
 Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung \(30.11.2017\)
 
-Kapitel 6: Metadaten in Publikationsrepositorien und Digitalisierungsplattformen \(14.12.2017\)
+Kapitel 6: Metadaten in Repositorien und Crosswalks \(14.12.2017\)
 
 Kapitel 7: Linked Data, weitere Metadatenstandards, Abschluss \(11.01.2018\)
 
