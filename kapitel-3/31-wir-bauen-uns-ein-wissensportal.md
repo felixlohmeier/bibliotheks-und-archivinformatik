@@ -1,6 +1,6 @@
 # 3.1 Wir bauen uns ein "Wissensportal"
 
-![](/flowcharts/flowchart-swissbib.png)Quellcode für Flowchart: [flowcharts/flowchart-swissbib.mmd](/flowcharts/flowchart-swissbib.mmd "Sourcecode") \(nutzbar im [Mermaid Live-Editor](https://mermaidjs.github.io/mermaid-live-editor/)\)
+[![](/flowcharts/flowchart-swissbib.png)](https://raw.githubusercontent.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/master/flowcharts/flowchart-swissbib.png)Quellcode für Flowchart: [flowcharts/flowchart-swissbib.mmd](/flowcharts/flowchart-swissbib.mmd "Sourcecode") \(nutzbar im [Mermaid Live-Editor](https://mermaidjs.github.io/mermaid-live-editor/)\)
 
 ## Datenfluss
 
@@ -15,5 +15,5 @@ Danach haben wir noch zwei Kapitel Zeit, um entweder...
 1. mit der gleichen Software weitere Datenquellen zu integrieren \(insbesondere aus Archivsystemen\) und das Datenmodell und das Relevanzranking daraufhin anzupassen,
 2. oder das Discovery-System VuFind zu installieren, kennenzulernen und mit den enthaltenen Tools den obigen "händischen" Gesamtworkflow noch einmal professioneller aufzubauen.
 
-Abschließend werden wir in jedem Fall noch schauen wie wir selbst Schnittstellen bereitstellen und uns mit der Linked Data Cloud verbinden können.
+Abschließend werden wir in jedem Fall noch lernen wie wir selbst Schnittstellen bereitstellen und wie wir uns mit der Linked Data Cloud verbinden können.
 

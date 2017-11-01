@@ -6,9 +6,9 @@ Es gibt zahlreiche Übertragungsprotokolle im Bibliotheks- und Archivbereich. Dr
 * [SRU](http://www.loc.gov/standards/sru/) - Search/Retrieve via URL \(Library of Congress\)
 * [OAI-PMH](https://www.openarchives.org/pmh/) - Open Archives Initiative Protocol for Metadata Harvesting \(Open Archives Initiative\)
 
-Z39.50 ist sehr alt, aber immer noch im Einsatz. Meist wird SRU als moderne Ergänzung angeboten.
+Z39.50 ist sehr alt, aber immer noch im Einsatz. Meist wird das moderne SRU als Ergänzung angeboten.
 
-Während Z39.50 und SRU sich besonders für Live-Abfragen oder konkrete Suchabfragen eignet, zielt OAI-PMH vor allem auf größere Datenabzüge und regelmäßige Aktualisierungen. Das Schöne an SRU und OAI-PMH ist, dass die Anfragen wie eine URL zusammengestellt werden können und direkt über den Browser ohne Zusatzsoftware aufrufbar sind.
+Während Z39.50 und SRU sich besonders für Live-Abfragen oder gezielte Suchabfragen eignet, zielt OAI-PMH vor allem auf größere Datenabzüge und regelmäßige Aktualisierungen. Das Schöne an SRU und OAI-PMH ist, dass die Anfragen wie eine URL zusammengestellt werden können und direkt über den Browser ohne Zusatzsoftware aufrufbar sind.
 
 Bevor wir konkrete Testdaten für unser "Wissensportal" herunterladen, wollen wir die Möglichkeiten der Schnittstellen kennenlernen. Wir orientieren uns an dem Schweizer Projekt Swissbib, das öffentliche Schnittstellen nach SRU und OAI-PMH bereitstellt und diese auch gut dokumentiert hat:
 
