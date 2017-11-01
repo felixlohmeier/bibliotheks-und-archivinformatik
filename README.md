@@ -39,6 +39,14 @@ Kapitel 2: Bibliotheks- und Archivsysteme \(05.10.2017\)
 
 Kapitel 3: Übertragungsprotokolle und Datentransformationen \(02.11.2017\)
 
+* [3.1 Wir bauen uns ein Wissensportal](/kapitel-3/31-wir-bauen-uns-ein-wissensportal.md)
+* [3.2 Übertragungsprotokolle SRU und OAI-PMH](/kapitel-3/32-ubertragungsprotokolle-sru-und-oai-pmh.md)
+* [3.3 Testdaten über SRU herunterladen](/kapitel-3/33-testdaten-uber-sru-herunterladen.md)
+* [3.4 Tutorial zu OpenRefine](/kapitel-3/34-tutorial-zu-openrefine.md)
+* [3.5 Verarbeitung von MARC21 mit OpenRefine](/kapitel-3/35-verarbeitung-von-marc21-mit-openrefine.md)
+* [3.6 Bonus: Vergleich mit Crosswalk-Ergebnissen](/kapitel-3/36-bonus-vergleich-mit-crosswalk-ergebnissen.md)
+* [3.7 Bonus: Automatisierung](/kapitel-3/37-bonus-automatisierung.md)
+
 Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche \(16.11.2017\)
 
 Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung \(30.11.2017\)
