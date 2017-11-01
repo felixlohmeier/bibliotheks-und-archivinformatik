@@ -19,7 +19,7 @@ Bei der Normalisierung der Daten für die übergreifende Suche im Wissensportal 
 
 ## Beispiel Hochschularchiv
 
-Die Daten des Hochschularchivs werden von der Software Primo über eine spezielle OAI-PMH-Schnittstelle (vgl. dazu [Kapitel 2.6](26_datenbereitstellung-fur-externe-portale.md)) der Archivsoftware CMISTAR eingesammelt.
+Die Daten des Hochschularchivs werden von der Software Primo über eine spezielle OAI-PMH-Schnittstelle (vgl. dazu [Kapitel 2.5](25_datenbereitstellung-fur-externe-portale.md)) der Archivsoftware CMISTAR eingesammelt.
 
 Dabei müssen die hierarchisch gegliederten Erschließungsinformationen (nach ISAD(G)) in eine flache Struktur gebracht werden. Dazu wird jede Verzeichnungseinheit innerhalb der Tektonik als einzelner Datensatz im Wissensportal abgebildet.
 
