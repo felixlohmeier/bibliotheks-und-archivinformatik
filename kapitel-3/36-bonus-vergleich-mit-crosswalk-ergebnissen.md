@@ -1,10 +1,10 @@
 # 3.6 Bonus: Vergleich mit Crosswalk-Ergebnissen
 
-Wir hätten auch auf den integrierten "Crosswalk" von Swissbib vertrauen und die Daten gleich als Dublin Core herunterladen können. Nach welchen Transformationsregeln hätte Swissbib das dann eigentlich generiert? In [Kapitel 3.2](/3.2) Aufgabe 3 hatten wir das XSL-Stylesheet von Swissbib gefunden: <http://sru.swissbib.ch/sru/xslfiles/MARC21slim2OAIDC.swissbib.xsl>
+Wir hätten auch auf den integrierten "Crosswalk" von Swissbib vertrauen und die Daten gleich als Dublin Core herunterladen können. Nach welchen Transformationsregeln hätte Swissbib das dann eigentlich generiert? In [Kapitel 3.2](/3.2) Aufgabe 3 hatten wir das XSL-Stylesheet von Swissbib gefunden: [http://sru.swissbib.ch/sru/xslfiles/MARC21slim2OAIDC.swissbib.xsl](http://sru.swissbib.ch/sru/xslfiles/MARC21slim2OAIDC.swissbib.xsl)
 
 Versuchen Sie das XSL-Stylesheet zu "lesen", auch wenn Sie die Sprache XSL nicht kennen sollten. Manche Abschnitte sind dank der XML-Struktur mit etwas Puzzelei auch so verständlich.
 
-Folgende Regeln stehen grob darin:
+Folgende Regeln stehen \(leicht vereinfacht\) darin:
 
 * dc:id aus MARC 001
 * dc:creator aus MARC 100, 110, 111, 700, 710, 711, 720
@@ -14,18 +14,30 @@ Folgende Regeln stehen grob darin:
 * dc:date aus MARC 260c
 * dc:language aus MARC controlfield 008
 * dc:format aus MARC 856q
-* dc:description aus MARC 500a bis 599a (ohne 506, 530, 540 und 546)
+* dc:description aus MARC 500a bis 599a \(ohne 506, 530, 540 und 546\)
 * dc:subject aus MARC 600, 610, 611, 630, 650, 653, jeweils a,b,c,d,q
 * dc:coverage aus MARC 752a, 752b, 752c, 752d
 * dc:relation aus MARC 530a, 530b, 530c, 530d, 530u und aus 760, 762, 765, 767, 770, 772-777, 780, 785-787  jeweils o und t
 * dc:identifier aus MARC 856u und 020a
 * dc:rights aus MARC 506a, 540a
 
-Sie können übrigens ein solches XSL-Stylesheet mit einem XSLT-Prozessor auf der Kommandozeile direkt auf die heruntergeladenen Marc-Daten anwenden
+## Anwendung des XSL-Stylesheets von Swissbib mit Live-Editor xsltransform.net
+
+Rufen Sie den Live-Editor [xsltransform.net](http://www.xsltransform.net) auf.
+
+1. Kopieren Sie den Inhalt einer der in Kapitel 3.3 heruntergeladenen XML-Dateien in das obere Textfeld.
+2. Kopieren Sie den Inhalt des [XSL-Stylesheets](http://sru.swissbib.ch/sru/xslfiles/MARC21slim2OAIDC.swissbib.xsl) in das mittlere Textfeld.
+3. Das Ergebnis ist nach wenigen Sekunden im unteren Textfeld einsehbar und kann als Datei gespeichert werden.
+
+## Anwendung des XSL-Stylesheets von Swissbib auf der Kommandozeile
+
+Sie können übrigens ein solches XSL-Stylesheet mit einem XSLT-Prozessor auf der Kommandozeile direkt auf die heruntergeladenen Marc-Daten anwenden. Öffnen Sie den Ordner mit ihren XML-Dateien, rufen Sie dort die Kommandozeile auf \(Rechtsklick: "Im Terminal öffnen"\) und geben Sie folgende Befehle ein:
 
 ```
+wget http://sru.swissbib.ch/sru/xslfiles/MARC21slim2OAIDC.swissbib.xsl
 mkdir dc/
-for i in *.xml; do xsltproc -o dc/$i.xml MARC21slim2OAIDC.swissbib.xsl; done
+for i in *.xml; do xsltproc -o dublincore/$i.xml MARC21slim2OAIDC.swissbib.xsl; done
 ```
 
-Laden Sie das Transformationsergebnis (Dublin Core als XML) in OpenRefine und vergleichen Sie es mit den MARC-Daten.
+Die Ergebnisse \(Dublin Core als XML\) finden Sie jetzt im Unterordner `dublincore`. Laden Sie eine oder mehrere der Dateien in OpenRefine und vergleichen Sie diese mit Ihrem Ergebnis aus [Kapitel 3.5](/kapitel-3/35-verarbeitung-von-marc21-mit-openrefine.md).
+

@@ -2,7 +2,7 @@
 
 Als Testdaten laden wir zunächst alles was der NEBIS-Verbund zum Suchbegriff `Albert Einstein` über alle Felder zu bieten hat \(etwa 2000 Treffer\):
 
-* Suche im Katalog von Swissbib: [https://www.swissbib.ch/Search/Results?lookfor=albert+einstein&type=AllFields&filter%5B%5D=%7Eunion%3A%22NEBIS%22](https://www.swissbib.ch/Search/Results?lookfor=albert+einstein&type=AllFields&filter%5B%5D=%7Eunion%3A%22NEBIS%22)
+* Suche im Katalog von Swissbib: [https://www.swissbib.ch/Search/Results?lookfor=albert+einstein&type=AllFields&filter%5B%5D=%7Eunion%3A%22NEBIS%22](https://www.swissbib.ch/Search/Results?lookfor=albert+einstein&type=AllFields&filter[]=~union%3A"NEBIS")
 * Abfrage der SRU-Schnittstelle:
   `http://sru.swissbib.ch/sru/search/defaultdb?query=+dc.anywhere+%3D+Albert+Einstein+AND+dc.xNetwork+%3D+NEBIS&operation=searchRetrieve&recordSchema=info%3Asrw%2Fschema%2F1%2Fmarcxml-v1.1-light&maximumRecords=100&startRecord=0&recordPacking=XML&availableDBs=defaultdb&sortKeys=Submit+query`
 
