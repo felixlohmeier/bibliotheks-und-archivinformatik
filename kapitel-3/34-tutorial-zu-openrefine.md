@@ -18,5 +18,5 @@ Wir verwenden die neue OpenRefine Version 2.7, die andere Standardeinstellungen 
 
 Die Checkbox bei "_Quotation marks are used to enclose cells containing column separators_" muss deaktiviert werden, das steht so aber auch im Tutorial.
 
-![](/images/tutorial-openrefine-import.png)
+[![](/images/tutorial-openrefine-import.png)](https://raw.githubusercontent.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/master/images/tutorial-openrefine-import.png)
 

@@ -29,11 +29,15 @@ Laden Sie einige Datensätze aus dem gesamten Swissbib-Verbund, die seit dem 31.
 
 Finden Sie heraus, nach welchen Regeln Swissbib MARC21 in Dublin Core transformiert.
 
+## Lösungen
+
+Die Lösungen für die obigen Aufgaben und alle weiteren Aufgaben im Skript sind auf der Seite [Lösungen](/losungen.md) dokumentiert.
+
 ## Aktuelle Entwicklungen
 
 [Resourcesync](http://www.openarchives.org/rs/) ist ein vielversprechender neuer Standard, der schnellere und spezifischere Synchronisierungen ermöglicht, als es mit OAI-PMH möglich ist. Aktuell ist der Standard noch selten im Einsatz, könnte aber auf längere Sicht OAI-PMH wirksam ergänzen und irgendwann vielleicht ablösen. Es gibt Referenzimplementierungen in Python für [Data Provider](https://github.com/resourcesync/py-resourcesync) und für [Harvester](https://github.com/resync/resync).
 
-Informationen sind der folgenden Präsentation zu entnehmen:
+Grundlegende Informationen und aktuelle Anwendungen sind der folgenden Präsentation zu entnehmen:
 
 > Martin Klein, Gretchen Gueguen, Mark Matienzo, Petr Knoth \(20.4.2017\): ResourceSync - Overview and Real-World Use Cases for Discovery, Harvesting, and Synchronization of Resources on the Web. Präsentation auf DPLAfest 2017. [https://www.slideshare.net/martinklein0815/resourcesync-overview-and-realworld-use-cases-for-discovery-harvesting-and-synchronization-of-resources-on-the-web](https://www.slideshare.net/martinklein0815/resourcesync-overview-and-realworld-use-cases-for-discovery-harvesting-and-synchronization-of-resources-on-the-web)
 
