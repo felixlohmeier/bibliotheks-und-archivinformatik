@@ -20,24 +20,3 @@ Folgende Regeln stehen \(leicht vereinfacht\) darin:
 * dc:relation aus MARC 530a, 530b, 530c, 530d, 530u und aus 760, 762, 765, 767, 770, 772-777, 780, 785-787  jeweils o und t
 * dc:identifier aus MARC 856u und 020a
 * dc:rights aus MARC 506a, 540a
-
-## Anwendung des XSL-Stylesheets von Swissbib mit Live-Editor xsltransform.net
-
-Rufen Sie den Live-Editor [xsltransform.net](http://www.xsltransform.net) auf.
-
-1. Kopieren Sie den Inhalt einer der in Kapitel 3.3 heruntergeladenen XML-Dateien in das obere Textfeld.
-2. Kopieren Sie den Inhalt des [XSL-Stylesheets](http://sru.swissbib.ch/sru/xslfiles/MARC21slim2OAIDC.swissbib.xsl) in das mittlere Textfeld.
-3. Das Ergebnis ist nach wenigen Sekunden im unteren Textfeld einsehbar und kann als Datei gespeichert werden.
-
-## Anwendung des XSL-Stylesheets von Swissbib auf der Kommandozeile
-
-Sie können übrigens ein solches XSL-Stylesheet mit einem XSLT-Prozessor auf der Kommandozeile direkt auf die heruntergeladenen Marc-Daten anwenden. Öffnen Sie den Ordner mit ihren XML-Dateien, rufen Sie dort die Kommandozeile auf \(Rechtsklick: "Im Terminal öffnen"\) und geben Sie folgende Befehle ein:
-
-```
-wget http://sru.swissbib.ch/sru/xslfiles/MARC21slim2OAIDC.swissbib.xsl
-mkdir dc/
-for i in *.xml; do xsltproc -o dublincore/$i.xml MARC21slim2OAIDC.swissbib.xsl; done
-```
-
-Die Ergebnisse \(Dublin Core als XML\) finden Sie jetzt im Unterordner `dublincore`. Laden Sie eine oder mehrere der Dateien in OpenRefine und vergleichen Sie diese mit Ihrem Ergebnis aus [Kapitel 3.5](/kapitel-3/35-verarbeitung-von-marc21-mit-openrefine.md).
-
