@@ -27,4 +27,5 @@
 * [Kapitel 6](kapitel-6.md)
 * [Kapitel 7](kapitel-7.md)
 * [Lerntagebücher](lerntagebucher.md)
+* [Lösungen](losungen.md)
 

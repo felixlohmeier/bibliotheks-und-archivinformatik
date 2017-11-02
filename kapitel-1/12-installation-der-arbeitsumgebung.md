@@ -12,7 +12,7 @@ Wer dieses Skript im **Selbststudium außerhalb der HTW Chur** bearbeiten möcht
 
 ![](../images/willkommen.png)
 
-## Aufgabe 1: Von USB-Stick booten
+## Schritt 1: Von USB-Stick booten
 
 Hinweise für verschiedene Betriebssysteme:
 
@@ -20,11 +20,11 @@ Hinweise für verschiedene Betriebssysteme:
 * **Windows 8**: Windows-Taste + I, Umschalt-\(Shift-\)Taste gedrückt halten und Neustart wählen. Im Menü Problembehandlung / Erweiterte Optionen / UEFI-Firmwareeinstellung. Dort "Ein Gerät verwenden".
 * **macOS**: Während des Bootvorgangs die "Alt"-Taste gedrückt halten.
 
-## Aufgabe 2: Internetverbindung herstellen
+## Schritt 2: Internetverbindung herstellen
 
 siehe WLAN-Symbol oben rechts
 
-## Aufgabe 3: Freien Arbeitsspeicher und verfügbaren Speicher in Dateisystemen prüfen
+## Schritt 3: Freien Arbeitsspeicher und verfügbaren Speicher in Dateisystemen prüfen
 
 siehe Anwendungen / Systemwerkzeuge / MATE-Systemüberwachung
 
