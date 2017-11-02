@@ -34,7 +34,7 @@ Haben Sie eigene Vorstellungen? Falls nicht, dann orientieren Sie sich an [Dubli
 
 ## Anleitung zur Transformation von MARC21 mit OpenRefine
 
-JSON-Transformationsregeln für Schritte 2 bis 5: [openrefine-marc.json](https://github.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/blob/master/openrefine/openrefine-marc.json)
+JSON-Transformationsregeln für Schritte 2 bis 5: [openrefine-marc.json](https://raw.githubusercontent.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/master/openrefine/openrefine-marc.json)
 
 ### Step 1: Import MARC files
 
