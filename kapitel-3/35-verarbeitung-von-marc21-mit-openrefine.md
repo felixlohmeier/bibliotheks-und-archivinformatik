@@ -12,7 +12,7 @@ Nach der Transformation könnten die Daten beispielsweise so aussehen:
 | id | Titel | AutorInnen | ... |
 | :--- | :--- | :--- | :--- |
 | 123 | Zur Elektrodynamik bewegter Körper | Einstein, Albert | ... |
-| 299 | Albert Einstein | Ziegelmann, Horst\|Fischer, Ernst Peter\|Renn, Jürgen | ... |
+| 299 | Albert Einstein | Ziegelmann, Horst␟Fischer, Ernst Peter␟Renn, Jürgen | ... |
 | ... | ... | ... | ... |
 
 Natürlich könnten wir auch mit einem anderen Werkzeug \(z.B. XSLT\) direkt XML transformieren und anschließend auch direkt als XML indexieren, aber Tabellendaten sind eben einfach besonders übersichtlich und in dieser Struktur fallen Ungereimtheiten in den Daten sofort ins Auge. Für unsere erste Datenquelle im Discovery-System also eine gute Übung.
