@@ -86,7 +86,7 @@ Attention: These column names will be used in the following steps. Rename column
 ### Step 4: Create index
 
 * Move column "leader" to the end
-* Add column "index" based on column "record - datafield - tag" with expression `forNonBlank(value,v,row.record.index,null)`es
+* Add column "index" based on column "record - datafield - tag" with expression `forNonBlank(value,v,row.record.index,null)`
 * Move column "index" to the beginning
 
 [http://kb.refinepro.com/2012/06/creating-row-and-record-index.html](http://kb.refinepro.com/2012/06/creating-row-and-record-index.html)
