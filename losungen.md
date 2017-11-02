@@ -11,7 +11,7 @@ curl "http://sru.swissbib.ch/sru/search/defaultdb?query=+dc.possessingInstitutio
 ### Aufgabe 2
 
 ```
-curl "http://oai.swissbib.ch/oai/DB=2.1?verb=ListRecords&metadataPrefix=m21-xml%2Foai&set=A&from=2017-10-31 > swissbib-2017-10-31.xml
+curl "http://oai.swissbib.ch/oai/DB=2.1?verb=ListRecords&metadataPrefix=m21-xml%2Foai&set=A&from=2017-10-31" > swissbib-2017-10-31.xml
 ```
 
 ### Bonusaufgabe
