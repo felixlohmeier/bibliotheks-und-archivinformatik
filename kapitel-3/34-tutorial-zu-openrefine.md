@@ -8,5 +8,15 @@ Wir bearbeiten jetzt das folgende selbsterklärende Tutorial:
 
 > Seth van Hooland, Ruben Verborgh and Max De Wilde \(2013-08-05\): "Cleaning Data with OpenRefine" In: Programming Historian. [http://programminghistorian.org/lessons/cleaning-data-with-openrefine](http://programminghistorian.org/lessons/cleaning-data-with-openrefine)
 
+## Hinweise zur Arbeit mit dem Tutorial
+
 Die im Tutorial benannte Ausgangsdatei `phm-collection.tsv` ist unter folgender Adresse erreichbar: [http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.tsv](http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.tsv)
+
+Wir verwenden die neue OpenRefine Version 2.7, die andere Standardeinstellungen hat, daher ist **abweichend vom Tutorial** folgende Einstellung beim Import der TSV-Datei vorzunehmen:
+
+* Checkbox bei "_Parse cell text into numbers, dates, ..._" aktivieren
+
+Die Checkbox bei "_Quotation marks are used to enclose cells containing column separators_" muss deaktiviert werden, das steht so aber auch im Tutorial.
+
+![](/images/tutorial-openrefine-import.png)
 
