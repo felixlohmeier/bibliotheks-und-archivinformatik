@@ -35,7 +35,7 @@ Finden Sie heraus, nach welchen Regeln Swissbib MARC21 in Dublin Core transformi
 
 Informationen sind der folgenden Präsentation zu entnehmen:
 
-Martin Klein, Gretchen Gueguen, Mark Matienzo, Petr Knoth \(20.4.2017\): ResourceSync - Overview and Real-World Use Cases for Discovery, Harvesting, and Synchronization of Resources on the Web. Präsentation auf DPLAfest 2017. [https://www.slideshare.net/martinklein0815/resourcesync-overview-and-realworld-use-cases-for-discovery-harvesting-and-synchronization-of-resources-on-the-web](https://www.slideshare.net/martinklein0815/resourcesync-overview-and-realworld-use-cases-for-discovery-harvesting-and-synchronization-of-resources-on-the-web)
+> Martin Klein, Gretchen Gueguen, Mark Matienzo, Petr Knoth \(20.4.2017\): ResourceSync - Overview and Real-World Use Cases for Discovery, Harvesting, and Synchronization of Resources on the Web. Präsentation auf DPLAfest 2017. [https://www.slideshare.net/martinklein0815/resourcesync-overview-and-realworld-use-cases-for-discovery-harvesting-and-synchronization-of-resources-on-the-web](https://www.slideshare.net/martinklein0815/resourcesync-overview-and-realworld-use-cases-for-discovery-harvesting-and-synchronization-of-resources-on-the-web)
 
 Ein ganz anderes Feld sind die vielfältigen Linked Data Schnittstellen. Damit werden wir uns später in [Kapitel 7](/kapitel-7.md) \(11.01.18\) beschäftigen.
 
