@@ -1,20 +1,20 @@
 #!/bin/bash
 # Script zum Download von Metadaten über SRU-Schnittstellen mit curl
-# sru-download.sh, Felix Lohmeier, v0.3, 01.11.2017
+# sru-download.sh, Felix Lohmeier, v0.4, 02.11.2017
 # https://github.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/
 
 # Variablen (bei Bedarf hier anpassen)
 url="sru.swissbib.ch/sru/search/defaultdb"
 query="dc.anywhere+%3D+Albert+Einstein+AND+dc.xNetwork+%3D+NEBIS"
 format="info%3Asrw%2Fschema%2F1%2Fmarcxml-v1.1-light"
-outputdir="download"
+outputdir="Downloads"
 filename="einstein-nebis"
 recordlimitperquery=100
 # Weitere technische Variablen
 date="$(date +%F)"
 datelog="$(date +%Y%m%d_%H%M%S)"
 command="?operation=searchRetrieve"
-startrecord=1
+startrecord=0
 let counter=startrecord+recordlimitperquery-1
 
 # Verzeichnis erstellen (falls nicht vorhanden)
@@ -42,11 +42,11 @@ echo "Startzeitpunkt: $(date)"
 echo ""
 
 # Schleife mit Aufruf von curl
-while (("$counter" <= "$records")) ; do
+while (($(($counter - $recordlimitperquery)) <= $records)) ; do
     echo "Download Records "${startrecord}" bis "${counter}"..."
     curl "${url}${command}&query=${query}&maximumRecords=${recordlimitperquery}&recordSchema=${format}&startRecord=${startrecord}" > $outputdir/${filename}_${date}_$(printf "%.7i\n" ${startrecord})-$(printf "%.7i\n" ${counter}).xml
     # Sofortige Prüfung des Downloads, wenn Format marcxml
-    if [ $format = "marcxml" ]; then
+    if [[ "$format" == *"marcxml"* ]]; then
         echo "Ergebnis: "$(grep -c -H '<controlfield tag="001">' $outputdir/${filename}_${date}_$(printf "%.7i\n" ${startrecord})-$(printf "%.7i\n" ${counter}).xml)" records"
     fi
     echo ""
