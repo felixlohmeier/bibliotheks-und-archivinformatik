@@ -41,6 +41,19 @@
     "separator": "␞"
   },
   {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column record - controlfield using expression grel:\"LDR\" + \"␟\" + cells[\"record - leader\"].value + \"␞\" + value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "record - controlfield",
+    "expression": "grel:\"LDR\" + \"␟\" + cells[\"record - leader\"].value + \"␞\" + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
     "op": "core/column-addition",
     "description": "Create column tmp at index 1 based on column record - leader using expression grel:\"\"",
     "engineConfig": {
@@ -303,7 +316,7 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column leader using expression grel:cells[\"record - datafield - subfield\"].value",
+    "description": "Text transform on cells in column leader using expression grel:row.record.cells[\"record - datafield - subfield\"].value[1]",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -329,7 +342,7 @@
       ]
     },
     "columnName": "leader",
-    "expression": "grel:cells[\"record - datafield - subfield\"].value",
+    "expression": "grel:row.record.cells[\"record - datafield - subfield\"].value[1]",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
@@ -342,9 +355,9 @@
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - datafield - tag to tag",
+    "description": "Rename column record - datafield - tag to field",
     "oldColumnName": "record - datafield - tag",
-    "newColumnName": "tag"
+    "newColumnName": "field"
   },
   {
     "op": "core/column-rename",
@@ -366,8 +379,8 @@
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column record - datafield - subfield to value",
+    "description": "Rename column record - datafield - subfield to content",
     "oldColumnName": "record - datafield - subfield",
-    "newColumnName": "value"
+    "newColumnName": "content"
   }
 ]

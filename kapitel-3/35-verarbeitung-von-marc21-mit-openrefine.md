@@ -98,32 +98,33 @@ Die Verarbeitung kann je nach Menge der Daten ein paar Minuten dauern. Anschlie�
 
 ### Statistik
 
-* Text facet on column "record - datafield - tag"
-* Try "Blank down" on column "record - datafield - tag" to see how many records include each MARC field
-* Rollback with "Fill down" on column "record - datafield - tag" to see total number of MARC fields again
+* Text facet on column "field"
+* Try "Blank down" on column "field" to see how many records include each MARC field
+* Get a tab separated list by clicking the "... choices" link below the facet name
+* Rollback the "Blank down" operation via "Undo / Redo"
 
 ### Neue Spalten erstellen
 
 #### A\) Werte in neue Spalte kopieren
 
 * Select row mode \(show as: rows\)
-* Select values with text facets in "record - datafield - tag" and "record - datafield - subfield - code" \(example: tag 100 and codes a, d and q for authors\)
-* Add column based on column "record - datafield - subfield" with expression `value`
+* Select values with text facets in "field" and "code" \(example: field 100 and codes a, d and q for authors\)
+* Add column based on column "content" with expression `value`
 
 #### B\) Werte in neuer Spalte transformieren
 
 * Normalize values in new column \(e.g. search/replace\)
-* Add separators \(e.g. add brackets to birth dates: select tag 100 / code d and transform new column with expression `"(" + value + ")"`\)
+* Add separators \(e.g. add brackets to birth dates: select field 100 and code d and transform new column with expression `"(" + value + ")"`\)
 
 #### C\) Werte in neuer Spalte zusammenführen
 
-* Move column "leader" to the end
+* Move column "id" to the end
 * Move column "index" to the beginning
 * Join multi-valued cells in new column with separator ` ` \(space\)
 
 ### Datensätze zusammenführen
 
-* Move column "leader" to the beginning
+* Move column "id" to the beginning
 * Join multi-valued cells in each new column with separator `␟`
 
 ### Daten exportieren
