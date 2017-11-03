@@ -294,5 +294,80 @@
     "description": "Move column leader to position 0",
     "columnName": "leader",
     "index": 0
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column record - datafield - subfield - code to position 5",
+    "columnName": "record - datafield - subfield - code",
+    "index": 5
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column leader using expression grel:cells[\"record - datafield - subfield\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "leader",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "leader"
+        }
+      ]
+    },
+    "columnName": "leader",
+    "expression": "grel:cells[\"record - datafield - subfield\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column leader to id",
+    "oldColumnName": "leader",
+    "newColumnName": "id"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - datafield - tag to tag",
+    "oldColumnName": "record - datafield - tag",
+    "newColumnName": "tag"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - datafield - ind1 to ind1",
+    "oldColumnName": "record - datafield - ind1",
+    "newColumnName": "ind1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - datafield - ind2 to ind2",
+    "oldColumnName": "record - datafield - ind2",
+    "newColumnName": "ind2"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - datafield - subfield - code to code",
+    "oldColumnName": "record - datafield - subfield - code",
+    "newColumnName": "code"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column record - datafield - subfield to value",
+    "oldColumnName": "record - datafield - subfield",
+    "newColumnName": "value"
   }
 ]
