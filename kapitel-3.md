@@ -19,3 +19,4 @@ Beiträge in den Lerntagebüchern der Studierenden:
 * Elena Capelli: [Wir bauen einen Bibliothekskatalog – Teil 2](https://elenasdiscovery.wordpress.com/2017/11/10/wir-bauen-einen-bibliothekskatalog-teil-2/)
 * Franziska Neuenschwander: [Out with the old, in with the new – Wir bauen uns ein eigenes Wissensportal](https://bainblogweb.wordpress.com/2017/11/09/out-with-the-old-in-with-the-new-wir-bauen-uns-ein-eigenes-wissensportal/)
 * Moreno Pontoriero: [Es wird gebaut](https://morenoexplores.wordpress.com/2017/11/06/es-wird-gebaut/)
+* Aline Strauss: [Übertragungsprotokolle und Datentransformationen 02/11/17](https://alinesbiblio.wordpress.com/2017/11/15/uebertragungsprotokolle-und-datentransformationen-02-11-17/)
