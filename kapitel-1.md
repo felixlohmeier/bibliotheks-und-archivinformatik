@@ -12,6 +12,7 @@ Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 8 Stunden Zei
 Beiträge in den Lerntagebüchern der Studierenden:
 
 * Elena Capelli: [Die Entdeckungsreise beginnt...](https://elenasdiscovery.wordpress.com/2017/09/23/erster-blogbeitrag/) und [Erstellen eines Bibliothekskatalogs – Teil 1](https://elenasdiscovery.wordpress.com/2017/10/30/erstellen-eines-bibliothekskatalogs-teil-1/)
+* Marina Hess: [About This Blog](https://mainsuche.jimdo.com)
 * Franziska Neuenschwander: [OPAC vs. Discovery und was das Ganze mit Metadaten zu tun hat (21.09)](https://bainblogweb.wordpress.com/2017/10/09/opac-vs-discovery-und-was-das-ganze-mit-metadaten-zu-tun-hat-21-09/)
 * Moreno Pontoriero: [Ring frei!](https://morenoexplores.wordpress.com/2017/09/30/ring-frei/)
 * Aline Strauss: [Bibliothekskataloge und Metadatenstandards 21/09/17](https://alinesbiblio.wordpress.com/2017/09/29/kapitel-1-bibliothekskataloge-und-metadatenstandards-210917/)

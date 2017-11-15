@@ -13,6 +13,7 @@ Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 4 Stunden Zei
 Beiträge in den Lerntagebüchern der Studierenden:
 
 * Elena Capelli: [Gastvortrag der ETH-Bibliothek](https://elenasdiscovery.wordpress.com/2017/10/30/gastvortrag-der-eth-bibliothek/)
+* Marina Hess: [Gastvortrag ETH Zürich](https://mainsuche.jimdo.com/blogbeitr%C3%A4ge/gastvortrag-eth/)
 * Franziska Neuenschwander: [ETH-Bibliothek und Hochschularchiv (Gastvortrag 5.10)](https://bainblogweb.wordpress.com/2017/10/09/eth-bibliothek-und-hochschularchiv-gastvortrag-5-10/)
 * Moreno Pontoriero: [Geschichten aus Zürich](https://morenoexplores.wordpress.com/2017/10/14/geschichten-aus-zuerich/)
 * Aline Strauss: [Vom Findmittel zur vernetzten Informationsquelle 05/10/17](https://alinesbiblio.wordpress.com/2017/11/01/vom-findmittel-zur-vernetzten-informationsquelle-051017/)

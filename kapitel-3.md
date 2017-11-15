@@ -14,5 +14,8 @@ Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 8 Stunden Zei
 * [3.6 Bonus: Vergleich mit Crosswalk-Ergebnissen](/kapitel-3/36-bonus-vergleich-mit-crosswalk-ergebnissen.md)
 * [3.7 Bonus: Automatisierung](/kapitel-3/37-bonus-automatisierung.md)
 
+Beiträge in den Lerntagebüchern der Studierenden:
 
-
+* Elena Capelli: [Wir bauen einen Bibliothekskatalog – Teil 2](https://elenasdiscovery.wordpress.com/2017/11/10/wir-bauen-einen-bibliothekskatalog-teil-2/)
+* Franziska Neuenschwander: [Out with the old, in with the new – Wir bauen uns ein eigenes Wissensportal](https://bainblogweb.wordpress.com/2017/11/09/out-with-the-old-in-with-the-new-wir-bauen-uns-ein-eigenes-wissensportal/)
+* Moreno Pontoriero: [Es wird gebaut](https://morenoexplores.wordpress.com/2017/11/06/es-wird-gebaut/)

@@ -10,6 +10,7 @@ Die öffentlichen Lerntagebücher haben zwei Ziele:
 ## Blogs der Studierenden
 
 * Elena Capelli: <https://elenasdiscovery.wordpress.com>
+* Marina Hess: <https://mainsuche.jimdo.com>
 * Franziska Neuenschwander: <https://bainblogweb.wordpress.com>
 * Moreno Pontoriero: <https://morenoexplores.wordpress.com>
 * Aline Strauss: <https://alinesbiblio.wordpress.com>
