@@ -18,14 +18,15 @@ Falls Sie sich nicht mehr gut an OpenRefine erinnern, schauen Sie sich die Erlä
 ~/openrefine-2.7/refine
 ```
 
+## Hinweise
+
 Die im Tutorial benannte Ausgangsdatei `phm-collection.tsv` können Sie unter folgender Adresse herunterladen: [http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.tsv](http://data.freeyourmetadata.org/powerhouse-museum/phm-collection.tsv)
 
-## Wichtiger Hinweis zur Arbeit mit dem Tutorial
+Achtem Sie beim Import auf die richtigen Einstellungen:
 
-Wir verwenden die neue OpenRefine Version 2.7, die andere Standardeinstellungen hat. Daher ist **abweichend vom Tutorial** folgende Einstellung beim Import der TSV-Datei vorzunehmen:
-
-* Checkbox bei "_Parse cell text into numbers, dates, ..._" aktivieren
-
-Die Checkbox bei "_Quotation marks are used to enclose cells containing column separators_" muss deaktiviert werden, das steht so aber auch im Tutorial.
+* Checkbox "_Parse cell text into numbers, dates, ..._" aktivieren
+* Checkbox "_Quotation marks are used to enclose cells containing column separators_" deaktivieren
 
 [![](/images/tutorial-openrefine-import.png)](https://raw.githubusercontent.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/master/images/tutorial-openrefine-import.png)
+
+Das steht zwar so auch im Tutorial, ist aber leicht zu übersehen.
