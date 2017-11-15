@@ -49,6 +49,12 @@ Kapitel 3: Übertragungsprotokolle und Datentransformationen \(02.11.2017\)
 
 Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche \(16.11.2017\)
 
+* [4.1 Installation von Solr](/kapitel-4/41-installation-von-solr.md)
+* [4.2 Tutorial zu Solr](/kapitel-4/42-tutorial-zu-solr.md)
+* [4.3 Daten in Solr laden](/kapitel-4/43-daten-in-solr-laden.md)
+* [4.4 Konfiguration des Schemas](/kapitel-4/44-konfiguration-des-schemas.md)
+* [4.5 Weitere Daten indexieren](/kapitel-4/45-weitere-daten-indexieren.md)
+
 Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung \(30.11.2017\)
 
 Kapitel 6: Metadaten in Repositorien und Crosswalks \(14.12.2017\)
