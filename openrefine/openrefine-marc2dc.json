@@ -1,0 +1,1626 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column creator at index 7 based on column content using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "100",
+                "l": "100"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "a",
+                "l": "a"
+              }
+            },
+            {
+              "v": {
+                "v": "D",
+                "l": "D"
+              }
+            },
+            {
+              "v": {
+                "v": "d",
+                "l": "d"
+              }
+            },
+            {
+              "v": {
+                "v": "e",
+                "l": "e"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "newColumnName": "creator",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column creator using expression grel:value + \",\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "a",
+                "l": "a"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "100",
+                "l": "100"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        }
+      ]
+    },
+    "columnName": "creator",
+    "expression": "grel:value + \",\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column creator using expression grel:\"(\" + value + \")\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "100",
+                "l": "100"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "d",
+                "l": "d"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "columnName": "creator",
+    "expression": "grel:\"(\" + value + \")\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column creator using expression grel:\"[\" + value + \"]\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "100",
+                "l": "100"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "e",
+                "l": "e"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "columnName": "creator",
+    "expression": "grel:\"[\" + value + \"]\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 7",
+    "columnName": "id",
+    "index": 7
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column creator",
+    "columnName": "creator",
+    "keyColumnName": "index",
+    "separator": " "
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 0",
+    "columnName": "id",
+    "index": 0
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column creator",
+    "columnName": "creator",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column title at index 7 based on column content using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "245",
+                "l": "245"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "a",
+                "l": "a"
+              }
+            },
+            {
+              "v": {
+                "v": "b",
+                "l": "b"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "newColumnName": "title",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column title using expression grel:value + \" -\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "245",
+                "l": "245"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "a",
+                "l": "a"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "columnName": "title",
+    "expression": "grel:value + \" -\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 8",
+    "columnName": "id",
+    "index": 8
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column title",
+    "columnName": "title",
+    "keyColumnName": "index",
+    "separator": " "
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 0",
+    "columnName": "id",
+    "index": 0
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column title",
+    "columnName": "title",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column contributor at index 7 based on column content using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "710",
+                "l": "710"
+              }
+            },
+            {
+              "v": {
+                "v": "711",
+                "l": "711"
+              }
+            },
+            {
+              "v": {
+                "v": "700",
+                "l": "700"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "a",
+                "l": "a"
+              }
+            },
+            {
+              "v": {
+                "v": "D",
+                "l": "D"
+              }
+            },
+            {
+              "v": {
+                "v": "d",
+                "l": "d"
+              }
+            },
+            {
+              "v": {
+                "v": "e",
+                "l": "e"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "newColumnName": "contributor",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column contributor using expression grel:value + \",\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "a",
+                "l": "a"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "contributor",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "contributor"
+        }
+      ]
+    },
+    "columnName": "contributor",
+    "expression": "grel:value + \",\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column contributor using expression grel:\"(\" + value + \")\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "d",
+                "l": "d"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "contributor",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "contributor"
+        }
+      ]
+    },
+    "columnName": "contributor",
+    "expression": "grel:\"(\" + value + \")\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column contributor using expression grel:\"[\" + value + \"]\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "e",
+                "l": "e"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "contributor",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "contributor"
+        }
+      ]
+    },
+    "columnName": "contributor",
+    "expression": "grel:\"[\" + value + \"]\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 9",
+    "columnName": "id",
+    "index": 9
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column contributor",
+    "columnName": "contributor",
+    "keyColumnName": "index",
+    "separator": " "
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 0",
+    "columnName": "id",
+    "index": 0
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column contributor",
+    "columnName": "contributor",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column language at index 7 based on column content using expression grel:value[35,38]",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "008",
+                "l": "008"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        }
+      ]
+    },
+    "newColumnName": "language",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value[35,38]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 10",
+    "columnName": "id",
+    "index": 10
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column language",
+    "columnName": "language",
+    "keyColumnName": "index",
+    "separator": " "
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 0",
+    "columnName": "id",
+    "index": 0
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column language",
+    "columnName": "language",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column publisher at index 7 based on column content using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "260",
+                "l": "260"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "a",
+                "l": "a"
+              }
+            },
+            {
+              "v": {
+                "v": "b",
+                "l": "b"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "newColumnName": "publisher",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column publisher using expression grel:\": \" + value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "260",
+                "l": "260"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "b",
+                "l": "b"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "columnName": "publisher",
+    "expression": "grel:\": \" + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 11",
+    "columnName": "id",
+    "index": 11
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column publisher",
+    "columnName": "publisher",
+    "keyColumnName": "index",
+    "separator": " "
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 0",
+    "columnName": "id",
+    "index": 0
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column publisher",
+    "columnName": "publisher",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column coverage at index 7 based on column content using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "651",
+                "l": "651"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "a",
+                "l": "a"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "newColumnName": "coverage",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column coverage",
+    "columnName": "coverage",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column date at index 7 based on column content using expression grel:value[7,11]",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "008",
+                "l": "008"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        }
+      ]
+    },
+    "newColumnName": "date",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value[7,11]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 16",
+    "columnName": "id",
+    "index": 14
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column date",
+    "columnName": "date",
+    "keyColumnName": "index",
+    "separator": " "
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 0",
+    "columnName": "id",
+    "index": 0
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column date",
+    "columnName": "date",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column format at index 7 based on column content using expression grel:value[6]",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "LDR",
+                "l": "LDR"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        }
+      ]
+    },
+    "newColumnName": "format",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value[6]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column format",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "format",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "a"
+        ],
+        "to": "Language material"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column format",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "format",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "e"
+        ],
+        "to": "Cartographic material"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column format",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "format",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "g"
+        ],
+        "to": "Projected medium"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column format",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "format",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "i"
+        ],
+        "to": "Nonmusical sound recording"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column format",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "format",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "j"
+        ],
+        "to": "Musical sound recording"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column format",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "format",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "m"
+        ],
+        "to": "Computer file"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column format",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "format",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "o"
+        ],
+        "to": "Kit"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column identifier at index 7 based on column content using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "020",
+                "l": "020"
+              }
+            },
+            {
+              "v": {
+                "v": "022",
+                "l": "022"
+              }
+            },
+            {
+              "v": {
+                "v": "024",
+                "l": "024"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "a",
+                "l": "a"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "newColumnName": "identifier",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 15",
+    "columnName": "id",
+    "index": 15
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column identifier",
+    "columnName": "identifier",
+    "keyColumnName": "index",
+    "separator": " "
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 0",
+    "columnName": "id",
+    "index": 0
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column identifier",
+    "columnName": "identifier",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column rights at index 7 based on column content using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "506",
+                "l": "506"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        }
+      ]
+    },
+    "newColumnName": "rights",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 16",
+    "columnName": "id",
+    "index": 16
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column rights",
+    "columnName": "rights",
+    "keyColumnName": "index",
+    "separator": " "
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 0",
+    "columnName": "id",
+    "index": 0
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column rights",
+    "columnName": "rights",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column type at index 7 based on column content using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "655",
+                "l": "655"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "a",
+                "l": "a"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "newColumnName": "type",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 17",
+    "columnName": "id",
+    "index": 17
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column type",
+    "columnName": "type",
+    "keyColumnName": "index",
+    "separator": " "
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column id to position 0",
+    "columnName": "id",
+    "index": 0
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column type",
+    "columnName": "type",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column type using expression grel:value.split(\"␟\").uniques().join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "type",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "type"
+        }
+      ]
+    },
+    "columnName": "type",
+    "expression": "grel:value.split(\"␟\").uniques().join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column description at index 7 based on column content using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "590",
+                "l": "590"
+              }
+            },
+            {
+              "v": {
+                "v": "510",
+                "l": "510"
+              }
+            },
+            {
+              "v": {
+                "v": "511",
+                "l": "511"
+              }
+            },
+            {
+              "v": {
+                "v": "520",
+                "l": "520"
+              }
+            },
+            {
+              "v": {
+                "v": "521",
+                "l": "521"
+              }
+            },
+            {
+              "v": {
+                "v": "524",
+                "l": "524"
+              }
+            },
+            {
+              "v": {
+                "v": "533",
+                "l": "533"
+              }
+            },
+            {
+              "v": {
+                "v": "534",
+                "l": "534"
+              }
+            },
+            {
+              "v": {
+                "v": "538",
+                "l": "538"
+              }
+            },
+            {
+              "v": {
+                "v": "545",
+                "l": "545"
+              }
+            },
+            {
+              "v": {
+                "v": "580",
+                "l": "580"
+              }
+            },
+            {
+              "v": {
+                "v": "583",
+                "l": "583"
+              }
+            },
+            {
+              "v": {
+                "v": "500",
+                "l": "500"
+              }
+            },
+            {
+              "v": {
+                "v": "588",
+                "l": "588"
+              }
+            },
+            {
+              "v": {
+                "v": "501",
+                "l": "501"
+              }
+            },
+            {
+              "v": {
+                "v": "502",
+                "l": "502"
+              }
+            },
+            {
+              "v": {
+                "v": "504",
+                "l": "504"
+              }
+            },
+            {
+              "v": {
+                "v": "505",
+                "l": "505"
+              }
+            },
+            {
+              "v": {
+                "v": "508",
+                "l": "508"
+              }
+            },
+            {
+              "v": {
+                "v": "509",
+                "l": "509"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        }
+      ]
+    },
+    "newColumnName": "description",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column description",
+    "columnName": "description",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column extent at index 7 based on column content using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "300",
+                "l": "300"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "field",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "field"
+        },
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "a",
+                "l": "a"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "code",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "code"
+        }
+      ]
+    },
+    "newColumnName": "extent",
+    "columnInsertIndex": 7,
+    "baseColumnName": "content",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column extent",
+    "columnName": "extent",
+    "keyColumnName": "id",
+    "separator": "␟"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column pages at index 8 based on column extent using expression grel:value.match(/.*?(\\d+).*?/)[0]",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "pages",
+    "columnInsertIndex": 8,
+    "baseColumnName": "extent",
+    "expression": "grel:value.match(/.*?(\\d+).*?/)[0]",
+    "onError": "set-to-blank"
+  }
+]
