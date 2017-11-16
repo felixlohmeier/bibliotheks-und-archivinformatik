@@ -94,39 +94,69 @@ Die Verarbeitung kann je nach Menge der Daten ein paar Minuten dauern. Anschlie�
 
 ## Aufgabe 2: MARC-Daten analysieren und neue Spalten für das Zielschema bilden
 
-**Das Skript ist an dieser Stelle noch nicht vollständig ausgearbeitet. Hier eine kurze englische Anleitung, wie Sie vorgehen können. Eine ausführliche Erläuterung erfolgt spätestens bis zum 16.11.2017.**
+Jetzt wo die MARC-Daten alle einheitlich im Tabellenformat strukturiert vorliegen, können Sie für jedes Feld im Zielformat Dublin Core passende MARC-Felder und MARC-Codes auswählen/filtern und die ausgewählten Daten jeweils in neue "Dublin Core"-Spalten kopieren.
 
-### Statistik
+Nutzen Sie dabei die [Empfehlung der Library of Congress (LoC) für einen "MARC to Dublin Core Crosswalk"](https://www.loc.gov/marc/marc2dc.html) als Orientierung.
 
-* Text facet on column "field"
-* Try "Blank down" on column "field" to see how many records include each MARC field
-* Get a tab separated list by clicking the "... choices" link below the facet name
-* Rollback the "Blank down" operation via "Undo / Redo"
+### Analyse
 
-### Neue Spalten erstellen
+Um sich einen statistischen Überblick zu verschaffen, können Sie wie folgt vorgehen:
 
-#### A\) Werte in neue Spalte kopieren
+* Spalte `field` / Facet / Text facet - zeigt in einer Facette die Gesamtanzahl wie oft ein MARC-Feld in den Daten genannt wird (ggf. mehrmals pro Datensatz)
+* Spalte `field` / Edit cells / Blank down - jetzt wird in der Facette angezeigt wie viele Datensätze das jeweilige MARC-Feld mindestens einmal beinhalten
+* Klicken Sie in der Facette auf den Link "111 choices" (oder ähnlich), dann erhalten Sie eine tab-separierte Liste, die Sie in eine Tabellenverarbeitung kopieren können
+* Vergessen Sie nicht, die Transformation "Blank down" über die Undo/Redo-Historie abschließend wieder rückgängig zu machen.
 
-* Select row mode \(show as: rows\)
-* Select values with text facets in "field" and "code" \(example: field 100 and codes a, d and q for authors\)
-* Add column based on column "content" with expression `value`
+### Neue Spalten für Zielschema bilden
 
-#### B\) Werte in neuer Spalte transformieren
+Wenn Sie sich auf Basis der Empfehlung der LoC, der Statistik und Stichproben für ein Mapping von bestimmten MARC-Feldern und Codes auf ein Dublin-Core-Feld entschieden haben, ist das grundsätzliche Vorgehen dann wie folgt.
 
-* Normalize values in new column \(e.g. search/replace\)
-* Add separators \(e.g. add brackets to birth dates: select field 100 and code d and transform new column with expression `"(" + value + ")"`\)
+1. Passende MARC Felder und Codes in den Spalten `field` und `code` mit Text-Facetten auswählen.
+2. Ausgewählte Daten aus Spalte `content` mit der Funktion `add column based on column...` in eine neue "Dublin Core"-Spalte kopieren (Name der Spalte ist das Dublin-Core-Feld).
+3. Bei Bedarf die Daten in der neuen Spalte mit Transformationen bearbeiten, um z.B. Trennzeichen einzufügen.
+4. Zusammengehörige Werte (z.B. Person und ihre Lebensdaten) in der neuen Spalte mit der Funktion `join multi-valued cells` zusammenführen. Damit nicht zuviel (z.B. mehrere Personen) zusammengeführt werden, muss dabei die Spalte `index` vorne stehen.
+5. Abschließend dann noch einmal mit der Funktion `join multi-valued cells` und dem bekannten Trennzeichen `␟` die Daten in einer Zeile pro Datensatz zusammenführen. Hierzu muss dann die Spalte `id` vorne stehen.
 
-#### C\) Werte in neuer Spalte zusammenführen
+Beispiel für "Autor/in" (MARC21 `100a,D,d,e` auf Dublin Core `dc:creator`):
 
-* Move column "id" to the end
-* Move column "index" to the beginning
-* Join multi-valued cells in new column with separator ` ` \(space\)
+1. Passende MARC Felder und Codes auswählen.
+  * Die Zeilen-Ansicht wählen \(show as: rows\)
+  * Spalte `field` / Facet / Text facet / Wert `100` auswählen
+  * Spalte `code` / Facet / Text facet / Wert `a`, `D`, `d` und `e` auswählen (zur Auswahl mehrerer Werte mit der Maus darüber fahren und Link "include" anklicken)
+2. Ausgewählte Daten in eine neue Spalte kopieren
+  * Spalte `content` / Edit column / Add column based on column... / Name: `creator` / Expression: `value` (unverändert)
+3. Bei Bedarf die Daten in der neuen Spalte mit Transformationen bearbeiten
+  * Trennzeichen zwischen Vor- und Nachname:
+    * Spalte `field` / Facet / Text facet / Wert `100` auswählen
+    * Spalte `code` / Facet / Text facet / Wert `q` auswählen
+    * Spalte `creator` / Edit cells / Transform... / Expression: `value + ","` 
+  * Lebensdaten in runde Klammern:
+    * Spalte `field` / Facet / Text facet / Wert `100` auswählen
+    * Spalte `code` / Facet / Text facet / Wert `d` auswählen
+    * Spalte `creator` / Edit cells / Transform... / Expression: `"(" + value + ")"`
+  * Funktionsbezeichnung in eckige Klammern:
+    * Spalte `field` / Facet / Text facet / Wert `100` auswählen
+    * Spalte `code` / Facet / Text facet / Wert `e` auswählen
+    * Spalte `creator` / Edit cells / Transform... / Expression: `"[" + value + "]"`
+4. Zusammengehörige Werte in der neuen Spalte zusammenführen
+  * Spalte `id` / Edit column / Move column to end
+  * Spalte `creator` / Edit cells / Join multi-valued cells... / Separator: ` ` (Leerzeichen)
+5. Abschließend die Daten in einer Zeile pro Datensatz zusammenführen
+  * Spalte `id` / Edit column / Move column to beginning
+  * Spalte `creator` / Edit cells / Join multi-valued cells... / Separator: `␟` (Unit Separator) 
+6. Ergebnis prüfen und ggf. nachbessern
+  * Spalte `creator` / Facet / Text facet
+  * Spalte `creator` / Edit cells / Cluster and edit... / Method: nearest neighbor
 
-### Datensätze zusammenführen
+## Export
 
-* Move column "id" to the beginning
-* Join multi-valued cells in each new column with separator `␟`
+Wenn alle Spalten angelegt sind, dann können Sie die Daten für den Suchindex im Format TSV exportieren. Dazu sind noch zwei Schritte nötig:
 
-### Daten exportieren
+1. Spalte `id` / Facet / Customized facets / Facet by blank / `false` - um für den Export nur die oberste Zeile pro Record auszuwählen
+2. Export / Custom tabular exporter... aufrufen, dort die Spalten `index`, `field`, `ind1`, `ind2`, `code` und `content` abwählen und im Reiter "Download" auf den Button `Download` klicken.
 
-* Use Export / Custom tabular exporter, select relevant columns and download file
+Wenn Sie die Datei herunterladen, wird diese im Ordner `~/Downloads` gespeichert. Merken Sie sich den Dateinamen. In den Übungen in Kapitel 4 gehen wir von einem Dateinamen `einstein.tsv` aus. Wenn Ihre Datei anders heißt, müssen Sie diese entweder jetzt umbenennen oder in Kapitel 4.3 und 4.4 darauf achten, dass Sie den Dateinamen in den Befehlen entsprechend anpassen.
+
+## Lösung
+
+Die Lösung für Aufgabe 2 (Mapping von MARC21 auf Dublin Core) ist auf der Seite [Lösungen](/losungen.md) dokumentiert.
