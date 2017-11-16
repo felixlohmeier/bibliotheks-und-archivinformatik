@@ -61,5 +61,13 @@ Folgende Regeln stehen \(leicht vereinfacht\) darin:
 * dc:identifier aus MARC 856u und 020a
 * dc:rights aus MARC 506a, 540a
 
+## [4.3 Daten in Solr laden](//kapitel-4/43-daten-in-solr-laden.md)
+
+Befehl mit Mehrfachbelegungen
+
+```
+curl "http://localhost:8983/solr/htw/update/csv?commit=true&separator=%09&split=true&f.contributor.separator=%E2%90%9F&f.coverage.separator=%E2%90%9F&f.creator.separator=%E2%90%9F&f.date.separator=%E2%90%9F&f.description.separator=%E2%90%9F&f.extent.separator=%E2%90%9F&f.format.separator=%E2%90%9F&f.identifier.separator=%E2%90%9F&f.language.separator=%E2%90%9F&f.pages.separator=%E2%90%9F&f.publisher.separator=%E2%90%9F&f.title.separator=%E2%90%9F&f.type.separator=%E2%90%9F" --data-binary @- -H 'Content-type:text/plain; charset=utf-8' < ~/Downloads/einstein.tsv
+```
+
 
 
