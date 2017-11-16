@@ -139,6 +139,7 @@ Beispiel für "Autor/in" \(MARC21 `100a,D,d,e` auf Dublin Core `dc:creator`\):
      * Spalte `code` / Facet / Text facet / Wert `e` auswählen
      * Spalte `creator` / Edit cells / Transform... / Expression: `"[" + value + "]"`
 4. Zusammengehörige Werte in der neuen Spalte zusammenführen
+   * alle Facetten müssen geschlossen sein, bevor Sie fortfahren
    * Spalte `id` / Edit column / Move column to end
    * Spalte `creator` / Edit cells / Join multi-valued cells... / Separator: ` ` \(Leerzeichen\)
 5. Abschließend die Daten in einer Zeile pro Datensatz zusammenführen
