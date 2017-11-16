@@ -24,7 +24,7 @@ curl "http://oai.swissbib.ch/oai/DB=2.1?verb=ListRecords&metadataPrefix=m21-xml%
 
 JSON-Datei mit Transformationsregeln für ein Mapping von MARC21 auf Dublin Core: [openrefine-marc2dc.json](https://raw.githubusercontent.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/master/openrefine/openrefine-marc2dc.json)
 
-Ergebnis als TSV-Datei: [openrefine/einstein-nebis\_2017-11-02.tsv](/openrefine/einstein-nebis_2017-11-02.tsv)
+Ergebnis als TSV-Datei: [openrefine/einstein-nebis\_2017-11-02.tsv](https://github.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/raw/master/openrefine/einstein-nebis_2017-11-02.tsv)
 
 Folgende Mappings wurden darin exemplarisch umgesetzt:
 
