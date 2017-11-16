@@ -24,6 +24,22 @@ curl "http://oai.swissbib.ch/oai/DB=2.1?verb=ListRecords&metadataPrefix=m21-xml%
 
 JSON-Datei mit Transformationsregeln für ein Mapping von MARC21 auf Dublin Core: [openrefine-marc2dc.json](https://raw.githubusercontent.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/master/openrefine/openrefine-marc2dc.json)
 
+Folgende Mappings wurden darin exemplarisch umgesetzt:
+
+* contributor: 700/710/711 jeweils a,D,d,e
+* coverage: 651 a
+* creator: 100 a,D,d,e
+* date: 008 Zeichen 7-10
+* description: 500-599 ohne 506, 530, 540, 546
+* extent: 300a
+* format: LDR Zeichen 6 \(codes aufgelöst nach [MARC Spezifikation](https://www.loc.gov/marc/bibliographic/bdleader.html)\)
+* identifier: 020/022/024 jeweils a
+* language: 008 Zeichen 35-37
+* pages: Zahlen aus extent mit RegEx extrahiert \(kein Dublin Core, individuelles Zusatzfeld\)
+* publisher: 260 a,b
+* title: 245 a,b
+* type: 655a \(nachbearbeitet mit uniques-Funktion\)
+
 ## [3.6 Bonus: Vergleich mit Crosswalk-Ergebnissen](/kapitel-3/36-bonus-vergleich-mit-crosswalk-ergebnissen.md)
 
 Folgende Regeln stehen \(leicht vereinfacht\) darin:
@@ -42,3 +58,6 @@ Folgende Regeln stehen \(leicht vereinfacht\) darin:
 * dc:relation aus MARC 530a, 530b, 530c, 530d, 530u und aus 760, 762, 765, 767, 770, 772-777, 780, 785-787  jeweils o und t
 * dc:identifier aus MARC 856u und 020a
 * dc:rights aus MARC 506a, 540a
+
+
+
