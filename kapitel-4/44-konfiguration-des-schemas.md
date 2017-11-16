@@ -28,10 +28,10 @@ Schritt 1: Index leeren:
 curl "http://localhost:8983/solr/htw/update?commit=true" -H "Content-Type: text/xml" --data-binary '<delete><query>*:*</query></delete>'
 ```
 
-Schritt 2: `einstein.tsv` indexieren:
+Schritt 2: `einstein.tsv` indexieren \(hier mit Mehrfachbelegungen\):
 
 ```
-curl "http://localhost:8983/solr/htw/update/csv?commit=true&separator=%09&split=true&f.title.separator=%E2%90%9F" --data-binary @- -H 'Content-type:text/plain; charset=utf-8' < ~/Downloads/einstein.tsv
+curl "http://localhost:8983/solr/htw/update/csv?commit=true&separator=%09&split=true&f.contributor.separator=%E2%90%9F&f.coverage.separator=%E2%90%9F&f.creator.separator=%E2%90%9F&f.date.separator=%E2%90%9F&f.description.separator=%E2%90%9F&f.extent.separator=%E2%90%9F&f.format.separator=%E2%90%9F&f.identifier.separator=%E2%90%9F&f.language.separator=%E2%90%9F&f.pages.separator=%E2%90%9F&f.publisher.separator=%E2%90%9F&f.title.separator=%E2%90%9F&f.type.separator=%E2%90%9F" --data-binary @- -H 'Content-type:text/plain; charset=utf-8' < ~/Downloads/einstein.tsv
 ```
 
 ## Literatur
