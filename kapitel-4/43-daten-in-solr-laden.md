@@ -45,7 +45,7 @@ Gegebenenfalls erhalten Sie bereits auf den `curl`-Befehl eine Fehlermeldung, da
 
 Fehlermeldungen finden Sie in der Administrationsoberfläche im Bereich "Logging": [http://localhost:8983/solr/\#/~logging](http://localhost:8983/solr/#/~logging)
 
-Rufen Sie die Browsing-Oberfläche auf \([http://localhost:8983/solr/gettingstarted/browse](http://localhost:8983/solr/gettingstarted/browse)\). Machen Sie ein paar Beispielsuchen, um sicherzugehen, dass die Daten richtig indexiert wurden.
+In der Browsing-Oberfläche \([http://localhost:8983/solr/gettingstarted/browse](http://localhost:8983/solr/gettingstarted/browse)\) können Sie genauer prüfen, ob die Daten richtig indexiert wurden.
 
 ## Falls etwas völlig schiefgeht...
 
