@@ -30,13 +30,13 @@ Erläuterungen des Befehls:
 * Die Basis der URL, die mit curl aufgerufen wird \(`http://localhost:8983/solr/htw/update/csv`\) ist die Adresse des CSV-Update-Handlers von Solr für den Index `htw`.
 * Der Teil `commit=true` sorgt dafür, dass die Daten sofort in der Anzeige sichtbar werden.
 * Bei TSV-Dateien muss das Trennzeichen \(`separator=%09`\) explizit mitgegeben werden.
-* Solr muss außerdem mitgeteilt werden, dass Felder mehrfachbelegt sind \(`split=true`\) und mit welchem Zeichen diese jeweils getrennt sind \(`f.title.separator=%E2%90%9F`\)
+* Solr muss außerdem mitgeteilt werden, dass Felder mehrfachbelegt sind \(`split=true`\) und mit welchem Zeichen diese jeweils getrennt sind \(`f.creator.separator=%E2%90%9F`\)
 * Der ganze hintere Teil `--data-binary @- -H 'Content-type:text/plain; charset=utf-8'` ist spezifisch für das Senden von Dateien mit curl.
 
-Weitere mehrfachbelegte Felder ergänzen Sie, indem Sie vor dem zweiten Anführungszeichen einen weiteren Teil wie folgt anfügen. Beispiel für das Feld `year`:
+Weitere mehrfachbelegte Felder ergänzen Sie, indem Sie vor dem zweiten Anführungszeichen einen weiteren Teil wie folgt anfügen. Beispiel für das Feld `title`:
 
 ```
-&f.year.separator=%E2%90%9F
+&f.title.separator=%E2%90%9F
 ```
 
 ## Prüfen Sie das Ergebnis
@@ -52,7 +52,7 @@ Rufen Sie die Browsing-Oberfläche auf \([http://localhost:8983/solr/gettingstar
 Der folgende Befehl löscht alle Daten im Index `htw`:
 
 ```
-curl "http://localhost:8983/solr/htw/update?commit=true&stream.body=%3Cdelete%3E%3Cquery%3E*%3A*%3C/query%3E%3C/delete%3E"
+curl "http://localhost:8983/solr/htw/update?commit=true" -H "Content-Type: text/xml" --data-binary '<delete><query>*:*</query></delete>'
 ```
 
 Wenn auch andere Einstellungen \(wie z.B. das Schema\) durch fehlerhafte Importe verhunzt sind, dann können Sie im Administrationsbereich "Core Admin" auch den ganzen Suchindex \("Core"\) inklusive aller Einstellungen löschen. Das Löschen wird dort vornehm als "unload" bezeichnet.
