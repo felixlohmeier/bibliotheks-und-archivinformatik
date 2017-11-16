@@ -31,7 +31,7 @@ curl "http://localhost:8983/solr/htw/update?commit=true&stream.body=%3Cdelete%3E
 Schritt 2: `einstein.tsv` indexieren:
 
 ```
-curl "http://localhost:8983/solr/htw/update/csv?commit=true&separator=%09&split=true&f.title.separator=%E2%90%9F" --data-binary @- -H 'Content-type:text/plain; charset=utf-8' < einstein.tsv
+curl "http://localhost:8983/solr/htw/update/csv?commit=true&separator=%09&split=true&f.title.separator=%E2%90%9F" --data-binary @- -H 'Content-type:text/plain; charset=utf-8' < ~/Downloads/einstein.tsv
 ```
 
 ## Literatur

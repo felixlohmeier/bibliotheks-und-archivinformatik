@@ -19,10 +19,10 @@ Erstellen Sie jetzt einen eigenen Suchindex mit dem Namen `htw`:
 
 ## Daten aus Kap. 3.5 laden \(im Terminal\)
 
-Der folgende Befehl indexiert die Daten aus der Datei `einstein.tsv` (ganz am Ende mit der öffnenden spitzen Klammer als input benannt) im Suchindex `htw`.
+Der folgende Befehl indexiert die Daten aus der Datei `einstein.tsv` aus dem Ordner `Downloads` (ganz am Ende mit der öffnenden spitzen Klammer als input benannt) im Suchindex `htw`.
 
 ```
-curl "http://localhost:8983/solr/htw/update/csv?commit=true&separator=%09&split=true&f.title.separator=%E2%90%9F" --data-binary @- -H 'Content-type:text/plain; charset=utf-8' < einstein.tsv
+curl "http://localhost:8983/solr/htw/update/csv?commit=true&separator=%09&split=true&f.creator.separator=%E2%90%9F" --data-binary @- -H 'Content-type:text/plain; charset=utf-8' < ~/Downloads/einstein.tsv
 ```
 
 Erläuterungen des Befehls:
