@@ -7,7 +7,7 @@ Solr wurde als Prozess gestartet, der bis zum nächsten Neustart des Rechners we
 * Solr beenden:`~/solr-7.1.0/bin/solr stop -all`
 * Solr starten:`~/solr-7.1.0/bin/solr start`
 
-Etwa 15-30 Sekunden nach dem Startbefehl sollte die Administrations- und die Browsingoberfläche unter den gewohnten Adressen erreichbar sein.
+Etwa 15-30 Sekunden nach dem Startbefehl sollte die Administrationsoberfläche unter der gewohnten Adresse \([http://localhost:8983](http://localhost:8983)\) erreichbar sein.
 
 ## Index erstellen \(im Terminal\)
 
