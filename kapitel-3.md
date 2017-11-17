@@ -17,6 +17,7 @@ Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 8 Stunden Zei
 Beiträge in den Lerntagebüchern der Studierenden:
 
 * Elena Capelli: [Wir bauen einen Bibliothekskatalog – Teil 2](https://elenasdiscovery.wordpress.com/2017/11/10/wir-bauen-einen-bibliothekskatalog-teil-2/)
+* Marina Hess: [Wir bauen uns ein Wissensportal 1](https://mainsuche.jimdo.com/blogbeitr%C3%A4ge/wir-bauen-uns-ein-wissensportal-1/)
 * Franziska Neuenschwander: [Out with the old, in with the new – Wir bauen uns ein eigenes Wissensportal](https://bainblogweb.wordpress.com/2017/11/09/out-with-the-old-in-with-the-new-wir-bauen-uns-ein-eigenes-wissensportal/)
 * Moreno Pontoriero: [Es wird gebaut](https://morenoexplores.wordpress.com/2017/11/06/es-wird-gebaut/)
 * Aline Strauss: [Übertragungsprotokolle und Datentransformationen 02/11/17](https://alinesbiblio.wordpress.com/2017/11/15/uebertragungsprotokolle-und-datentransformationen-02-11-17/)
