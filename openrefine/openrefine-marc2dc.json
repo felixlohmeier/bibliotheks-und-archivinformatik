@@ -245,11 +245,37 @@
     "index": 0
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column creator",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column creator using expression grel:row.record.cells[\"creator\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "creator",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"creator\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/column-addition",
@@ -381,11 +407,37 @@
     "index": 0
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column title",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column title using expression grel:row.record.cells[\"title\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "title",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"title\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/column-addition",
@@ -645,11 +697,37 @@
     "index": 0
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column contributor",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column contributor using expression grel:row.record.cells[\"contributor\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "contributor",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"contributor\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/column-addition",
@@ -704,11 +782,37 @@
     "index": 0
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column language",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column language using expression grel:row.record.cells[\"language\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "language",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"language\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/column-addition",
@@ -840,11 +944,37 @@
     "index": 0
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column publisher",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column publisher using expression grel:row.record.cells[\"publisher\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "publisher",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"publisher\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/column-addition",
@@ -899,11 +1029,37 @@
     "onError": "set-to-blank"
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column coverage",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column coverage using expression grel:row.record.cells[\"coverage\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "coverage",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"coverage\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/column-addition",
@@ -958,11 +1114,37 @@
     "index": 0
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column date",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column date using expression grel:row.record.cells[\"date\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "date",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"date\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/column-addition",
@@ -1221,11 +1403,37 @@
     "index": 0
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column identifier",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column identifier using expression grel:row.record.cells[\"identifier\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "identifier",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"identifier\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/column-addition",
@@ -1280,11 +1488,37 @@
     "index": 0
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column rights",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column rights using expression grel:row.record.cells[\"rights\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "rights",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"rights\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/column-addition",
@@ -1358,11 +1592,37 @@
     "index": 0
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column type",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column type using expression grel:row.record.cells[\"type\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "type",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"type\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
@@ -1391,7 +1651,7 @@
         }
       ]
     },
-    "columnName": "type",
+    "columnName": "uniques",
     "expression": "grel:value.split(\"␟\").uniques().join(\"␟\")",
     "onError": "keep-original",
     "repeat": false,
@@ -1545,11 +1805,37 @@
     "onError": "set-to-blank"
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column description",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column description using expression grel:row.record.cells[\"description\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "description",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"description\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/column-addition",
@@ -1604,11 +1890,37 @@
     "onError": "set-to-blank"
   },
   {
-    "op": "core/multivalued-cell-join",
-    "description": "Join multi-valued cells in column extent",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column extent using expression grel:row.record.cells[\"extent\"].value.join(\"␟\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
     "columnName": "extent",
-    "keyColumnName": "id",
-    "separator": "␟"
+    "expression": "grel:row.record.cells[\"extent\"].value.join(\"␟\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/column-addition",

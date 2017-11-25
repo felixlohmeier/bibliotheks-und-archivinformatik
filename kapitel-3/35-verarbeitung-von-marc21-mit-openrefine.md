@@ -115,7 +115,7 @@ Wenn Sie sich auf Basis der Empfehlung der LoC, der Statistik und Stichproben f�
 2. Ausgewählte Daten aus Spalte `content` mit der Funktion `add column based on column...` in eine neue "Dublin Core"-Spalte kopieren \(Name der Spalte ist das Dublin-Core-Feld\).
 3. Bei Bedarf die Daten in der neuen Spalte mit Transformationen bearbeiten, um z.B. Trennzeichen einzufügen.
 4. Zusammengehörige Werte \(z.B. Person und ihre Lebensdaten\) in der neuen Spalte mit der Funktion `join multi-valued cells` zusammenführen. Damit nicht zuviel \(z.B. mehrere Personen\) zusammengeführt werden, muss dabei die Spalte `index` vorne stehen.
-5. Abschließend dann noch einmal mit der Funktion `join multi-valued cells` und dem bekannten Trennzeichen `␟` die Daten in einer Zeile pro Datensatz zusammenführen. Hierzu muss dann die Spalte `id` vorne stehen.
+5. Abschließend dann noch einmal mit der Funktion `join multi-valued cells` und dem bekannten Trennzeichen `␟` die Daten in einer Zeile pro Datensatz zusammenführen. Hierzu muss dann die Spalte `id` vorne stehen. Um die Performance zu verbessern, kann alternativ auch die Transformation `row.record.cells["Name der Spalte"].value.join("␟")` (zusammen mit einer Facette "by blank" mit Wert `false` auf die Spalte `id`) auf die neuen Spalten angewendet werden.
 
 Beispiel für "Autor/in" \(MARC21 `100a,D,d,e` auf Dublin Core `dc:creator`\):
 
@@ -144,7 +144,8 @@ Beispiel für "Autor/in" \(MARC21 `100a,D,d,e` auf Dublin Core `dc:creator`\):
    * Spalte `creator` / Edit cells / Join multi-valued cells... / Separator: ` ` \(Leerzeichen\)
 5. Abschließend die Daten in einer Zeile pro Datensatz zusammenführen
    * Spalte `id` / Edit column / Move column to beginning
-   * Spalte `creator` / Edit cells / Join multi-valued cells... / Separator: `␟` \(Unit Separator\) 
+   * Spalte `id` / Facet / Customized facets / Facet by blank... / Wert `false` auswählen
+   * Spalte `creator` / Edit cells / Transform... / Expression: `row.record.cells["creator"].value.join("␟")`
 6. Ergebnis prüfen und ggf. nachbessern
    * Spalte `creator` / Facet / Text facet
    * Spalte `creator` / Edit cells / Cluster and edit... / Method: nearest neighbor
