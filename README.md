@@ -53,9 +53,15 @@ Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche \(16.11.2017\)
 * [4.2 Tutorial zu Solr](/kapitel-4/42-tutorial-zu-solr.md)
 * [4.3 Daten in Solr laden](/kapitel-4/43-daten-in-solr-laden.md)
 * [4.4 Konfiguration des Schemas](/kapitel-4/44-konfiguration-des-schemas.md)
-* [4.5 Weitere Daten indexieren](/kapitel-4/45-weitere-daten-indexieren.md)
+* [4.5 Bonus: Weitere Daten indexieren](/kapitel-4/45-weitere-daten-indexieren.md)
 
 Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung \(30.11.2017\)
+
+* [5.1 Installation von TYPO3 und TYPO3-find](/kapitel-5/51_installation-von-typo3-und-typo3-find.md)
+* [5.2 Grundkonfiguration von TYPO3-find](/kapitel-5/52_grundkonfiguration-von-typo3-find.md)
+* [5.3 Konfiguration von TYPO3-find erweitern](/kapitel-5/53_konfiguration-von-typo3-find-erweitern.md)
+* [5.4 Relevanzranking mit TYPO3-find und Solr](/kapitel-5/54-relevanzranking-mit-typo3-find-und-solr.md)
+* [5.5 Suchmaschinenoptimierung](/kapitel-5/55_suchmaschinenoptimierung.md)
 
 Kapitel 6: Metadaten in Repositorien und Crosswalks \(14.12.2017\)
 
