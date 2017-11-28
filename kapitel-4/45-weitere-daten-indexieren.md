@@ -1,4 +1,4 @@
-# 4.5 Weitere Daten indexieren
+# 4.5 Bonus: Weitere Daten indexieren
 
 Um eine Meta-Suche über verschiedene Datenquellen zu ermöglichen, müssen alle Daten nach dem gleichen Schema indexiert werden. Nur wenn es große Überschneidungen bei den Suchfeldern gibt, macht eine übergreifende Suche mit Filtermöglichkeiten (Facetten) Sinn.
 
