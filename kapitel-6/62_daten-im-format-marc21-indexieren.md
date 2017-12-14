@@ -8,7 +8,7 @@ Direkt in VuFind lassen sich Daten in den Formaten MARC21 (binäres MARC, Dateie
 
 ## Rare Books der ETH-Bibliothek
 
-Die ETH-Bibliothek stellt im Rahmen Ihrer Open-Data-Initiative [Downloads ganzer Metadatensets](http://www.library.ethz.ch/en/ms/Open-Data-at-ETH-Library/Downloads), sogenannte "Bulk Data" zur Verfügung. Wir laden das Metadatenset "Rara" (Rare Books).
+Die ETH-Bibliothek stellt im Rahmen Ihrer Open-Data-Initiative [Downloads ganzer Metadatensets](http://www.library.ethz.ch/en/ms/Open-Data-at-ETH-Library/Downloads) (sogenannte "Bulk Data") zur Verfügung. Wir laden das Metadatenset "Rara" (Rare Books).
 
 1. Daten herunterladen
   * `wget download.library.ethz.ch/opendata/eth_rar.marcxml.gz -O ~/Downloads/eth_rar.marcxml.gz`

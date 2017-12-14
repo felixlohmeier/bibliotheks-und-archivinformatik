@@ -35,5 +35,3 @@ Die Daten sollten jetzt in einer Datei `einstein.mrc` im Ordner `Downloads` lieg
 ## Literatur
 
 University Library, University of Illinois at Urbana-Champaign (Hrsg.): Querying Z39.50 Databases. In: LibGuide MarcEdit. An introduction to the MARC record editing software MarcEdit. Stand: 20.10.2017. <http://guides.library.illinois.edu/c.php?g=463460&p=3168074>
-
-University Library, University of Illinois at Urbana-Champaign (Hrsg.): Harvest OAI Records. In: LibGuide MarcEdit. An introduction to the MARC record editing software MarcEdit. Stand: 20.10.2017. <http://guides.library.illinois.edu/c.php?g=463460&p=3168068>
