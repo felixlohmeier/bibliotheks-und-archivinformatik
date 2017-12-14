@@ -53,7 +53,7 @@ Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche \(16.11.2017\)
 * [4.2 Tutorial zu Solr](/kapitel-4/42-tutorial-zu-solr.md)
 * [4.3 Daten in Solr laden](/kapitel-4/43-daten-in-solr-laden.md)
 * [4.4 Konfiguration des Schemas](/kapitel-4/44-konfiguration-des-schemas.md)
-* [4.5 Bonus: Weitere Daten indexieren](/kapitel-4/45-weitere-daten-indexieren.md)
+* [4.5 Bonus: Daten Weitere indexieren](/kapitel-4/45-weitere-daten-indexieren.md)
 
 Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung \(30.11.2017\)
 
@@ -64,6 +64,10 @@ Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung \(30.11.2017\)
 * [5.5 Suchmaschinenoptimierung](/kapitel-5/55_suchmaschinenoptimierung.md)
 
 Kapitel 6: Metadaten in Repositorien und Crosswalks \(14.12.2017\)
+
+* [6.1 VuFind-Tutorial](/kapitel-6/61_vufind-tutorial.md)
+* [6.2 Installation von MarcEdit](/kapitel-6/62_installation-von-marcedit.md)
+* [6.3 Harvesting mit MarcEdit](/kapitel-6/63_harvesting-mit-marcedit.md)
 
 Kapitel 7: Linked Data, weitere Metadatenstandards, Abschluss \(11.01.2018\)
 
