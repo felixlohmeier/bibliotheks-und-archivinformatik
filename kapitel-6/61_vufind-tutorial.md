@@ -4,7 +4,7 @@ Ziel: Mit VuFind und MarcEdit lernen Sie in diesem Kapitel Software kennen, die 
 
 ## Tutorial: Installation und Konfiguration einer Demo von VuFind
 
-Wir verwenden ein Tutorial, dass Stefan Niesner in einer [Projektarbeit aus dem Jahr 2015]((http://malisprojekte.web.th-koeln.de/wordpress/stefan-niesner/)) entwickelt hatte und für diesen Kurs auf die neue VuFind-Version 4.1 aktualisiert wurde.
+Wir verwenden ein Tutorial, dass Stefan Niesner in einer [Projektarbeit aus dem Jahr 2015](http://malisprojekte.web.th-koeln.de/wordpress/stefan-niesner/) entwickelt hatte und für diesen Kurs auf die neue VuFind-Version 4.1 aktualisiert wurde.
 
 Lesefassung bei GitBook \(HTML\): <https://www.gitbook.com/read/book/felixlohmeier/vufind-tutorial-de>
 
