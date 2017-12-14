@@ -1,4 +1,4 @@
-# 6.2 Installation von MarcEdit
+# 6.3 Installation von MarcEdit
 
 ## MarcEdit herunterladen
 

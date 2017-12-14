@@ -66,8 +66,9 @@ Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung \(30.11.2017\)
 Kapitel 6: Metadaten in Repositorien und Crosswalks \(14.12.2017\)
 
 * [6.1 VuFind-Tutorial](/kapitel-6/61_vufind-tutorial.md)
-* [6.2 Installation von MarcEdit](/kapitel-6/62_installation-von-marcedit.md)
-* [6.3 Harvesting mit MarcEdit](/kapitel-6/63_harvesting-mit-marcedit.md)
+* [6.2 Daten im Format MARC21 indexieren](/kapitel-6/62_daten-im-format-marc21-indexieren.md)
+* [6.3 Installation von MarcEdit](/kapitel-6/62_installation-von-marcedit.md)
+* [6.4 Harvesting mit MarcEdit](/kapitel-6/63_harvesting-mit-marcedit.md)
 
 Kapitel 7: Linked Data, weitere Metadatenstandards, Abschluss \(11.01.2018\)
 
