@@ -2,7 +2,9 @@
 
 ## Installation
 
-* Geben Sie im Terminal folgende Befehle ein:
+Wir verwenden die Version 7.1 von Solr.
+
+* Geben Sie im Terminal folgende Befehle ein, um diese Version herunterzuladen und zu entpacken:
 
 ```
 wget http://archive.apache.org/dist/lucene/solr/7.1.0/solr-7.1.0.tgz

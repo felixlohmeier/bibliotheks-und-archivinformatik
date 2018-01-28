@@ -61,13 +61,18 @@ Folgende Regeln stehen \(leicht vereinfacht\) darin:
 * dc:identifier aus MARC 856u und 020a
 * dc:rights aus MARC 506a, 540a
 
-## [4.3 Daten in Solr laden](//kapitel-4/43-daten-in-solr-laden.md)
+## [4.5 Bonus: Weitere Daten indexieren](//kapitel-4/45-weitere-daten-indexieren.md)
 
-Befehl mit Mehrfachbelegungen
+### Aufgabe 1
+
+Starten Sie OpenRefine (`~/openrefine-2.7/refine`) und laden Sie das in Kapitel 3.5 bearbeitete Projekt (die Schritte aus dem Tutorial sollten bereits durchgeführt sein).
+
+Wenden Sie die folgende JSON-Datei mit Transformationsregeln für ein Mapping auf Dublin Core an: [openrefine-powerhouse.json](https://raw.githubusercontent.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/master/openrefine/openrefine-powerhouse.json)
+
+Exportieren Sie die Daten als TSV und speichern Sie die Datei im Ordner `Downloads`. Ergebnis: [openrefine/powerhouse.tsv](https://github.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/raw/master/openrefine/powerhouse.tsv)
+
+### Aufgabe 2
 
 ```
-curl "http://localhost:8983/solr/htw/update/csv?commit=true&separator=%09&split=true&f.contributor.separator=%E2%90%9F&f.coverage.separator=%E2%90%9F&f.creator.separator=%E2%90%9F&f.date.separator=%E2%90%9F&f.description.separator=%E2%90%9F&f.extent.separator=%E2%90%9F&f.format.separator=%E2%90%9F&f.identifier.separator=%E2%90%9F&f.language.separator=%E2%90%9F&f.pages.separator=%E2%90%9F&f.publisher.separator=%E2%90%9F&f.title.separator=%E2%90%9F&f.type.separator=%E2%90%9F" --data-binary @- -H 'Content-type:text/plain; charset=utf-8' < ~/Downloads/einstein.tsv
+curl "http://localhost:8983/solr/htw/update/csv?commit=true&separator=%09&split=true&f.contributor.separator=%E2%90%9F&f.coverage.separator=%E2%90%9F&f.creator.separator=%E2%90%9F&f.date.separator=%E2%90%9F&f.description.separator=%E2%90%9F&f.extent.separator=%E2%90%9F&f.format.separator=%E2%90%9F&f.identifier.separator=%E2%90%9F&f.language.separator=%E2%90%9F&f.pages.separator=%E2%90%9F&f.publisher.separator=%E2%90%9F&f.title.separator=%E2%90%9F&f.type.separator=%E2%90%9F" --data-binary @- -H 'Content-type:text/plain; charset=utf-8' < ~/Downloads/powerhouse.tsv
 ```
-
-
-

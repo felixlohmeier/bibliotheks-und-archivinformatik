@@ -8,8 +8,7 @@ In Kapitel 3 haben wir im OpenRefine Tutorial mit Daten des Powerhouse Museum ge
 
 ## Aufgabe 1: Transformieren Sie die Daten des Powerhouse Museum mit OpenRefine
 
-* Benennen Sie die Spalten so um, dass Sie auf die Feldbezeichnungen in unserem Schema (Dublin Core) passen.
-* Erstellen Sie eine Spalte `id` mit einem eindeutigen Identifier pro Zeile
+* Benennen Sie die Spalten so um, dass Sie auf die Feldbezeichnungen in unserem Schema (Dublin Core) passen. Die erste Spalte muss `id` lauten und muss mit einem eindeutigen Identifier versehen sein.
 * Exportieren Sie die Daten als TSV
 
 ## Aufgabe 2: Indexieren Sie die Daten in Solr
