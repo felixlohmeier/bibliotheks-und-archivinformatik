@@ -18,4 +18,4 @@ Bitte bearbeiten Sie die Kapitel 3 bis 9:
 * [8. Konfiguration der Facetten](https://felixlohmeier.gitbooks.io/vufind-tutorial-de/content/08_Konfiguration_Facetten.html)
 * [9. Konfiguration von Kataloganreicherungen](https://felixlohmeier.gitbooks.io/vufind-tutorial-de/content/09_Konfiguration_Kataloganreicherungen.html)
 
-Die Abschnitte "Sicherungspunkt setzen" können Sie ignorieren. Diese beziehen sich auf die Verwendung der Virtualisierungssoftware VirtualBox.
+Bitte beachten Sie, dass die Installation von VuFind Teile der TYPO3-Installation überschreibt und somit der Prototyp aus Kapitel 5 anschließend nicht mehr verfügbar sein wird. Legen Sie ggf. eine Sicherheitskopie an, wenn Sie darauf noch weiter zugreifen wollen.

@@ -2,7 +2,7 @@
 
 ## MarcEdit herunterladen
 
-Für Linux ist derzeit (13.12.2017) nur die etwas ältere Version MarcEdit 6.3.x verfügbar, vgl. <http://marcedit.reeset.net/downloads>.
+Wir nutzen die Version 6.3.x für Linux, vgl. <http://marcedit.reeset.net/downloads>.
 
 Installationsdatei herunterladen und entpacken:
 
