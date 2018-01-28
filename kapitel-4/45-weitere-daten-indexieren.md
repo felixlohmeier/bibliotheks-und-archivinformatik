@@ -14,3 +14,7 @@ In Kapitel 3 haben wir im OpenRefine Tutorial mit Daten des Powerhouse Museum ge
 ## Aufgabe 2: Indexieren Sie die Daten in Solr
 
 * Verwenden Sie dazu den bekannten Befehl mit `curl` (vgl. Kap. 4.3/4.4)
+
+## Lösung
+
+Beispiele und Ergebnisse zu den obigen Aufgaben finden Sie auf der Seite [Lösungen](/losungen.md).
