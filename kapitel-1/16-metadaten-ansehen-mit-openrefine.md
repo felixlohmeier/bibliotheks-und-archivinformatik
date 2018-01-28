@@ -6,7 +6,7 @@ Dem [Repository bei GitHub](https://github.com/OpenRefine/OpenRefine/graphs/cont
 
 ## OpenRefine herunterladen und entpacken
 
-Auf der Webseite von OpenRefine werden verschiedene Varianten zum [Download](http://openrefine.org/download.html) angeboten. Wir laden die neueste Version \(Stand 21.9.2017: OpenRefine 2.7\) für das Betriebssystem Linux. Die Installationsanleitung auf der Webseite ist simpel: "Download, extract, then type ./refine to start."
+Auf der Webseite von OpenRefine werden verschiedene Varianten zum [Download](http://openrefine.org/download.html) angeboten. Wir laden die Version OpenRefine 2.7 für das Betriebssystem Linux. Die Installationsanleitung auf der Webseite ist simpel: "Download, extract, then type ./refine to start."
 
 Wir erledigen dies wieder mit der Kommandozeile \(MATE-Terminal\):
 

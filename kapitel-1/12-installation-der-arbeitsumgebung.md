@@ -8,11 +8,13 @@ Wir arbeiten mit dem Linux-Betriebssystem [**Ubuntu MATE**](https://ubuntu-mate.
 
 Im Kurs verwenden wir **vorbereitete USB-Sticks**, um das System auf eigenen Laptops zu booten.
 
-Wer dieses Skript im **Selbststudium außerhalb der HTW Chur** bearbeiten möchte, der kann sich die Software [VirtualBox](https://www.virtualbox.org/wiki/Downloads) \(kostenfrei erhältlich für Windows, MacOS und Linux\) installieren und die folgende Appliance herunterladen und importieren \(VirtualBox Manager aufrufen, STRG+I drücken und Datei auswählen\): [https://felixlohmeier.de/htw/htw-usb.ova](https://felixlohmeier.de/htw/htw-usb.ova) \(2,9 GB\)
+Wer dieses Skript im **Selbststudium außerhalb der HTW Chur** bearbeiten möchte, der kann sich die Software [VirtualBox](https://www.virtualbox.org/wiki/Downloads) \(kostenfrei erhältlich für Windows, MacOS und Linux\) installieren und die folgende Appliance herunterladen und importieren \(VirtualBox Manager aufrufen, STRG+I drücken und Datei auswählen\): [https://felixlohmeier.de/htw/htw-usb.ova](https://felixlohmeier.de/htw/htw-usb.ova) \(2,9 GB\). Starten Sie die virtuelle Maschine und beginnen Sie direkt mit Kapitel 1.3. Wenn Sie Unterstützung bei der Einrichtung von VirtualBox benötigen, schreiben Sie gerne eine Mail an [mail@felixlohmeier.de](mailto:mail@felixlohmeier.de).
 
 ![](../images/willkommen.png)
 
-## Schritt 1: Von USB-Stick booten
+## Arbeitsumgebung starten (entfällt bei der Verwendung von VirtualBox)
+
+### Schritt 1: Von USB-Stick booten
 
 Hinweise für verschiedene Betriebssysteme:
 
@@ -20,11 +22,11 @@ Hinweise für verschiedene Betriebssysteme:
 * **Windows 8**: Windows-Taste + I, Umschalt-\(Shift-\)Taste gedrückt halten und Neustart wählen. Im Menü Problembehandlung / Erweiterte Optionen / UEFI-Firmwareeinstellung. Dort "Ein Gerät verwenden".
 * **macOS**: Während des Bootvorgangs die "Alt"-Taste gedrückt halten.
 
-## Schritt 2: Internetverbindung herstellen
+### Schritt 2: Internetverbindung herstellen
 
 siehe WLAN-Symbol oben rechts
 
-## Schritt 3: Freien Arbeitsspeicher und verfügbaren Speicher in Dateisystemen prüfen
+### Schritt 3: Freien Arbeitsspeicher und verfügbaren Speicher in Dateisystemen prüfen
 
 siehe Anwendungen / Systemwerkzeuge / MATE-Systemüberwachung
 
