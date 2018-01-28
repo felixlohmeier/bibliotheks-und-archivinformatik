@@ -6,48 +6,15 @@
 
 Hinweise:
 
-* Verwenden Sie das Feld ```Datum``` für die Facette
+* Verwenden Sie das Feld ```date``` für die Facette
 
 Literatur:
 
 * Dokumentation von TYPO3-find: http://typo3-find.readthedocs.io/en/latest/index.html
 
-## Lösung
+Lösung:
 
-```
-page = PAGE
-page.100 < styles.content.get
-page.javascriptLibs.jQuery = 1
-page.includeJS.find = EXT:find/Resources/Public/JavaScript/find.js
-plugin.tx_find.features.requireCHashArgumentForActionArguments = 0
-plugin.tx_find.settings {
-        connections {
-                default {
-                        options {
-                                host = localhost
-                                port = 8983
-                                path = /solr/htw
-                        }
-                }
-        }
-        standardFields {
-                title = title
-                snippet = creator
-        }
-        facets {
-                10 {
-                        id = format
-                        field = format
-                        sortOrder = count
-                }
-                20 {
-                        id = language
-                        field = language
-                        sortOrder = count
-                }
-        }
-}
-```
+* Die benötigte Konfiguration ist auf der Seite [Lösungen](/losungen.md) dokumentiert.
 
 ## Bonus: Darstellung der Trefferliste und Detailseite anpassen
 

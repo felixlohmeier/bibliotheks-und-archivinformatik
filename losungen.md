@@ -76,3 +76,45 @@ Exportieren Sie die Daten als TSV und speichern Sie die Datei im Ordner `Downloa
 ```
 curl "http://localhost:8983/solr/htw/update/csv?commit=true&separator=%09&split=true&f.contributor.separator=%E2%90%9F&f.coverage.separator=%E2%90%9F&f.creator.separator=%E2%90%9F&f.date.separator=%E2%90%9F&f.description.separator=%E2%90%9F&f.extent.separator=%E2%90%9F&f.format.separator=%E2%90%9F&f.identifier.separator=%E2%90%9F&f.language.separator=%E2%90%9F&f.pages.separator=%E2%90%9F&f.publisher.separator=%E2%90%9F&f.title.separator=%E2%90%9F&f.type.separator=%E2%90%9F" --data-binary @- -H 'Content-type:text/plain; charset=utf-8' < ~/Downloads/powerhouse.tsv
 ```
+
+## [5.3 Konfiguration von TYPO3-find erweitern](//kapitel-5/53_konfiguration-von-typo3-find-erweitern.md)
+
+```
+page = PAGE
+page.100 < styles.content.get
+page.javascriptLibs.jQuery = 1
+page.includeJS.find = EXT:find/Resources/Public/JavaScript/find.js
+plugin.tx_find.features.requireCHashArgumentForActionArguments = 0
+plugin.tx_find.settings {
+        connections {
+                default {
+                        options {
+                                host = localhost
+                                port = 8983
+                                path = /solr/htw
+                        }
+                }
+        }
+        standardFields {
+                title = title
+                snippet = creator
+        }
+        facets {
+                10 {
+                        id = format
+                        field = format
+                        sortOrder = count
+                }
+                20 {
+                        id = language
+                        field = language
+                        sortOrder = count
+                }
+                30 {
+                        id = date
+                        field = date
+                        sortOrder = count
+                }
+        }
+}
+```
