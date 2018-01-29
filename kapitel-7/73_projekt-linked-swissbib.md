@@ -1,8 +1,5 @@
 # 7.3 Projekt Linked swissbib
 
-Artikel zu Linked Swissbib
-https://www.frontiersin.org/articles/10.3389/fdigh.2017.00005/full
-
 ## Swissbib Architektur
 
 Die Grafik zeigt die Systemarchitektur von swissbib im Jahre 2014, bevor das Projekt Linked swissbib gestartet ist. Besonderer Wert wurde auf die Trennung verschiedener Layer gelegt, die über Schnittstellen miteinander interagieren. Dadurch wurde es möglich, kommerzielle Software (OCLC CBS) mit Open-Source-Software zu mischen.
@@ -35,13 +32,11 @@ Aus etwa 29 Mio. MARC Aufnahmen wurden etwa 125 Mio. Dokumente in JSON-LD generi
 5. Person
 6. Organisation
 
-### Oberfläche
-
-1. Suche
+### Suche
 
 [![](/images/linked-swissbib-02-suche.png)](https://raw.githubusercontent.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/master/images/linked-swissbib-02-suche.png)
 
-2. Personenseiten
+### Personenseiten
 
 [![](/images/linked-swissbib-03-personenseite.png)](https://raw.githubusercontent.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik/master/images/linked-swissbib-03-personenseite.png)
 
