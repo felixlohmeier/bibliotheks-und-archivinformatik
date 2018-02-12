@@ -12,7 +12,7 @@ Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 8 Stunden Zei
 Beiträge in den Lerntagebüchern der Studierenden:
 
 * Elena Capelli: [VuFind – Oder eher „Vu“ didn’t find?](https://elenasdiscovery.wordpress.com/2017/12/26/vufind-oder-eher-vu-didnt-find/)
-* Marina Hess: (folgt)
+* Marina Hess: [Komplett - Lösung = VuFind(?)](https://mainsuche.jimdo.com/blogbeitr%C3%A4ge/komplettl%C3%B6sung/)
 * Franziska Neuenschwander: [VuFind und MarcEdit – die etwas bessere Lösung (14.12)](https://bainblogweb.wordpress.com/2018/01/10/vufind-und-marcedit-die-etwas-bessere-losung-14-12/)
 * Moreno Pontoriero: [Discovery System einfach gemacht](https://morenoexplores.wordpress.com/2017/12/27/discovery-system-einfach-gemacht/)
 * Aline Strauss: [Metadaten in Repositorien 14/12/17](https://alinesbiblio.wordpress.com/2018/01/10/metadaten-in-repositorien-14-12-17/)

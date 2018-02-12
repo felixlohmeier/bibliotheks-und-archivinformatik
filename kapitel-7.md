@@ -16,8 +16,8 @@ Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 6 Stunden Zei
 
 Beiträge in den Lerntagebüchern der Studierenden:
 
-* Elena Capelli: (folgt)
-* Marina Hess: (folgt)
-* Franziska Neuenschwander: (folgt)
-* Moreno Pontoriero: (folgt)
-* Aline Strauss: (folgt)
+* Elena Capelli: [Zusammenfassung einer verpassten Sitzung](https://elenasdiscovery.wordpress.com/2018/02/05/zusammenfassung-einer-verpassten-sitzung/) und [Reflexion zu BAIN](https://elenasdiscovery.wordpress.com/2018/02/05/reflexion-zu-bain/)
+* Marina Hess: [Linked Data in Bibliotheken](https://mainsuche.jimdo.com/blogbeitr%C3%A4ge/linked-data/) und [Abschluss](https://mainsuche.jimdo.com/abschluss/)
+* Franziska Neuenschwander: [Linked Data for Libraries (11.1)](https://bainblogweb.wordpress.com/2018/01/31/linked-data-for-libraries-11-1/) und [This is it, folks!](https://bainblogweb.wordpress.com/2018/01/31/this-is-it-folks/)
+* Moreno Pontoriero: [Geschichten aus Basel](https://morenoexplores.wordpress.com/2018/01/30/geschichten-aus-basel/) und [Vorhang zu...](https://morenoexplores.wordpress.com/2018/01/31/vorhang-zu/)
+* Aline Strauss: [Linked Data – Gastvortrag linkedswissbib 11/01/18](https://alinesbiblio.wordpress.com/2018/01/31/linked-data-gastvortrag-linkedswissbib-11-01-18/) und [Auch eine schöne Reise hat irgendwann ein Ende…](https://alinesbiblio.wordpress.com/2018/01/31/auch-eine-schoene-reise-hat-irgendwann-ein-ende/)
