@@ -1,3 +1,14 @@
+---
+lrmi:
+  '@context': 'http://schema.org'
+  id: 'https://homepage-of-the-course.de/hund.html'
+  name: Kapitel 1 Der Hund
+  type: CreativeWork
+  isPartOf: 'https://homepage-of-the-course.de'
+  about:
+    - dogs
+---
+
 # Skript zum Kurs "Bibliotheks- und Archivinformatik" \(Herbstsemester 2017\) an der HTW Chur
 
 Das Skript ist eine Weiterentwicklung voriger Lehrveranstaltungen an der [HAW Hamburg](https://www.gitbook.com/book/felixlohmeier/seminar-wir-bauen-uns-einen-bibliothekskatalog/) \(Wintersemester 2016/17\) und an der [HS Hannover](https://www.gitbook.com/read/book/felixlohmeier/seminar-praxis-der-digitalen-bibliothek) \(Sommersemester 2017\). Es ist für eine Lehrveranstaltung mit 4 ECTS konzipiert.
