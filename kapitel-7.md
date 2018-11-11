@@ -1,4 +1,4 @@
-# Kapitel 7: Linked Data und weitere Metadatenstandards \(11.01.2018\)
+# Kapitel 7: Linked Data und weitere Metadatenstandards
 
 Nach einer grundlegenden Einführung in Linked Data (Kap. 7.1 und 7.2) haben Günter Hipler (Systems Architect) und Silvia Witzig (Metadata Specialist) von der UB Basel die Sitzung vom 11. Januar gestaltet (Kap. 7.3 bis 7.9). Sie haben das Projekt [Linked swissbib](http://linked.swissbib.ch) vorgestellt und anhand von Praxisbeispielen erläutert, wie die Projektergebnisse derzeit in die produktive Umgebung von swissbib integriert werden.
 

@@ -1,4 +1,4 @@
-# Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche \(16.11.2017\)
+# Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche
 
 In diesem Kapitel werden wir zunächst den Suchindex Apache Solr installieren und kennenlernen. Solr ist eine weit verbreite Software für Volltextsuchmaschinen und quasi Industriestandard, also nichts bibliotheksspezifisches.
 

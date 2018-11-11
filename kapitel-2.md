@@ -1,4 +1,4 @@
-# Kapitel 2: Bibliotheks- und Archivsysteme \(05.10.2017\)
+# Kapitel 2: Bibliotheks- und Archivsysteme
 
 Die Sitzung am 5. Oktober haben Sven Koesling und Michael Gasser von der ETH Zürich gestaltet. Sven Koesling leitet den Bereich IT-Services an der ETH-Bibliothek und Michael Gasser leitet den Bereich Archive an der ETH-Bibliothek. Sie haben einen ausführlichen Praxiseinblick in die an der ETH-Bibliothek verwendeten Bibliotheks- und Archivsysteme gegeben. Hier im Skript werden diejenigen Kernpunkte dokumentiert, die für das weitere Verständnis des Kursus von besonderer Bedeutung sind.
 

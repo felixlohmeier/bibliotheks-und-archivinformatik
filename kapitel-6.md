@@ -1,4 +1,4 @@
-# Kapitel 6: Metadaten in Repositorien und Crosswalks \(14.12.2017\)
+# Kapitel 6: Metadaten in Repositorien und Crosswalks
 
 Als Alternative zur manuellen Arbeit mit OpenRefine, Solr und TYPO3-find lernen wir in diesem Kapitel die Komplettlösung VuFind kennen. Dazu bearbeiten wir ein Tutorial zu Installation, Konfiguration und Testdatenimport. Anschließend benutzen wir die Software MarcEdit, um Metadaten aus Repositorien mit integrierten Crosswalks ins MARC-Format zu konvertieren. Diese Daten importieren wir dann in VuFind.
 

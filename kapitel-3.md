@@ -1,4 +1,4 @@
-# Kapitel 3: Übertragungsprotokolle und Datentransformationen \(02.11.2017\)
+# Kapitel 3: Übertragungsprotokolle und Datentransformationen
 
 Im vorigen Kapitel haben wir viele Praxisbeispiele der ETH-Bibliothek kennengelernt und anhand des Metadatenflussdiagramms die großen Zusammenhänge zwischen den verschiedenen Systemen diskutiert. Jetzt werden wir einzelne Aspekte vertiefen und hands-on ausprobieren.
 

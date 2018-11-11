@@ -1,4 +1,4 @@
-# Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und eine Wiederholung in Metadatenstandards \(21.09.2017\)
+# Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und eine Wiederholung in Metadatenstandards
 
 Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 8 Stunden Zeit:
 

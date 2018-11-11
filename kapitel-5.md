@@ -1,4 +1,4 @@
-# Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung \(30.11.2017\)
+# Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung
 
 Als letzten Schritt in der Kette werden wir in diesem Kapitel das Content-Management-System TYPO3 sowie die Erweiterung TYPO3-find installieren. Beides zusammen bildet die Nutzeroberfläche für den Bibliothekskatalog.
 

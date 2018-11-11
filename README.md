@@ -63,7 +63,7 @@ lrmi:
     2017). Es ist für eine Lehrveranstaltung mit 4 ECTS konzipiert.
 ---
 
-# Skript zum Kurs "Bibliotheks- und Archivinformatik" \(Herbstsemester 2017\) an der HTW Chur
+# Skript zum Kurs "Bibliotheks- und Archivinformatik" \(Herbstsemester 2017 ff.\) an der HTW Chur
 
 Das Skript ist eine Weiterentwicklung voriger Lehrveranstaltungen an der [HAW Hamburg](https://www.gitbook.com/book/felixlohmeier/seminar-wir-bauen-uns-einen-bibliothekskatalog/) \(Wintersemester 2016/17\) und an der [HS Hannover](https://www.gitbook.com/read/book/felixlohmeier/seminar-praxis-der-digitalen-bibliothek) \(Sommersemester 2017\). Es ist für eine Lehrveranstaltung mit 4 ECTS konzipiert.
 
@@ -75,7 +75,7 @@ Das Skript ist eine Weiterentwicklung voriger Lehrveranstaltungen an der [HAW Ha
 
 ## Lehrveranstaltung
 
-Dieses Skript entsteht in der Zeit von September 2017 bis Januar 2018 im Rahmen der folgenden Lehrveranstaltung:
+Dieses Skript entstand in der Zeit von September 2017 bis Januar 2018 im Rahmen der folgenden Lehrveranstaltung:
 
 * Kurs "Bibliotheks- und Archivinformatik"
 * Dozent: [Felix Lohmeier](http://felixlohmeier.de)
@@ -85,7 +85,7 @@ Dieses Skript entsteht in der Zeit von September 2017 bis Januar 2018 im Rahmen 
 
 ## Inhalte
 
-Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und eine Wiederholung in Metadatenstandards \(21.09.2017\)
+Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und eine Wiederholung in Metadatenstandards
 
 * [1.1 Einführung ins Thema](/kapitel-1/11-einfuhrung-ins-thema.md)
 * [1.2 Installation der Arbeitsumgebung](/kapitel-1/12-installation-der-arbeitsumgebung.md)
@@ -94,7 +94,7 @@ Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und eine Wied
 * [1.5 Übung: Metadaten über eine SRU-Schnittstelle laden](/kapitel-1/15-ubung-metadaten-uber-eine-sru-schnittstelle-laden.md)
 * [1.6 Metadaten ansehen mit OpenRefine](/kapitel-1/16-metadaten-ansehen-mit-openrefine.md)
 
-Kapitel 2: Bibliotheks- und Archivsysteme \(05.10.2017\)
+Kapitel 2: Bibliotheks- und Archivsysteme
 
 * [2.1 Metadatenflüsse der ETH-Bibliothek](/kapitel-2/21_metadatenflusse-der-eth-bibliothek.md)
 * [2.2 Datenstruktur von Archivsystemen](/kapitel-2/22_datenstruktur-von-archivsystemen.md)
@@ -102,7 +102,7 @@ Kapitel 2: Bibliotheks- und Archivsysteme \(05.10.2017\)
 * [2.4 Discovery-System Wissensportal](/kapitel-2/24_discovery-system-wissensportal.md)
 * [2.5 Datenbereitstellung für externe Portale](/kapitel-2/25_datenbereitstellung-fur-externe-portale.md)
 
-Kapitel 3: Übertragungsprotokolle und Datentransformationen \(02.11.2017\)
+Kapitel 3: Übertragungsprotokolle und Datentransformationen
 
 * [3.1 Wir bauen uns ein Wissensportal](/kapitel-3/31-wir-bauen-uns-ein-wissensportal.md)
 * [3.2 Übertragungsprotokolle SRU und OAI-PMH](/kapitel-3/32-ubertragungsprotokolle-sru-und-oai-pmh.md)
@@ -112,7 +112,7 @@ Kapitel 3: Übertragungsprotokolle und Datentransformationen \(02.11.2017\)
 * [3.6 Bonus: Vergleich mit Crosswalk-Ergebnissen](/kapitel-3/36-bonus-vergleich-mit-crosswalk-ergebnissen.md)
 * [3.7 Bonus: Automatisierung](/kapitel-3/37-bonus-automatisierung.md)
 
-Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche \(16.11.2017\)
+Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche
 
 * [4.1 Installation von Solr](/kapitel-4/41-installation-von-solr.md)
 * [4.2 Tutorial zu Solr](/kapitel-4/42-tutorial-zu-solr.md)
@@ -120,7 +120,7 @@ Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche \(16.11.2017\)
 * [4.4 Konfiguration des Schemas](/kapitel-4/44-konfiguration-des-schemas.md)
 * [4.5 Bonus: Daten Weitere indexieren](/kapitel-4/45-weitere-daten-indexieren.md)
 
-Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung \(30.11.2017\)
+Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung
 
 * [5.1 Installation von TYPO3 und TYPO3-find](/kapitel-5/51_installation-von-typo3-und-typo3-find.md)
 * [5.2 Grundkonfiguration von TYPO3-find](/kapitel-5/52_grundkonfiguration-von-typo3-find.md)
@@ -128,14 +128,14 @@ Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung \(30.11.2017\)
 * [5.4 Relevanzranking mit TYPO3-find und Solr](/kapitel-5/54-relevanzranking-mit-typo3-find-und-solr.md)
 * [5.5 Suchmaschinenoptimierung](/kapitel-5/55_suchmaschinenoptimierung.md)
 
-Kapitel 6: Metadaten in Repositorien und Crosswalks \(14.12.2017\)
+Kapitel 6: Metadaten in Repositorien und Crosswalks
 
 * [6.1 VuFind-Tutorial](/kapitel-6/61_vufind-tutorial.md)
 * [6.2 Daten im Format MARC21 indexieren](/kapitel-6/62_daten-im-format-marc21-indexieren.md)
 * [6.3 Installation von MarcEdit](/kapitel-6/63_installation-von-marcedit.md)
 * [6.4 Harvesting mit MarcEdit](/kapitel-6/64_harvesting-mit-marcedit.md)
 
-Kapitel 7: Linked Data und weitere Metadatenstandards \(11.01.2018\)
+Kapitel 7: Linked Data und weitere Metadatenstandards
 
 * [7.1 Semantische Daten](/kapitel-7/71_semantische-daten-fuer-webauftritt.md)
 * [7.2 Linked Data nach dem Hype](/kapitel-7/72_linked-data-nach-dem-hype.md)
