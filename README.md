@@ -1,157 +1,38 @@
----
-lrmi:
-  datePublished: '2017-09-20'
-  license: 'http://creativecommons.org/licenses/by/4.0/'
-  audience:
-    type: EducationalAudience
-    educationalRole: student
-  interactivityType: mixed
-  hasCourseInstance:
-    type: CourseInstance
-    startDate: '2017-09-21'
-    endDate: '2018-01-11'
-    courseMode: onsite
-    offers:
-      type: Offer
-      offeredBy:
-        id: 'http://www.wikidata.org/entity/Q1622220'
-        name: HTW Chur
-  name: Bibliotheks- und Archivinformatik an der HTW Chur
-  creator:
-    name: Felix Lohmeier
-    id: 'https://orcid.org/0000-0003-3375-4362'
-  timeRequired: 7 days
-  hasPart:
-    - id: >-
-        https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/kapitel-1.html
-      name: >-
-        Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und
-        eine Wiederholung in Metadatenstandards
-    - id: >-
-        https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/kapitel-2.html
-      name: 'Kapitel 2: Bibliotheks- und Archivsysteme'
-    - id: >-
-        https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/kapitel-3.html
-      name: 'Kapitel 3: Übertragungsprotokolle und Datentransformationen'
-    - id: >-
-        https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/kapitel-4.html
-      name: 'Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche'
-    - id: >-
-        https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/kapitel-5.html
-      name: 'Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung'
-    - id: >-
-        https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/kapitel-6.html
-      name: 'Kapitel 6: Metadaten in Repositorien und Crosswalks'
-    - id: >-
-        https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/kapitel-7.html
-      name: 'Kapitel 7: Linked Data und weitere Metadatenstandards'
-  about:
-    - libraries
-    - archives
-    - software
-    - protocols
-    - metadata
-  typicalAgeRange: 18-65
-  url: 'https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/'
-  '@context': 'http://schema.org/'
-  educationalCredentialAwarded: 4 ECTS
-  type: Course
-  id: 'https://felixlohmeier.gitbooks.io/kurs-bibliotheks-und-archivinformatik/'
-  description: >-
-    Der Kurs ist eine Weiterentwicklung voriger Lehrveranstaltungen an der HAW
-    Hamburg (Wintersemester 2016/17) und an der HS Hannover (Sommersemester
-    2017). Es ist für eine Lehrveranstaltung mit 4 ECTS konzipiert.
----
+# Skript zum Kurs "Bibliotheks- und Archivinformatik"
 
-# Skript zum Kurs "Bibliotheks- und Archivinformatik" \(Herbstsemester 2017 ff.\) an der HTW Chur
+Dieses Skript entsteht in der Zeit von September 2019 bis Januar 2020 im Rahmen der folgenden Lehrveranstaltung:
 
-Das Skript ist eine Weiterentwicklung voriger Lehrveranstaltungen an der [HAW Hamburg](https://www.gitbook.com/book/felixlohmeier/seminar-wir-bauen-uns-einen-bibliothekskatalog/) \(Wintersemester 2016/17\) und an der [HS Hannover](https://www.gitbook.com/read/book/felixlohmeier/seminar-praxis-der-digitalen-bibliothek) \(Sommersemester 2017\). Es ist für eine Lehrveranstaltung mit 4 ECTS konzipiert.
+- Kurs "Bibliotheks- und Archivinformatik"
+- Dozent: [Felix Lohmeier](http://felixlohmeier.de)
+- Herbstsemester 2019
+- Lehrauftrag an der [HTW Chur - Studiengang Information Science](http://studium.htwchur.ch/information-science/)
+- Bachelor mit Vertiefung Bibliotheksmanagement, Archiv und Information Engineering, 4 ECTS
 
-## Formate
+## Arbeitsumgebung
 
-* Lesefassung bei GitBook \(HTML\): [https://www.gitbook.com/read/book/felixlohmeier/kurs-bibliotheks-und-archivinformatik](https://www.gitbook.com/read/book/felixlohmeier/kurs-bibliotheks-und-archivinformatik)
-* Druckfassung bei GitBook \(PDF\): [https://www.gitbook.com/download/pdf/book/felixlohmeier/kurs-bibliotheks-und-archivinformatik](https://www.gitbook.com/download/pdf/book/felixlohmeier/kurs-bibliotheks-und-archivinformatik)
-* Repository bei GitHub \(zum Nachnutzen\): [https://github.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik](https://github.com/felixlohmeier/kurs-bibliotheks-und-archivinformatik)
+Wir nutzen die Software [VirtualBox](https://www.virtualbox.org/), die es Ihnen ermöglicht, einen Webserver auf ihrem Computer zu installieren, ohne dass Ihr gewohntes Betriebssystem verändert wird. Sie erhalten für jede Lehreinheit eine vorkonfigurierte virtuelle Maschine, um ohne langwierige Installation die Programme ausprobieren zu können. Learning by doing.
 
-## Lehrveranstaltung
-
-Dieses Skript entstand in der Zeit von September 2017 bis Januar 2018 im Rahmen der folgenden Lehrveranstaltung:
-
-* Kurs "Bibliotheks- und Archivinformatik"
-* Dozent: [Felix Lohmeier](http://felixlohmeier.de)
-* Herbstsemester 2017
-* Lehrauftrag an der [HTW Chur - Studiengang Information Science](http://studium.htwchur.ch/information-science/)
-* Bachelor mit Vertiefung Bibliotheksmanagement, Archiv und Information Engineering, 4 ECTS
+**Voraussetzung:** Sie benötigen einen Computer, der einigermaßen aktuell ist (etwa ab Baujahr 2013), über mindestens 4 GB RAM verfügt und auf dem Sie Software installieren können (Windows, macOS oder Linux).
 
 ## Inhalte
 
-Kapitel 1: Einführung ins Thema, Installation der Arbeitsumgebung und eine Wiederholung in Metadatenstandards
-
-* [1.1 Einführung ins Thema](/kapitel-1/11-einfuhrung-ins-thema.md)
-* [1.2 Installation der Arbeitsumgebung](/kapitel-1/12-installation-der-arbeitsumgebung.md)
-* [1.3 Übung: Text durchsuchen und Wörter zählen auf der Kommandozeile](/kapitel-1/13-ubung-text-durchsuchen-und-worter-zahlen-auf-der-kommandozeile.md)
-* [1.4 Metadatenstandards und Schnittstellen](/kapitel-1/14-metadatenstandards-und-schnittstellen.md)
-* [1.5 Übung: Metadaten über eine SRU-Schnittstelle laden](/kapitel-1/15-ubung-metadaten-uber-eine-sru-schnittstelle-laden.md)
-* [1.6 Metadaten ansehen mit OpenRefine](/kapitel-1/16-metadaten-ansehen-mit-openrefine.md)
-
-Kapitel 2: Bibliotheks- und Archivsysteme
-
-* [2.1 Metadatenflüsse der ETH-Bibliothek](/kapitel-2/21_metadatenflusse-der-eth-bibliothek.md)
-* [2.2 Datenstruktur von Archivsystemen](/kapitel-2/22_datenstruktur-von-archivsystemen.md)
-* [2.3 Online-Präsentation von Digitalisaten](/kapitel-2/23_online-praesentation-von-digitalisaten.md)
-* [2.4 Discovery-System Wissensportal](/kapitel-2/24_discovery-system-wissensportal.md)
-* [2.5 Datenbereitstellung für externe Portale](/kapitel-2/25_datenbereitstellung-fur-externe-portale.md)
-
-Kapitel 3: Übertragungsprotokolle und Datentransformationen
-
-* [3.1 Wir bauen uns ein Wissensportal](/kapitel-3/31-wir-bauen-uns-ein-wissensportal.md)
-* [3.2 Übertragungsprotokolle SRU und OAI-PMH](/kapitel-3/32-ubertragungsprotokolle-sru-und-oai-pmh.md)
-* [3.3 Testdaten über SRU herunterladen](/kapitel-3/33-testdaten-uber-sru-herunterladen.md)
-* [3.4 Tutorial zu OpenRefine](/kapitel-3/34-tutorial-zu-openrefine.md)
-* [3.5 Verarbeitung von MARC21 mit OpenRefine](/kapitel-3/35-verarbeitung-von-marc21-mit-openrefine.md)
-* [3.6 Bonus: Vergleich mit Crosswalk-Ergebnissen](/kapitel-3/36-bonus-vergleich-mit-crosswalk-ergebnissen.md)
-* [3.7 Bonus: Automatisierung](/kapitel-3/37-bonus-automatisierung.md)
-
-Kapitel 4: Suchmaschinen, Modellierung für Meta-Suche
-
-* [4.1 Installation von Solr](/kapitel-4/41-installation-von-solr.md)
-* [4.2 Tutorial zu Solr](/kapitel-4/42-tutorial-zu-solr.md)
-* [4.3 Daten in Solr laden](/kapitel-4/43-daten-in-solr-laden.md)
-* [4.4 Konfiguration des Schemas](/kapitel-4/44-konfiguration-des-schemas.md)
-* [4.5 Bonus: Daten Weitere indexieren](/kapitel-4/45-weitere-daten-indexieren.md)
-
-Kapitel 5: Katalogsoftware und Suchmaschinenoptimierung
-
-* [5.1 Installation von TYPO3 und TYPO3-find](/kapitel-5/51_installation-von-typo3-und-typo3-find.md)
-* [5.2 Grundkonfiguration von TYPO3-find](/kapitel-5/52_grundkonfiguration-von-typo3-find.md)
-* [5.3 Konfiguration von TYPO3-find erweitern](/kapitel-5/53_konfiguration-von-typo3-find-erweitern.md)
-* [5.4 Relevanzranking mit TYPO3-find und Solr](/kapitel-5/54-relevanzranking-mit-typo3-find-und-solr.md)
-* [5.5 Suchmaschinenoptimierung](/kapitel-5/55_suchmaschinenoptimierung.md)
-
-Kapitel 6: Metadaten in Repositorien und Crosswalks
-
-* [6.1 VuFind-Tutorial](/kapitel-6/61_vufind-tutorial.md)
-* [6.2 Daten im Format MARC21 indexieren](/kapitel-6/62_daten-im-format-marc21-indexieren.md)
-* [6.3 Installation von MarcEdit](/kapitel-6/63_installation-von-marcedit.md)
-* [6.4 Harvesting mit MarcEdit](/kapitel-6/64_harvesting-mit-marcedit.md)
-
-Kapitel 7: Linked Data und weitere Metadatenstandards
-
-* [7.1 Semantische Daten](/kapitel-7/71_semantische-daten-fuer-webauftritt.md)
-* [7.2 Linked Data nach dem Hype](/kapitel-7/72_linked-data-nach-dem-hype.md)
-* [7.3 Projekt Linked swissbib](/kapitel-7/73_projekt-linked-swissbib.md)
-* [7.4 Datenmodell und Datentransformation](/kapitel-7/74_datenmodell-und-datentransformation.md)
-* [7.5 Übung: RDF mit Metafacture generieren](/kapitel-7/75_uebung-rdf-mit-metafacture-generieren.md)
-* [7.6 Verlinkung und Anreicherung](/kapitel-7/76_verlinkung-und-anreicherung.md)
-* [7.7 Übung: Linking mit Limes](/kapitel-7/77_uebung-linking-mit-limes.md)
-* [7.8 Oberfläche: Projektresultate und Integration](/kapitel-7/78_oeberflaeche-projektresultate-integration.md)
-* [7.9 Publikation und Nachnutzung](/kapitel-7/79_publikation-und-nachnutzung.md)
+1. 25.09.2019: Installation und Grundlagen
+2. 09.10.2019: Bibliothekssystem Koha
+3. 30.10.2019: Archivsystem ArchivesSpace
+4. 06.11.2019: Repository-Software DSpace-CRIS
+5. 13.11.2019: Metadaten transformieren mit OpenRefine und MarcEdit
+6. 27.11.2019: Discovery-System VuFind und Suchmaschine Solr
+7. 11.12.2019: Linked Data und Fazit
 
 ## Lerntagebücher
 
-Als Prüfungsleistung schreiben Studierende öffentliche [Lerntagebücher](/lerntagebucher.md), in denen sie von ihren Erkenntnissen berichten und sich mit dem Inhalt des Seminars auseinandersetzen. Thematisch relevante Beiträge werden in den jeweiligen Kapiteln im Skript verlinkt.
+Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
-## Beschreibung
+**Blogs der Studierenden:**
+
+(folgt)
+
+## Modulbeschreibung
 
 Im Modul Bibliotheks- und Archivinformatik lernen die Studierenden die in Bibliotheken und Archiven eingesetzten Softwares und Technologien kennen. Funktionsweisen von Bibliothekskatalogen \(bis hin zu Cloud-Konzepten\), von Publikationsplattformen, Repositories etc. werden erläutert. Verschiedene Suchtechnologien werden analysiert und im Einsatz über unterschiedliche Datenbestände angewandt. Es wird gezeigt, wie Metadatenstandards und Austauschprotokolle eingesetzt und genutzt werden.
 
@@ -164,22 +45,15 @@ Nach erfolgreicher Teilnahme am Modul sind die Studierenden in der Lage:
 * Bibliothekarische und archivarische Metadaten \(z.B. MARC, MARCXML, MODS, Dublin Core, EAD, BIBFRAME\) zu modellieren und diese mit entsprechenden Protokollen / Anwendungen zu übertragen
 * Crosswalks zwischen unterschiedlichen Metadatenformaten zu programmieren
 
-In diesem praxisorientierten Kurs setzen Sie Open-Source-Komponenten ein, um einen Prototyp eines Katalogs \(Discovery-System\) herzustellen. Ausgehend vom Laden ausgewählter Metadaten über Schnittstellen, transformieren Sie die Metadaten in ein für Suchmaschinen geeignetes Format, konfigurieren einen Suchindex und erstellen eine prototypische Anzeige eines Katalogs. Durch die konkrete Arbeit mit den Technologien und Beispieldaten lernen Sie die Funktionsweise typischer Software, Schnittstellen und verschiedene Metadatenformate kennen.
+## Skripte der Vorjahre
 
-## Intention Openness
+Herbstsemester 2017:
 
-Soweit möglich werden die Materialien für die Lehrveranstaltung an dieser Stelle online gestellt, damit sie vielleicht auch über den Kreis der SeminarteilnehmerInnen hinaus nützlich sind. Weitere Informationen dazu im Bibcast [Offene Lernskripte mit Gitbook](https://bibcast.openbiblio.eu/offene-lernskripte-mit-gitbook-erfahrungsbericht-aus-dem-seminar-wir-bauen-uns-einen-bibliothekskatalog-an-der-haw-hamburg/).
-
-## Literaturempfehlungen zum Einstieg
-
-* Anne Christensen \(2013\): Warum BibliothekarInnen bei Discovery mitmischen sollten, trotz allem. In: Blog "A growing organism - Bibliothekarische An- und Aussichten von Anne Christensen", 20.4.2013: [https://xenzen.wordpress.com/2013/04/20/discovery-mitmischen/](https://xenzen.wordpress.com/2013/04/20/discovery-mitmischen/)
-* Prof. Magnus Pfeffer \(2016\): Open Source Software zur Verarbeitung und Analyse von Metadaten. Präsentation auf dem 6. Bibliothekskongress. [http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:0290-opus4-24490](http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:0290-opus4-24490)
-* Christof Rodejohann & Felix Lohmeier \(2016\): Schlanke Discovery-Lösung auf Basis von TYPO3. Der neue Bibliothekskatalog der SLUB Dresden. Präsentation im Rahmen des "Bibcast", Live-Webcast im Vorfeld des Bibliothekskongresses, 9.3.2016: [http://bibcast.openbiblio.eu/schlanke-discovery-loesung-auf-basis-von-typo3-der-neue-bibliothekskatalog-der-slub-dresden/](http://bibcast.openbiblio.eu/schlanke-discovery-loesung-auf-basis-von-typo3-der-neue-bibliothekskatalog-der-slub-dresden/)
-* Felix Lohmeier & Jens Mittelbach \(2014\): Offenheit statt Bündniszwang. In: Zeitschrift für Bibliothekswesen und Bibliographie 61, H. 4-5, S. 209-214. [http://dx.doi.org/10.3196/1864295014614554](http://dx.doi.org/10.3196/1864295014614554) 
+* Zenodo: [10.5281/zenodo.3383051](https://doi.org/10.5281/zenodo.3383051)
+* GitHub: [v1.0](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/releases/tag/v1.0)
 
 ## Lizenz
 
 Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung 4.0 International Lizenz](http://creativecommons.org/licenses/by/4.0/)
 
 [![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-
