@@ -5,8 +5,8 @@ Dieses Skript entsteht in der Zeit von September 2019 bis Januar 2020 im Rahmen 
 - Kurs "Bibliotheks- und Archivinformatik"
 - Dozent: [Felix Lohmeier](http://felixlohmeier.de)
 - Herbstsemester 2019
-- Lehrauftrag an der [HTW Chur - Studiengang Information Science](http://studium.htwchur.ch/information-science/)
-- Bachelor mit Vertiefung Bibliotheksmanagement, Archiv und Information Engineering, 4 ECTS
+- Lehrauftrag an der [FH Graubünden - Studiengang Information Science](https://www.fhgr.ch/studium/bachelorangebot/wirtschaft-und-dienstleistung/information-science/)
+- Bachelor, 4. Semester, 4 ECTS
 
 ## Arbeitsumgebung
 
