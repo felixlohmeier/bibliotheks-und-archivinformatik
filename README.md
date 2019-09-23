@@ -10,7 +10,7 @@ Dieses Skript entsteht in der Zeit von September 2019 bis Januar 2020 im Rahmen 
 
 ## Arbeitsumgebung
 
-Wir nutzen eine vorkonfigurierte Arbeitsumgebung mit [JupyterLab](https://jupyterlab.readthedocs.io). Diese Arbeitsumgebung können Sie auf zwei Wegen nutzen:
+Wir nutzen eine vorkonfigurierte Arbeitsumgebung mit [JupyterLab](https://jupyterlab.readthedocs.io). Diese Arbeitsumgebung können Sie auf zwei Wegen erreichen:
 
 ### Option 1: Binder
 
