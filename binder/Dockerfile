@@ -20,3 +20,6 @@ COPY . ${HOME}
 RUN chown -R 1000 ${HOME}
 
 USER 1000
+
+# set jupyter root directory
+WORKDIR /
