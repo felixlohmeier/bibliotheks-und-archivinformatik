@@ -48,7 +48,7 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
    - Einführung in die Arbeitsumgebung JupyterLab:
      - Mike Driscoll (2019-04-17): [Getting Started With JupyterLab](https://dzone.com/articles/getting-started-with-jupyterlab)
    - Einführung in die Kommandozeile:
-     - Library Carpentry Lesson Unix Shell: [Vorschau mit nbviewer](https://nbviewer.jupyter.org/github/felixlohmeier/bibliotheks-und-archivinformatik/blob/master/01-lc-shell.ipynb) | [Launch Binder](https://mybinder.org/v2/gh/felixlohmeier/jupyter-stacks/master?urlpath=lab/tree/home/jovyan/01-lc-shell.ipynb)
+     - Library Carpentry Lesson Unix Shell: [Vorschau mit nbviewer](https://nbviewer.jupyter.org/github/felixlohmeier/bibliotheks-und-archivinformatik/blob/master/01-lc-shell.ipynb) | [Launch Binder](https://mybinder.org/v2/gh/felixlohmeier/bibliotheks-und-archivinformatik/master?urlpath=lab/tree/home/jovyan/01-lc-shell.ipynb)
    - VirtualBox installieren
    - Aufgabe: Blog einrichten für Lerntagebuch
 
