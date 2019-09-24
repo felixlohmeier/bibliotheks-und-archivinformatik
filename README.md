@@ -56,11 +56,11 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
 
 3. 30.10.2019: Archivsystem ArchivesSpace
 
-4. 06.11.2019: Repository-Software DSpace-CRIS
+4. 06.11.2019: Metadaten transformieren mit OpenRefine und MarcEdit
 
-5. 13.11.2019: Metadaten transformieren mit OpenRefine und MarcEdit
+5. 13.11.2019: Discovery-System VuFind und Suchmaschine Solr
 
-6. 27.11.2019: Discovery-System VuFind und Suchmaschine Solr
+6. 27.11.2019: Repository-Software DSpace-CRIS
 
 7. 11.12.2019: Linked Data und Fazit
 
