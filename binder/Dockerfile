@@ -11,8 +11,7 @@ RUN conda install --quiet --yes -c conda-forge \
 
 # grant root privileges to user jovyan
 RUN sed -i -e 's/^#%sudo/%sudo/' /etc/sudoers && \
-    echo 'jovyan ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers && \
-    usermod -a -G root jovyan
+    echo 'jovyan ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
 
 # copy repository content
 RUN rm -r ${HOME}/*
@@ -20,6 +19,3 @@ COPY . ${HOME}
 RUN chown -R 1000 ${HOME}
 
 USER 1000
-
-# set jupyter root directory
-WORKDIR /
