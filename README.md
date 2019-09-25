@@ -30,7 +30,7 @@ Die Software [VirtualBox](https://www.virtualbox.org/) ermöglicht es Ihnen, ver
 
 Laden Sie VirtualBox von der Webseite herunter, installieren Sie das Programm und importieren Sie dann die folgende Virtual Appliance:
 
-(Link zum Download folgt...)
+[lubuntu-jupyter-bain.ova](https://drive.switch.ch/index.php/s/DI5qngSao8SOs9b) (2,4 GB)
 
 ## Gemeinsames Dokument
 
