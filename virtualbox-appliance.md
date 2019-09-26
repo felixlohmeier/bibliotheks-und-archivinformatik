@@ -153,5 +153,111 @@ Die Installation soll funktional gleich zu den für binder verwendeten Dockerfil
 13. Konfiguration Startleiste
 
        - Leafpad starten und mit rechter Maustaste zum Starter hinzufügen
-
        - LX-Terminal starten und mit rechter Maus zum Starter hinzufügen
+
+   14. Virtuelle Maschine als Appliance exportieren über Dialog im Menü `Machine` > `Export to OCI`
+
+## Optional: Bootfähige USB-Sticks erstellen (als Alternative zu VirtualBox bei Hardware-Problemen)
+
+Wir nutzen dazu Linux Live Kit: https://www.linux-live.org.
+
+1. Snapshot in VirtualBox erstellen
+
+2. Voraussetzungen installieren: squasfhs und aufs
+
+   ```
+   sudo apt install aufs-tools squashfs-tools
+   ```
+
+3. Linux Live Kit herunterladen
+
+   ```
+   cd /tmp
+   git clone https://github.com/Tomas-M/linux-live.git
+   cd linux-live
+   ```
+
+4. Bei Bedarf Konfiguration in `config` anpassen
+
+5. Dateien generieren
+
+   ```
+   sudo build
+   ```
+
+6. ZIP-Archiv erstellen
+
+   ```
+   sudo /tmp/gen_linux_zip.sh
+   ```
+
+7. ZIP-Archiv auf USB-Stick entpacken
+
+8. Auf USB-Stick das Script boot/bootinst.sh ausführen
+
+   ```
+   mkdir bain
+   sudo umount /dev/sda1
+   sudo mount -t vfat -o rw,exec,uid=1000,gid=1000,umask=022 /dev/sda1 bain
+   cd bain/linux/boot
+   sudo ./bootinst.sh
+   ```
+
+9. Datei /linux/boot/syslinux.cfg anpassen
+
+   ```
+   UI /linux/boot/vesamenu.c32
+   
+   TIMEOUT 140
+   MENU ROWS 4
+   
+   MENU CLEAR
+   MENU BACKGROUND /linux/boot/bootlogo.png
+   
+   LABEL default
+   MENU LABEL Run Linux (Persistent changes)
+   KERNEL /linux/boot/vmlinuz
+   APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 slax.flags=perch apparmor=0
+   
+   LABEL default
+   MENU LABEL Run Linux (Fresh start)
+   KERNEL /linux/boot/vmlinuz
+   APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 apparmor=0
+   
+   LABEL default
+   MENU LABEL Run Linux (Copy to RAM)
+   KERNEL /linux/boot/vmlinuz
+   APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 slax.flags=toram apparmor=0
+   ```
+
+10. Von aktuellem [syslinux](https://mirrors.edge.kernel.org/pub/linux/utils/boot/syslinux/) (tested with syslinux-6.03) Dateien kopieren
+
+    - von efi64/syslinux.efi nach /EFI/boot/bootx64.efi
+    - von efi64/com32/elflink/ldlinux/ldlinux.e64 nach /EFI/boot/ldlinux.e64
+    - von efi64/com32/menu/menu.c32 nach /EFI/boot/menu.c32
+    - von efi64/com32/libutil nach /EFI/boot/libutil.c32
+
+11. Datei /EFI/boot/syslinux.cfg erstellen
+
+    ```
+    UI menu.c32
+    
+    TIMEOUT 40
+    
+    LABEL default
+    MENU LABEL Run Linux (Persistent changes)
+    KERNEL /linux/boot/vmlinuz
+    APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 slax.flags=perch apparmor=0
+    
+    LABEL default
+    MENU LABEL Run Linux (Fresh start)
+    KERNEL /linux/boot/vmlinuz
+    APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 apparmor=0
+    
+    LABEL default
+    MENU LABEL Run Linux (Copy to RAM)
+    KERNEL /linux/boot/vmlinuz
+    APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 slax.flags=toram apparmor=0
+    ```
+
+12. Früheren Snapshot in VirtualBox wiederherstellen
