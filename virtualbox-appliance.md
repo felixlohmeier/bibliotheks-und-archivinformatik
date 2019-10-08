@@ -182,7 +182,7 @@ Wir nutzen dazu Linux Live Kit: https://www.linux-live.org.
 5. Dateien generieren
 
    ```
-   sudo build
+   sudo ./build
    ```
 
 6. ZIP-Archiv erstellen
@@ -191,15 +191,15 @@ Wir nutzen dazu Linux Live Kit: https://www.linux-live.org.
    sudo /tmp/gen_linux_zip.sh
    ```
 
-7. ZIP-Archiv auf USB-Stick entpacken
+7. ZIP-Archiv auf USB-Stick entpacken (Unterverzeichnis linux in Hauptverzeichnis!)
 
 8. Auf USB-Stick das Script boot/bootinst.sh ausführen
 
    ```
-   mkdir bain
    sudo umount /dev/sda1
-   sudo mount -t vfat -o rw,exec,uid=1000,gid=1000,umask=022 /dev/sda1 bain
-   cd bain/linux/boot
+   mkdir usb
+   sudo mount /dev/sda1 usb
+   cd usb/linux/boot
    sudo ./bootinst.sh
    ```
 
