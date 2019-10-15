@@ -60,18 +60,18 @@ Die Installation soll funktional gleich zu den für binder verwendeten Dockerfil
 
    4. CD auswerfen im Dateimanager und neustarten
 
-5. Updates installieren und neustarten
+5. Sudo ohne Passwort erlauben
+
+   ```
+   sudo echo "$USER ALL=(ALL) NOPASSWD: ALL" | sudo tee --append /etc/sudoers
+   ```
+
+6. Updates installieren und neustarten
 
    ```
    sudo apt update && \
    sudo apt upgrade && \
    sudo shutdown -r now
-   ```
-
-6. Sudo ohne Passwort erlauben
-
-   ```
-   sudo echo "$USER ALL=(ALL) NOPASSWD: ALL" | sudo tee --append /etc/sudoers
    ```
 
 7. Installation JupyterLab via pip mit jupyter-server-proxy und bash_kernel
@@ -146,118 +146,99 @@ Die Installation soll funktional gleich zu den für binder verwendeten Dockerfil
        ln -s ~/bibliotheks-und-archivinformatik ~/Desktop/bibliotheks-und-archivinformatik
        ```
 
-12. Konfiguration Browser
-
-       - Startseite auf http://localhost:8888/lab/tree/home/bain/bibliotheks-und-archivinformatik setzen
-
-13. Konfiguration Startleiste
+12. Konfiguration Startleiste
 
        - Leafpad starten und mit rechter Maustaste zum Starter hinzufügen
        - LX-Terminal starten und mit rechter Maus zum Starter hinzufügen
+
+   13. Konfiguration Browser
+
+       - Startseite auf http://localhost:8888/lab/tree/home/bain/bibliotheks-und-archivinformatik setzen
 
    14. Virtuelle Maschine als Appliance exportieren über Dialog im Menü `Machine` > `Export to OCI`
 
 ## Optional: Bootfähige USB-Sticks erstellen (als Alternative zu VirtualBox bei Hardware-Problemen)
 
-Wir nutzen dazu Linux Live Kit: https://www.linux-live.org.
+Wir nutzen das Tool [mkusb](https://help.ubuntu.com/community/mkusb), um USB-Sticks zu erstellen, die mit BIOS und UEFI (inkl. Secure Boot) bootbar sind.
 
-1. Snapshot in VirtualBox erstellen
+Es werden USB-Sticks mit USB 3.0, schneller Schreibgeschwindigkeit und mindestens 16 GB Speicherplatz benötigt. Im Kurs wurde verwendet: [Sandisk Ultra Fit 32GB](https://www.idealo.de/preisvergleich/OffersOfProduct/4524027_-ultra-fit-32gb-sandisk.html).
 
-2. Voraussetzungen installieren: squasfhs und aufs
+1. Als erstes wird ein bootbarer Ubuntu USB stick benötigt. Folgen Sie der offiziellen Anleitung
 
-   ```
-   sudo apt install aufs-tools squashfs-tools
-   ```
+   - Windows: https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows
+   - macOS: https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos
+   - Linux: https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu
 
-3. Linux Live Kit herunterladen
-
-   ```
-   cd /tmp
-   git clone https://github.com/Tomas-M/linux-live.git
-   cd linux-live
-   ```
-
-4. Bei Bedarf Konfiguration in `config` anpassen
-
-5. Dateien generieren
+2. Booten Sie vom USB-Stick und installieren Sie mkusb
 
    ```
-   sudo ./build
+   sudo add-apt-repository universe  # only for standard Ubuntu
+   sudo add-apt-repository ppa:mkusb/ppa  # and press Enter
+   sudo apt-get update
+   sudo apt-get install mkusb mkusb-nox usb-pack-efi
    ```
 
-6. ZIP-Archiv erstellen
+3. Zweiten USB-Stick einstecken und mkusb starten
 
-   ```
-   sudo /tmp/gen_linux_zip.sh
-   ```
+   - Option `Install` / `Persistent Live` wählen
+   - Einstellung `msdos` auswählen
 
-7. ZIP-Archiv auf USB-Stick entpacken (Unterverzeichnis linux in Hauptverzeichnis!)
+4. Herunterfahren, ersten USB-Stick entfernen und vom verbliebenen (zweiten) USB-Stick im Modus Run Lubuntu - persistent live" booten
 
-8. Auf USB-Stick das Script boot/bootinst.sh ausführen
+   1. Tastatur einstellen
 
-   ```
-   sudo umount /dev/sda1
-   mkdir usb
-   sudo mount /dev/sda1 usb
-   cd usb/linux/boot
-   sudo ./bootinst.sh
-   ```
+      - System Tools > Fcitx starten.
+      - Unten rechts erscheint ein Tastatur-Icon. Dort `configure` aufrufen.
+      - Bei Available Input Method `German` > `Keyboard - German` auswählen und Button Pfeil nach rechts anklicken. Dann `Keyboard - English (US)` rechts anklicken und Button Pfeil nach links anklicken.
 
-9. Datei /linux/boot/syslinux.cfg anpassen
+   2. Spracheinstellungen
 
-   ```
-   UI /linux/boot/vesamenu.c32
-   
-   TIMEOUT 140
-   MENU ROWS 4
-   
-   MENU CLEAR
-   MENU BACKGROUND /linux/boot/bootlogo.png
-   
-   LABEL default
-   MENU LABEL Run Linux (Persistent changes)
-   KERNEL /linux/boot/vmlinuz
-   APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 slax.flags=perch apparmor=0
-   
-   LABEL default
-   MENU LABEL Run Linux (Fresh start)
-   KERNEL /linux/boot/vmlinuz
-   APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 apparmor=0
-   
-   LABEL default
-   MENU LABEL Run Linux (Copy to RAM)
-   KERNEL /linux/boot/vmlinuz
-   APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 slax.flags=toram apparmor=0
-   ```
+      - Preferences > Language Support starten.
+      - Tab `Language`
+         - Deutsch (Deutschland) vor English schieben
+         - System der Tastatureingabemethode: `fcitx`
+         - Button `Apply System-Wide` drücken
+      - Tab `Regional Formats` 
+         - Deutsch (Deutschland) auswählen
+         - Button  `Apply System-Wide` drücken
 
-10. Von aktuellem [syslinux](https://mirrors.edge.kernel.org/pub/linux/utils/boot/syslinux/) (tested with syslinux-6.03) Dateien kopieren
+   3. Zeiteinstellungen:
 
-    - von efi64/syslinux.efi nach /EFI/boot/bootx64.efi
-    - von efi64/com32/elflink/ldlinux/ldlinux.e64 nach /EFI/boot/ldlinux.e64
-    - von efi64/com32/menu/menu.c32 nach /EFI/boot/menu.c32
-    - von efi64/com32/libutil nach /EFI/boot/libutil.c32
+      - System Tools > Time and Date starten
+      - Time Zone: `Europe/Berlin` auswählen
 
-11. Datei /EFI/boot/syslinux.cfg erstellen
+   4. Neustarten und beim anschließenden Dialog `Namen aktualisieren` wählen.
 
-    ```
-    UI menu.c32
-    
-    TIMEOUT 40
-    
-    LABEL default
-    MENU LABEL Run Linux (Persistent changes)
-    KERNEL /linux/boot/vmlinuz
-    APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 slax.flags=perch apparmor=0
-    
-    LABEL default
-    MENU LABEL Run Linux (Fresh start)
-    KERNEL /linux/boot/vmlinuz
-    APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 apparmor=0
-    
-    LABEL default
-    MENU LABEL Run Linux (Copy to RAM)
-    KERNEL /linux/boot/vmlinuz
-    APPEND vga=normal initrd=/linux/boot/initrfs.img load_ramdisk=1 prompt_ramdisk=0 nohd rw printk.time=0 consoleblank=0 slax.flags=toram apparmor=0
-    ```
+   5. Internetverbindung herstellen über Network Manager Icon unten rechts
 
-12. Früheren Snapshot in VirtualBox wiederherstellen
+   6. Systemupdates
+
+      ```
+      sudo apt update && sudo apt upgrade
+      ```
+
+5. Neustarten, wieder im Modus "Run Lubuntu - persistent live" booten und dann Schritte 7-12 aus der obigen Anleitung zu VirtualBox ausführen
+
+6. Konfiguration Browser
+
+   - Startseite auf http://localhost:8888/lab/tree/home/lubuntu/bibliotheks-und-archivinformatik setzen
+
+7. Passwörter löschen (z.B. WLAN-Passwort)
+
+8. Im Modus "Try Lubuntu without installing" booten
+
+   1. Datei `media/lubuntu/usbboot/boot/grub` bearbeiten
+
+      1. Menüeintrag `Try Lubuntu without installing` umbenennen in `Run Lubuntu - without changes (backup & restore)`
+      2. Die beiden Menüeinträge für Installation entfernen
+
+   2. Backup erstellen
+
+      ```
+      cd /media/lubuntu/usbdata
+      bash backup
+      ```
+
+Bei Bedarf können Backups auf die gleiche Weise wiederhergestellt werden (mit `bash restore`). Die Partition `usbdata` ist in anderen Betriebssystemen lesbar (NTFS), so dass die Backups auch anderswo gespeichert werden können.
+
+Zur Vervielfältigung der USB-Sticks bietet sich ein Disk Utility an, unter Gnome beispielsweise "Disks". Damit lässt sich ein Image erstellen und anschließend auf weitere USB-Sticks aufspielen.

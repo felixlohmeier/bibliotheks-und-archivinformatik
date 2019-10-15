@@ -92,6 +92,10 @@ Herbstsemester 2017:
 * Zenodo: [10.5281/zenodo.3383051](https://doi.org/10.5281/zenodo.3383051)
 * GitHub: [v1.0](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/releases/tag/v1.0)
 
+## Hinweise für Lehrende
+
+* [Anleitung für Erstellung der VirtualBox Appliance](virtualbox-appliance.md)
+
 ## Lizenz
 
 Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung 4.0 International Lizenz](http://creativecommons.org/licenses/by/4.0/)
