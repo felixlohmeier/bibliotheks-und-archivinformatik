@@ -10,29 +10,26 @@ Dieses Skript entsteht in der Zeit von September 2019 bis Januar 2020 im Rahmen 
 
 ## Arbeitsumgebung
 
-Wir nutzen eine vorkonfigurierte Arbeitsumgebung mit [JupyterLab](https://jupyterlab.readthedocs.io). Diese Arbeitsumgebung können Sie auf zwei Wegen erreichen:
+Wir nutzen eine vorkonfigurierte Arbeitsumgebung mit [Lubuntu 18.04 LTS](https://lubuntu.me/) und [JupyterLab](https://jupyterlab.readthedocs.io).
 
-### Option 1: Binder
+![virtualbox-jupyterlab](virtualbox-jupyterlab.png)
 
-Klicken Sie den folgenden Button an, um eine neue Arbeitsumgebung auf einem Cloud-Server des [Binder](https://mybinder.org/)-Projekts zu starten:
-
-[![Launch Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/felixlohmeier/bibliotheks-und-archivinformatik/master?urlpath=lab/tree/home/jovyan)
-
-Bei diesem kostenfrei und ohne Registrierung nutzbaren Angebot, sind folgende [Einschränkungen](https://mybinder.readthedocs.io/en/latest/faq.html#how-much-memory-am-i-given-when-using-binder) zu beachten:
-
-* Beschränkt auf 1-2 GB Arbeitsspeicher; bei höherer Auslastung erfolgt ein Neustart.
-* Nach 10 Minuten Inaktivität wird der Server gelöscht. Um das zu vermeiden, reicht es aus, das Browserfenster geöffnet zu lassen.
-* Eine Session sollte maximal 12 Stunden dauern. Danach kann es zum Abbruch der Session kommen.
-
-### Option 2: VirtualBox
+### Option 1: VirtualBox
 
 Die Software [VirtualBox](https://www.virtualbox.org/) ermöglicht es Ihnen, verschiedene Arbeitsumgebungen auf Ihrem Computer zu installieren, ohne dass Ihr gewohntes Betriebssystem verändert wird. VirtualBox ist kostenfrei für Windows, macOS und Linux erhältlich.
 
-Laden Sie VirtualBox von der Webseite herunter, installieren Sie das Programm und importieren Sie dann die folgende Virtual Appliance:
+Laden Sie VirtualBox von der Webseite herunter, installieren Sie das Programm und importieren Sie dann die folgende Virtual Appliance: [lubuntu-jupyter-bain.ova](https://drive.switch.ch/index.php/s/DI5qngSao8SOs9b) (2,4 GB)
 
-[lubuntu-jupyter-bain.ova](https://drive.switch.ch/index.php/s/DI5qngSao8SOs9b) (2,4 GB)
+* user: `bain`
+* pass: `bain2019`
 
-## Gemeinsames Dokument
+### Option 2: Booten von USB-Stick
+
+In einigen Fällen erfüllen die mitgebrachten Laptops nicht die Anforderungen (2 GB freier Arbeitsspeicher, 20 GB freier Festplattenspeicher, Unterstützung für Hardware-Virtualisierung VT-X oder AMD-V) für die bereitgestellte VirtualBox Appliance. Meist lässt sich dies durch eine Konfiguration (Festplatte aufräumen, Aktivierung VT-X / AMD-V in der UEFI-Firmware, Deinstallation von Windows-Feature Hyper-V) beheben.
+
+Für die verbleibenden Fälle, in denen VirtualBox nicht verwendet werden kann, werden bootfähige USB-Sticks bereitgestellt, auf denen die gleiche Arbeitsumgebung installiert ist wie in der VirtualBox Appliance.
+
+### Gemeinsames Dokument
 
 Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [CodiMD](https://github.com/codimd/server)-Installation [bei der GWDG](https://pad.gwdg.de/). Alle, die den Link kennen, können es bearbeiten. Zur Formatierung wird [Markdown](https://de.wikipedia.org/wiki/Markdown) verwendet.
 
@@ -42,26 +39,27 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
 
 1. 25.09.2019: Installation und Grundlagen
    - Vorstellungsrunde und Organisatorisches
-   - Einführung in Markdown und CodiMD:
-     - [Präsentation zu CodiMD](https://felixlohmeier.de/slides/2019-06-13_oercamp-reader.html)
+   - Einführung in Markdown (und CodiMD)
      - [Markdown Tutorial](https://www.markdowntutorial.com/)
-   - Einführung in die Arbeitsumgebung JupyterLab:
-     - Mike Driscoll (2019-04-17): [Getting Started With JupyterLab](https://dzone.com/articles/getting-started-with-jupyterlab)
-   - Einführung in die Kommandozeile:
-     - Library Carpentry Lesson Unix Shell: [Vorschau mit nbviewer](https://nbviewer.jupyter.org/github/felixlohmeier/bibliotheks-und-archivinformatik/blob/master/01-lc-shell.ipynb) | [Launch Binder](https://mybinder.org/v2/gh/felixlohmeier/bibliotheks-und-archivinformatik/master?urlpath=lab/tree/home/jovyan/01-lc-shell.ipynb)
-   - VirtualBox installieren
+   - Einführung in die Arbeitsumgebung JupyterLab
+   - Einführung in die Kommandozeile
+     - Installation: [Vorschau mit nbviewer](https://nbviewer.jupyter.org/github/felixlohmeier/bibliotheks-und-archivinformatik/blob/master/01-lc-shell.ipynb)
+     - [Library Carpentry: The UNIX Shell](https://librarycarpentry.org/lc-shell/) (Kapitel 2, 3 und 5)
    - Aufgabe: Blog einrichten für Lerntagebuch
-
 2. 09.10.2019: Bibliothekssystem Koha
-
+   - Einführung in Virtualisierungstechnologien
+   - VirtualBox auf mitgebrachten Laptops installieren
+   - Koha installieren und anwenden
+     - Installation: [Vorschau mit nbviewer](https://nbviewer.jupyter.org/github/felixlohmeier/bibliotheks-und-archivinformatik/blob/master/02-koha-install.ipynb)
+     - Tutorial von Stephan Tetzel (2018): [Wie man Koha installiert und für Schulen einrichtet](https://zefanjas.de/wie-man-koha-installiert-und-fuer-schulen-einrichtet-teil-1/) (Kapitel 1-6)
+   - Metadatenstandards in Bibliotheken (hier MARC21)
+   - Marktüberblick Bibliothekssysteme
+     - Marshall Breeding: [Library Systems Report 2019](https://americanlibrariesmagazine.org/2019/05/01/library-systems-report-2019/)
+   - Aufgabe: Blogbeiträge zu Tag 1 und Tag 2
 3. 30.10.2019: Archivsystem ArchivesSpace
-
 4. 06.11.2019: Metadaten transformieren mit OpenRefine und MarcEdit
-
 5. 13.11.2019: Discovery-System VuFind und Suchmaschine Solr
-
 6. 27.11.2019: Repository-Software DSpace-CRIS
-
 7. 11.12.2019: Linked Data und Fazit
 
 ## Lerntagebücher
@@ -94,7 +92,7 @@ Herbstsemester 2017:
 
 ## Hinweise für Lehrende
 
-* [Anleitung für Erstellung der VirtualBox Appliance](virtualbox-appliance.md)
+* [Anleitung für Herstellung der VirtualBox Appliance](virtualbox-appliance.md)
 
 ## Lizenz
 

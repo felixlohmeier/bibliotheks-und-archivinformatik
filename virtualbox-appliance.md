@@ -1,14 +1,8 @@
-# VirtualBox Appliance herstellen (Notiz für Lehrende)
+# VirtualBox Appliance herstellen (Hinweis für Lehrende)
 
-Als eine von zwei Optionen wird die Verwendung der Software VirtualBox empfohlen. Den Studierenden wird eine vorkonfigurierte Arbeitsumgebung mit JupyterLab in Form einer Appliance (.ova) bereitgestellt.
+Den Studierenden wird eine vorkonfigurierte Arbeitsumgebung mit JupyterLab in Form einer VirtualBox Appliance (.ova) bereitgestellt.
 
 Hier wird dokumentiert, wie diese Appliance hergestellt wird.
-
-Die Installation soll funktional gleich zu den für binder verwendeten Dockerfiles sein:
-
-* base-notebook: [Dockerfile für tag 1386e20468](https://github.com/jupyter/docker-stacks/blob/1386e20468332f32a028c6224bbd8439eb406ee4/base-notebook/Dockerfile)
-* minimal-notebook: [Dockerfile für tag 1386e20468](https://github.com/jupyter/docker-stacks/blob/1386e20468332f32a028c6224bbd8439eb406ee4/minimal-notebook/Dockerfile)
-* eigene Erweiterungen: [Dockerfile](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/blob/master/binder/Dockerfile)
 
 ## Installation
 
