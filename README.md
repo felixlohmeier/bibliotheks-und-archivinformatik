@@ -55,8 +55,18 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
    - Metadatenstandards in Bibliotheken (hier MARC21)
    - Marktüberblick Bibliothekssysteme
      - Marshall Breeding: [Library Systems Report 2019](https://americanlibrariesmagazine.org/2019/05/01/library-systems-report-2019/)
-   - Aufgabe: Blogbeiträge zu Tag 1 und Tag 2
+   - Aufgabe bis 30.10.: Blogbeiträge zu Tag 1 und Tag 2
 3. 30.10.2019: Archivsystem ArchivesSpace
+   - Anwendungsfälle für Shell-Scripte
+   - Feedback zu Lerntagebüchern
+   - Metadatenstandards in Archiven (hier ISAD(g) und EAD)
+   - Gastbeitrag zu Archiven der ETH-Bibliothek von Michael Gasser
+   - ArchivesSpace installieren und anwenden
+     - Installation: [Vorschau mit nbviewer](https://nbviewer.jupyter.org/github/felixlohmeier/bibliotheks-und-archivinformatik/blob/master/03-archivesspace.ipynb)
+     - Ausprobieren anhand der [Einführungsvideos](https://www.youtube.com/playlist?list=PL3cxupmXL7WiXaHnpVquPrUUiLiDAMhg0)
+   - Aufgabe bis 6.11.: OpenRefine kennenlernen
+     - Installation: [Vorschau mit nbviewer](https://nbviewer.jupyter.org/github/felixlohmeier/bibliotheks-und-archivinformatik/blob/master/04-lc-openrefine.ipynb)
+     - [Library Carpentry: OpenRefine](https://librarycarpentry.org/lc-openrefine/)
 4. 06.11.2019: Metadaten transformieren mit OpenRefine und MarcEdit
 5. 13.11.2019: Discovery-System VuFind und Suchmaschine Solr
 6. 27.11.2019: Repository-Software DSpace-CRIS
