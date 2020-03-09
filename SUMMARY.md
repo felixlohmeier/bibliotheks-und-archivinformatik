@@ -1,0 +1,11 @@
+* [Einleitung](README.md)
+* [1. Installation und Grundlagen](01_installation-und-grundlagen.md)
+* [2. Bibliothekssystem Koha](02_bibliothekssystem-koha.md)
+* [3. Archivsystem ArchivesSpace](03_archivsystem-archivesspace.md)
+* [4. Metadaten transformieren mit OpenRefine und MarcEdit](04_metadaten-transformieren-mit-openrefine-und-marcedit.md)
+* [5. Discovery-System VuFind und Suchmaschine Solr](05_discovery-system-vufind-und-suchmaschine-solr.md)
+* [6. Repository-Software DSpace-CRIS](06_repository-software-dspace-cris.md)
+* [7. Linked Data und Fazit](07_linked-data-und-fazit.md)
+
+- [VirtualBox Appliance erstellen](notes_virtualbox-appliance-erstellen.md)
+- [Bootfähige USB-Sticks erstellen](bootfaehige-usb-sticks-erstellen.md)

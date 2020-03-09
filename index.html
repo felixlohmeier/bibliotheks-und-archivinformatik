@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VuFind Tutorial (de)</title>
+  <meta name="author" content="Felix Lohmeier">
+  <meta name="description" content="Skript zum Kurs Bibliotheks- und Archivinformatik an der FH Graubünden im Herbstsemester 2019">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="referrer" content="no-referrer">
+  <link rel="stylesheet" href="docsify/buble.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: "BAIN HS19",
+      repo: "felixlohmeier/bibliotheks-und-archivinformatik",
+      subMaxLevel: 2,
+      search: 'auto',
+      loadSidebar: 'SUMMARY.md',
+      auto2top: true,
+      noEmoji: true,
+      pagination: {
+        previousText: 'ZURÜCK',
+        nextText: 'VOR',
+        crossChapter: true
+        },
+      copyCode: {
+        buttonText : 'In die Zwischenablage',
+        errorText  : 'Fehler',
+        successText: 'Kopiert!'
+      }
+    }
+  </script>
+  <script src="docsify/docsify.min.js"></script>
+  <script src="docsify/docsify-copy-code.min.js"></script>
+  <script src="docsify/docsify-pagination.min.js"></script>
+  <script src="docsify/prism-bash.min.js"></script>
+  <script src="docsify/search.min.js"></script>
+  <script src="docsify/zoom-image.min.js"></script>
+</body>
+</html>
