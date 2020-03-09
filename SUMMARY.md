@@ -6,6 +6,5 @@
 * [5. Discovery-System VuFind und Suchmaschine Solr](05_discovery-system-vufind-und-suchmaschine-solr.md)
 * [6. Repository-Software DSpace-CRIS](06_repository-software-dspace-cris.md)
 * [7. Linked Data und Fazit](07_linked-data-und-fazit.md)
-
-- [VirtualBox Appliance erstellen](notes_virtualbox-appliance-erstellen.md)
-- [Bootfähige USB-Sticks erstellen](bootfaehige-usb-sticks-erstellen.md)
+* [VirtualBox Appliance erstellen](notes_virtualbox-appliance-erstellen.md)
+* [Bootfähige USB-Sticks erstellen](notes_bootfaehige-usb-sticks-erstellen.md)
