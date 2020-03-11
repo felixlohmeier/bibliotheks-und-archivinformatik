@@ -10,7 +10,7 @@ Dieses Skript entsteht in der Zeit von März bis Mai 2020 im Rahmen der folgende
 
 ## Gemeinsames Dokument
 
-Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [CodiMD](https://github.com/codimd/server)-Installation [bei der GWDG](https://pad.gwdg.de/). Alle, die den Link kennen, können es bearbeiten. Zur Formatierung wird [Markdown](https://de.wikipedia.org/wiki/Markdown) verwendet.
+Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [CodiMD](https://github.com/codimd/server)-Installation [bei der GWDG](https://pad.gwdg.de/). Alle, die den Link kennen, können es bearbeiten. Zur Formatierung wird [Markdown](https://www.markdownguide.org/basic-syntax/) verwendet.
 
 * [Gemeinsames Dokument](https://pad.gwdg.de/-r6PYpRjScC-w0JuI_Ovcg?both)
 
@@ -44,6 +44,10 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
 7. [Linked Data](07_linked-data.md) (06.06.2020)
    - Suchanfragen mit SPARQL am Beispiel des Wikidata Query Service
    - Metadaten anreichern mit OpenRefine und Wikidata
+
+Hinweise für Lehrende:
+
+* [Azure Lab einrichten](azure-lab-einrichten.md)
 
 ## Lerntagebücher
 
