@@ -6,3 +6,4 @@
 * [5. Metadaten modellieren und Schnittstellen nutzen](05_metadaten-modellieren-und-schnittstellen-nutzen.md)
 * [6. Suchmaschinen und Discovery-Systeme](06_suchmaschinen-und-discovery-systeme.md)
 * [7. Linked Data](07_linked-data.md)
+* [Azure Lab einrichten](azure-lab-einrichten.md)
