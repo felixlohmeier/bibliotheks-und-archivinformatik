@@ -72,7 +72,7 @@ Nach erfolgreicher Teilnahme am Modul sind die Studierenden in der Lage:
 Herbstsemester 2019:
 
 * Zenodo: [10.5281/zenodo.3701841](https://zenodo.org/record/3701841)
-* GitHub: [v2.0](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/releases/tag/v1.0)
+* GitHub: [v2.0](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/releases/tag/v2.0)
 
 Herbstsemester 2017:
 
