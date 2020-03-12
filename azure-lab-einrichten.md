@@ -12,11 +12,12 @@ Basiert auf: Anleitung von Microsoft zum [Einrichten eines Labs zur Schulung in 
 
 3. Unter https://labs.azure.com anmelden und ein neues Lab erstellen: https://docs.microsoft.com/de-de/azure/lab-services/classroom-labs/tutorial-setup-classroom-lab (Template erstellen dauert ca. 1 Stunde!)
    - Virtual machine (VM) size: `Small` (2 cores, 4GB RAM, $0.20 per hour)
+     - Achtung: Labs sind auf 50 cores beschränkt.  Das Template zählt mit, also kann man mit dieser Konfiguration 24 user ausstatten. Wenn man mehr braucht, muss man eine Supportanfrage stellen.
    - VM Image: `Ubuntu Server 19.10`
    - Enable remote desktop connecton: `Enable`
    - username: `bain`
    - password: `bainFS20`
-   - quota: `20`
+   - quota: `40`
 
 4. Mit dem Template via SSH verbinden und RDP einrichten: https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop
 
@@ -45,7 +46,7 @@ Basiert auf: Anleitung von Microsoft zum [Einrichten eines Labs zur Schulung in 
 
 * Die SSH und RDP-Verbindungen zu den VMs laufen auf dynamischen Ports im Bereich 49152-65535. Falls diese im Netzwerk (für die Public IP des Labs) nicht freigegeben werden können, dann muss ein Proxy verwendet werden (siehe unten: "Optional: Guacamole").
 * Nutzer\*innen benötigen ein Microsoft-Konto. Die E-Mail-Adresse der Einladung und die E-Mail-Adresse des Microsoft-Kontos müssen übereinstimmen.
-* Längere Ladezeiten sind einzuplanen: Das Starten und Stoppen der VMs dauert einige Minuten.
+* Längere Ladezeiten sind einzuplanen: Das Starten und Stoppen der VMs dauert einige Minuten. Die VMs einzurichten oder zurückzusetzen dauert 1 Stunde!
 * Bei der ersten Anmeldung kann ein Passwort vergeben und jederzeit zurückgesetzt werden.
 * Die VM kann von den Lehrenden auf den Ausgangszustand (Template) zurückgesetzt werden.
 * RDP Clients für Nicht-Windows-Betriebssysteme:
