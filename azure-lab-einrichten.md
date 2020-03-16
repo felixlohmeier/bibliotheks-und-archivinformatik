@@ -46,6 +46,7 @@ Basiert auf: Anleitung von Microsoft zum [Einrichten eines Labs zur Schulung in 
 
 * Die SSH und RDP-Verbindungen zu den VMs laufen auf dynamischen Ports im Bereich 49152-65535. Falls diese im Netzwerk (für die Public IP des Labs) nicht freigegeben werden können, dann muss ein Proxy verwendet werden (siehe unten: "Optional: Guacamole").
 * Nutzer\*innen benötigen ein Microsoft-Konto. Die E-Mail-Adresse der Einladung und die E-Mail-Adresse des Microsoft-Kontos müssen übereinstimmen.
+  * Achtung: Wenn die Hochschule bereits mit Microsoft zusammenarbeitet, kann es sein, dass die E-Mail-Adressen der Studierenden für die Registrierung gesperrt sind. Dann müssen wohl oder übel private E-Mail-Adressen zur Einrichtung des Kontos verwendet werden.
 * Längere Ladezeiten sind einzuplanen: Das Starten und Stoppen der VMs dauert einige Minuten. Die VMs einzurichten oder zurückzusetzen dauert 1 Stunde!
 * Bei der ersten Anmeldung kann ein Passwort vergeben und jederzeit zurückgesetzt werden.
 * Die VM kann von den Lehrenden auf den Ausgangszustand (Template) zurückgesetzt werden.
