@@ -54,6 +54,7 @@ Hinweise für Lehrende:
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
 * [Beispiel](http://www.example.org)
+* [Lerntagebuch](https://github.com/Rachel-Noemi-Thommen/Lerntagebuch) 
 
 ## Modulbeschreibung
 
