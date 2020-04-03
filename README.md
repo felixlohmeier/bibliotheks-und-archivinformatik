@@ -54,6 +54,7 @@ Hinweise für Lehrende:
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
 * [Beispiel](http://www.example.org)
+* [https://sarahclavadetscher.github.io/bain-lernblog/](https://sarahclavadetscher.github.io/bain-lernblog/)
 * [Erica von Flüe](https://mimbulus89.wordpress.com/)
 * [Lerntagebuch Sidney Manhart](https://sidney-manhart.github.io)
 * [https://bain.grueninger-webdesign.ch/](https://bain.grueninger-webdesign.ch/)
