@@ -55,6 +55,11 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 
 * [Beispiel](http://www.example.org)
 * [Erica von Flüe](https://mimbulus89.wordpress.com/)
+* [Lerntagebuch Sidney Manhart](https://sidney-manhart.github.io)
+* [https://bain.grueninger-webdesign.ch/](https://bain.grueninger-webdesign.ch/)
+* https://alset2103.github.io/Lerntagebuch-BAIN/
+* [BAIN-Blog: learning by doing](https://librarygirllost.github.io/bain-learning-by-doing/)
+* [Lerntagebuch](https://github.com/Rachel-Noemi-Thommen/Lerntagebuch) 
 
 ## Modulbeschreibung
 
