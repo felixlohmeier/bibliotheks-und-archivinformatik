@@ -55,6 +55,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 
 * [Beispiel](http://www.example.org)
 * [BAIN-Blog: learning by doing](https://librarygirllost.github.io/bain-learning-by-doing/)
+* [Lerntagebuch](https://github.com/Rachel-Noemi-Thommen/Lerntagebuch) 
 
 ## Modulbeschreibung
 
