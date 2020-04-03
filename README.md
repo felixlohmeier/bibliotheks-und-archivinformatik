@@ -53,7 +53,8 @@ Hinweise für Lehrende:
 
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
-* [Beispiel](http://www.example.org)
+* [Beispiel](http://www.example.org) 
+* https://alset2103.github.io/Lerntagebuch-BAIN/
 * [BAIN-Blog: learning by doing](https://librarygirllost.github.io/bain-learning-by-doing/)
 * [Lerntagebuch](https://github.com/Rachel-Noemi-Thommen/Lerntagebuch) 
 
