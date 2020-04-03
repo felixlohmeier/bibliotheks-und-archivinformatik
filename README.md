@@ -54,6 +54,7 @@ Hinweise für Lehrende:
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
 * [Beispiel](http://www.example.org)
+* [Nadine Kramer](https://de.wix.com/website/builder?referral=split%20page&vertical=blog&storyId=fe9f2582-80cf-4447-85d8-3981ba5dbdb4#!/builder/story/fe9f2582-80cf-4447-85d8-3981ba5dbdb4:cff9602a-6eea-4a6e-88bd-79a23dd4fdba)
 
 ## Modulbeschreibung
 
