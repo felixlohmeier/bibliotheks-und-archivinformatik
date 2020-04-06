@@ -53,7 +53,17 @@ Hinweise für Lehrende:
 
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
-(folgt)
+* [Beispiel](http://www.example.org)
+* [Lerntagebuch Michael Mathys](https://michaelmathys.github.io/BAIN/Lerntagebuch)
+* [AZ](https://bainaz.github.io/BAINLT/)
+* [Nadine Kramer](https://de.wix.com/website/builder?referral=split%20page&vertical=blog&storyId=fe9f2582-80cf-4447-85d8-3981ba5dbdb4#!/builder/story/fe9f2582-80cf-4447-85d8-3981ba5dbdb4:cff9602a-6eea-4a6e-88bd-79a23dd4fdba)
+* [https://sarahclavadetscher.github.io/bain-lernblog/](https://sarahclavadetscher.github.io/bain-lernblog/)
+* [Erica von Flüe](https://mimbulus89.wordpress.com/)
+* [Lerntagebuch Sidney Manhart](https://sidney-manhart.github.io)
+* [https://bain.grueninger-webdesign.ch/](https://bain.grueninger-webdesign.ch/)
+* https://alset2103.github.io/Lerntagebuch-BAIN/
+* [BAIN-Blog: learning by doing](https://librarygirllost.github.io/bain-learning-by-doing/)
+* [Lerntagebuch](https://github.com/Rachel-Noemi-Thommen/Lerntagebuch) 
 
 ## Modulbeschreibung
 
