@@ -247,3 +247,29 @@ git push
 [Das Päckchen ("commit") bei GitHub](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/commit/caa6dc8dd640e0d1df86780288f84e0c47b81bef)
 
 ![Screenshot GitHub](https://bain.felixlohmeier.de/images/01_git-demo_9.png)
+
+### Blog mit GitHub Pages
+
+* Mit GitHub Pages lassen sich statische Webseiten direkt aus den Dateien im GitHub Repository generieren und auf Servern von GitHub kostenfrei veröffentlichen.
+* GitHub verwendet dazu den (hauseigenen) Static-Site-Generator [Jekyll](https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll).
+  * Die Software nimmt Markdown- und HTML-Dateien und generiert daraus eine komplette Webseite.
+  * Die Darstellung (Themes) lässt sich über eine Konfigurationsdatei einstellen.
+* Interaktives Tutorial von GitHub: https://lab.github.com/githubtraining/github-pages
+
+### Übung: Pull Requests
+
+**Aufgabe (10 Minuten):** Link zum Lerntagebuch im Skript ergänzen
+
+1. Fork von Repository https://github.com/felixlohmeier/bibliotheks-und-archivinformatik erstellen ([Direktlink](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/fork ))
+2. Datei `README.md` in Ihrem Fork bearbeiten und Link zu Ihrem Lerntagebuch in [Abschnitt "Lerntagebücher"](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/blob/master/README.md#lerntageb%C3%BCcher) ergänzen
+3. Pull Request erstellen
+
+Siehe auch: [Anleitung von GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
+
+### Alternative zu GitHub: GitLab
+
+* GitLab wird von einem kleinen Unternehmen entwickelt
+* basiert ebenfalls auf der Software git
+* Hat eine vergleichbare Funktion zu GitHub Pages: [GitLab Pages](https://docs.gitlab.com/ce/user/project/pages/)
+* Kann auf einem eigenen Server installiert werden
+* Vergleich von GitHub und GitLab: <https://www.heise.de/tipps-tricks/GitHub-vs-GitLab-4597154.html>
