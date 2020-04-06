@@ -20,19 +20,19 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
    - Einrichtung der Arbeitsumgebung (Linux)
    - Grundlagen der Unix Shell
    - Versionskontrolle mit Git
-2. [Funktion und Aufbau von Bibliothekssystemen](02_funktion-und-aufbau-von-bibliothekssystemen.md) (13.03.2020/03.04.2020)
+2. [Funktion und Aufbau von Bibliothekssystemen](02_funktion-und-aufbau-von-bibliothekssystemen.md) (03.04.2020)
    - Installation und Konfiguration von Koha
    - Metadatenstandards in Bibliotheken (MARC21)
    - Marktüberblick Bibliothekssysteme
-3. [Funktion und Aufbau von Archivsystemen](03_funktion-und-aufbau-von-archivsystemen.md) (03.04.2020)
+3. [Funktion und Aufbau von Archivsystemen](03_funktion-und-aufbau-von-archivsystemen.md) (24.04.2020)
    - Installation und Konfiguration von ArchivesSpace
    - Metadatenstandards in Archiven (ISAD(G) und EAD)
    - Marktüberblick Archivsysteme
-4. [Repository-Software für Publikationen und Forschungsdaten](04_repository-software-fuer-publikationen-und-forschungsdaten.md) (15.05.2020)
+4. [Repository-Software für Publikationen und Forschungsdaten](04_repository-software-fuer-publikationen-und-forschungsdaten.md) (24.04.2020)
    - Installation und Konfiguration von DSpace
    - Open Access und Open Data
    - Marktüberblick Repository-Software
-5. [Metadaten modellieren und Schnittstellen nutzen](05_metadaten-modellieren-und-schnittstellen-nutzen.md) (15.05.2020)
+5. [Metadaten modellieren und Schnittstellen nutzen](05_metadaten-modellieren-und-schnittstellen-nutzen.md) (05.06.2020)
    - Transformation von Metadaten mit OpenRefine
    - XSLT Crosswalks mit MarcEdit
    - Austauschprotokolle für Metadaten (OAI-PMH, SRU)
