@@ -254,7 +254,8 @@ git push
 * GitHub verwendet dazu den (hauseigenen) Static-Site-Generator [Jekyll](https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll).
   * Die Software nimmt Markdown- und HTML-Dateien und generiert daraus eine komplette Webseite.
   * Die Darstellung (Themes) lässt sich über eine Konfigurationsdatei einstellen.
-* Interaktives Tutorial von GitHub: https://lab.github.com/githubtraining/github-pages
+* [Vorlage für ein Lerntagebuch mit GitHub Pages](https://github.com/felixlohmeier/lerntagebuch) (mit Schritt-für-Schritt-Anleitung)
+* Siehe auch: [Interaktives Tutorial von GitHub](https://lab.github.com/githubtraining/github-pages)
 
 ### Übung: Pull Requests
 
