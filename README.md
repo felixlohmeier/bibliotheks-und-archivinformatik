@@ -21,12 +21,12 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
    - Grundlagen der Unix Shell
    - Versionskontrolle mit Git
 2. [Funktion und Aufbau von Bibliothekssystemen](02_funktion-und-aufbau-von-bibliothekssystemen.md) (03.04.2020)
-   - Installation und Konfiguration von Koha
    - Metadatenstandards in Bibliotheken (MARC21)
+   - Installation und Konfiguration von Koha
    - Marktüberblick Bibliothekssysteme
 3. [Funktion und Aufbau von Archivsystemen](03_funktion-und-aufbau-von-archivsystemen.md) (24.04.2020)
-   - Installation und Konfiguration von ArchivesSpace
    - Metadatenstandards in Archiven (ISAD(G) und EAD)
+   - Installation und Konfiguration von ArchivesSpace
    - Marktüberblick Archivsysteme
 4. [Repository-Software für Publikationen und Forschungsdaten](04_repository-software-fuer-publikationen-und-forschungsdaten.md) (24.04.2020)
    - Installation und Konfiguration von DSpace

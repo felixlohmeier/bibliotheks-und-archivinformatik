@@ -1,8 +1,35 @@
 # Funktion und Aufbau von Bibliothekssystemen
 
-* Installation und Konfiguration von Koha
 * Metadatenstandards in Bibliotheken (MARC21)
+* Installation und Konfiguration von Koha
 * Marktüberblick Bibliothekssysteme
+
+## Metadatenstandards in Bibliotheken (MARC21)
+
+* MARC21: International verbreiteter Metadaten-Standard, begründet von der Library of Congress 1999: <https://www.loc.gov/marc/bibliographic/>
+* Hat ein [eigenes Binärformat](http://format.gbv.de/marc/iso) (.mrc), gibt's aber auch [als XML](http://format.gbv.de/marc/xml)
+* wegen unterschiedlicher Katalogisierungsregeln und der Möglichkeit eigene Felder zu belegen, weicht die Verwendung international und auch nach Institution [stark vom vermeintlichen Standard ab](https://docs.google.com/presentation/d/e/2PACX-1vRU4J_rln00UVD7pNPT0_02NOad0HfSk_UKqRI0v29y8QkMAplEDlyjc0Ot_VE_paV6WBW29Fh_V-iN/pub?start=false&loop=false&delayms=3000#slide=id.g574306292a_0_35)
+* wird zukünftig voraussichtlich von [BIBFRAME](http://format.gbv.de/bibframe), einem Datenmodell basierend auf [RDF](http://format.gbv.de/rdf), abgelöst
+* Koha und alle anderen großen Bibliothekssysteme basieren auf MARC21 oder unterstützen es als Austauschformat
+
+### Vergleich MARC21 und Dublin Core
+
+* Dublin Core ist ein Standard, der als kleinster gemeinsamer Nenner gilt
+* Als Beispiele nutzen wir den Katalog der Bibliothek der FH Graubünden
+* Wir beziehen die Daten über die SRU-Schnittstelle von Swissbib (auf das Thema Schnittstellen und SRU gehen wir an einem anderen Tag noch ein)
+
+**Aufgabe (15 Minuten)**: Laden Sie über das Formular auf der Webseite http://sru.swissbib.ch Daten mit den folgenden Parametern einmal im Format MARC21 und einmal im Format Dublin Core und vergleichen Sie diese.
+
+| Searchfield              | value         |
+| ------------------------ | ------------- |
+| dc.possessingInstitution | `E27`         |
+| dc.title                 | `open access` |
+
+Note:
+
+- Das Projekt Swissbib sammelt Metadaten aller schweizer Universitätsbibliotheken, der Nationalbibliothek und einiger Kantonsbibliotheken sowie weiterer Institutionen.
+- Der gemeinsame Katalog ermöglicht eine übergreifende Suche, gleichzeitig bietet Swissbib auch Schnittstellen an, über welche Metadaten der teilnehmenden Institutionen zentral bezogen werden können.
+- Siehe auch: [Dokumentation Swissbib SRU](http://www.swissbib.org/wiki/index.php?title=SRU)
 
 ## Installation und Konfiguration von Koha
 
@@ -184,32 +211,6 @@ Start > Werkzeuge > Datenexport
 * Felix Hemme (2016): Katalogisierung mit dem Open-Source-Bibliothekssystem Koha – unter Berücksichtigung des Metadatenstandards MARC 21 und dem Regelwerk RDA. Bachelorarbeit im Studiengang Bibliotheksmanagement der FH Potsdam. <https://nbn-resolving.org/urn:nbn:de:kobv:525-13882>
 * Implementation Checklist: <https://koha-community.org/manual/19.11/en/html/implementation_checklist.html>
 * Fred King: How to use Koha, MarcEdit, a Raspberry Pi, and a Chicken  (optional) to create an ILS for under $100 (September 2019, Vortrag auf  Koha-Konferenz): <http://avengingchicken.online/misc/installing_koha_on_raspberry-pi-4.pdf>
-
-## Metadatenstandards in Bibliotheken (MARC21)
-
-* MARC21: International verbreiteter Metadaten-Standard, begründet von der Library of Congress 1999: <https://www.loc.gov/marc/bibliographic/>
-* Hat ein [eigenes Binärformat](http://format.gbv.de/marc/iso) (.mrc), gibt's aber auch [als XML](http://format.gbv.de/marc/xml)
-* wegen unterschiedlicher Katalogisierungsregeln und der Möglichkeit eigene Felder zu belegen, weicht die Verwendung international und auch nach Institution [stark vom vermeintlichen Standard ab](https://docs.google.com/presentation/d/e/2PACX-1vRU4J_rln00UVD7pNPT0_02NOad0HfSk_UKqRI0v29y8QkMAplEDlyjc0Ot_VE_paV6WBW29Fh_V-iN/pub?start=false&loop=false&delayms=3000#slide=id.g574306292a_0_35)
-* wird zukünftig voraussichtlich von [BIBFRAME](http://format.gbv.de/bibframe), einem Datenmodell basierend auf [RDF](http://format.gbv.de/rdf), abgelöst
-* Koha und alle anderen großen Bibliothekssysteme basieren auf MARC21 oder unterstützen es als Austauschformat
-
-### Vergleich MARC21 und Dublin Core
-
-* Dublin Core ist ein Standard, der als kleinster gemeinsamer Nenner gilt
-* Als Beispiele nutzen wir den Katalog der Bibliothek der FH Graubünden
-* Wir beziehen die Daten über die SRU-Schnittstelle von Swissbib (auf das Thema Schnittstellen und SRU gehen wir an einem anderen Tag noch ein)
-
-**Aufgabe (15 Minuten)**: Laden Sie über das Formular auf der Webseite http://sru.swissbib.ch Daten mit den folgenden Parametern einmal im Format MARC21 und einmal im Format Dublin Core und vergleichen Sie diese.
-
-| Searchfield              | value         |
-| ------------------------ | ------------- |
-| dc.possessingInstitution | `E27`         |
-| dc.title                 | `open access` |
-
-Note:
-- Das Projekt Swissbib sammelt Metadaten aller schweizer Universitätsbibliotheken, der Nationalbibliothek und einiger Kantonsbibliotheken sowie weiterer Institutionen.
-- Der gemeinsame Katalog ermöglicht eine übergreifende Suche, gleichzeitig bietet Swissbib auch Schnittstellen an, über welche Metadaten der teilnehmenden Institutionen zentral bezogen werden können.
-- Siehe auch: [Dokumentation Swissbib SRU](http://www.swissbib.org/wiki/index.php?title=SRU)
 
 ## Marktüberblick Bibliothekssysteme
 
