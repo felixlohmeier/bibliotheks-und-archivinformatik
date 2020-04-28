@@ -12,13 +12,13 @@
 * wird zukünftig voraussichtlich von [BIBFRAME](http://format.gbv.de/bibframe), einem Datenmodell basierend auf [RDF](http://format.gbv.de/rdf), abgelöst
 * Koha und alle anderen großen Bibliothekssysteme basieren auf MARC21 oder unterstützen es als Austauschformat
 
-### Vergleich MARC21 und Dublin Core
+### Übung: Vergleich MARC21 und Dublin Core
 
 * Dublin Core ist ein Standard, der als kleinster gemeinsamer Nenner gilt
 * Als Beispiele nutzen wir den Katalog der Bibliothek der FH Graubünden
 * Wir beziehen die Daten über die SRU-Schnittstelle von Swissbib (auf das Thema Schnittstellen und SRU gehen wir an einem anderen Tag noch ein)
 
-**Aufgabe (15 Minuten)**: Laden Sie über das Formular auf der Webseite http://sru.swissbib.ch Daten mit den folgenden Parametern einmal im Format MARC21 und einmal im Format Dublin Core und vergleichen Sie diese.
+**Aufgabe (15 Minuten):** Laden Sie über das Formular auf der Webseite http://sru.swissbib.ch Daten mit den folgenden Parametern einmal im Format MARC21 und einmal im Format Dublin Core und vergleichen Sie diese.
 
 | Searchfield              | value         |
 | ------------------------ | ------------- |
@@ -132,7 +132,7 @@ Wir verwenden ein Tutorial von Stephan Tetzel, das auf deutsch und englisch verf
 5. Drucken von Etiketten
 6. Ausleihkonditionen
 
-### Manuelle Bedienung
+### Übung: Manuelle Bedienung
 
 **Aufgabe (15 Minuten)**: Damit Sie ein Gespür für das System erhalten, machen wir nun ein Minimalbeispiel für einen vereinfachten Bibliotheksworkflow:
 
@@ -168,7 +168,7 @@ Start > Katalogisierung > Neuer Titel > Schnellaufnahme
 
 * Oben im Suchschlitz Reiter Rückgabe wählen, Barcode eingeben und abschicken
 
-### Datenimport und Export
+### Übung: Datenimport und Export
 
 **Aufgabe (15 Minuten)**: Koha verfügt über einige Schnittstellen. Hier ein kleines Beispiel für semi-automatische Erfassung ("copy cataloging"):
 
