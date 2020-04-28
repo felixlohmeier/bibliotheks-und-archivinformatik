@@ -53,18 +53,23 @@ Hinweise für Lehrende:
 
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
-* [Beispiel](http://www.example.org)
-* [Lerntagebuch Lea](https://leaena22.github.io/BAIN/)
-* [Lerntagebuch Michael Mathys](https://michaelmathys.github.io/BAIN/Lerntagebuch)
-* [AZ](https://bainaz.github.io/BAINLT/)
-* [Nadine Kramer](https://de.wix.com/website/builder?referral=split%20page&vertical=blog&storyId=fe9f2582-80cf-4447-85d8-3981ba5dbdb4#!/builder/story/fe9f2582-80cf-4447-85d8-3981ba5dbdb4:cff9602a-6eea-4a6e-88bd-79a23dd4fdba)
-* [https://sarahclavadetscher.github.io/bain-lernblog/](https://sarahclavadetscher.github.io/bain-lernblog/)
-* [Erica von Flüe](https://mimbulus89.wordpress.com/)
+* [Lerntagebuch Ibrahim Aközel](https://akoezeibrahi.github.io/Willkommen-auf-meinem-Blog-Bain20-/)
+* [Lerntagebuch Alicja Bednarzewska](https://alset2103.github.io/Lerntagebuch-BAIN/)
+* [Lerntagebuch Sarah Clavadetscher](https://sarahclavadetscher.github.io/bain-lernblog/)
+* [Lerntagebuch Franziska Corradini](https://librarygirllost.github.io/bain-learning-by-doing/)
+* [Lerntagebuch Erica von Flüe](https://mimbulus89.wordpress.com/)
+* [Lerntagebuch Muriel Fuhrer](https://muirgheal.gitlab.io/lerntagebuch_bain/)
+* [Lerntagebuch Martina Gerber](https://lerntagebuchbain.wordpress.com)
+* [Lerntagebuch Maximilian Grüninger](https://bain.grueninger-webdesign.ch/)
+* [Lerntagebuch Kim Hunziker](https://kimhunzikerbain.wordpress.com)
 * [Lerntagebuch Sidney Manhart](https://sidney-manhart.github.io)
-* [https://bain.grueninger-webdesign.ch/](https://bain.grueninger-webdesign.ch/)
-* https://alset2103.github.io/Lerntagebuch-BAIN/
-* [BAIN-Blog: learning by doing](https://librarygirllost.github.io/bain-learning-by-doing/)
-* [Lerntagebuch](https://github.com/Rachel-Noemi-Thommen/Lerntagebuch) 
+* [Lerntagebuch Samuel Martin](https://bain.samuelnmartin.ch)
+* [Lerntagebuch Michael Mathys](https://michaelmathys.github.io/BAIN/Lerntagebuch)
+* [Lerntagebuch Mona Meier](https://bainlerntagebuchmonameier.jimdofree.com)
+* [Lerntagebuch Nadine Kramer](https://kramerbain.wixsite.com/website)
+* [Lerntagebuch Lea Reinhold](https://leaena22.github.io/BAIN-2.0/)
+* [Lerntagebuch Seraina Rutschmann](https://serainowitsch.github.io/bain/)
+* [Lerntagebuch Rachel Noemi Thommen](https://rachel-noemi-thommen.github.io/Lerntagebuch/)
 
 ## Modulbeschreibung
 
