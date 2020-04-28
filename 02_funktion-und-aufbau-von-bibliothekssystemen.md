@@ -224,3 +224,11 @@ Start > Werkzeuge > Datenexport
 
 * Swiss Library Service Platform (SLSP) wird Alma (reines Cloud-Angebot, Server wird in Amsterdam stehen) einführen
 * Größte Open-Source-Alternative in Entwicklung: [FOLIO](https://www.folio.org)
+
+### Alma im Vergleich zu Aleph und Koha
+
+* Eine Stärke von Alma ist das ERM (Electronic Resource Management). Aleph und Koha verfügen über kein integriertes ERM.
+  * Siehe dazu Vortrag von Katrin Fischer: [Koha und ERM - Optionen für die Verwaltung von elektronischen Ressourcen](https://nbn-resolving.org/urn:nbn:de:0290-opus4-35840) auf dem Bibliothekartag 2018.
+* Alma ist auf dem aktuellsten Stand der Technik und bietet vorbildliche Programmierschnittstellen.
+* Alma ist cloudbasiert, d.h. zentrale Installation auf Servern von Ex Libris und regelmäßige Updates.
+* Kritiker befürchten langfristig Nachteile durch die Abhängigkeit vom Hersteller Ex Libris und dessen Marktmacht (Vendor-Lock-in).
