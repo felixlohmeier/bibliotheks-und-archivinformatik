@@ -30,7 +30,7 @@ Note:
 
 * Sie erhalten jetzt einen Registrierungslink an Ihre E-Mail-Adresse.
 * Nach Login unter <https://labs.azure.com> sollte es so ähnlich aussehen:
-  ![Screenshot Azure Lab Services - Meine virtuellen Computer](https://bain.felixlohmeier.de/images/01_azure-vms.png)
+  ![Screenshot Azure Lab Services - Meine virtuellen Computer](images/01_azure-vms.png)
 
 Note:
 - Memo für Lehrende: Jetzt in Azure Lab Services einloggen, alle VMs starten und Registrierungslinks versenden.
@@ -57,7 +57,7 @@ Note:
 
 ### Login (Linux)
 
-![Screenshot Azure Lab Services - Meine virtuellen Computer](https://bain.felixlohmeier.de/images/01_login.png)
+![Screenshot Azure Lab Services - Meine virtuellen Computer](images/01_login.png)
 
 Note:
 - Benutzername: `bain`
@@ -65,7 +65,7 @@ Note:
 
 ### Orientierung (Linux)
 
-![Screenshot Ubuntu XFCE](https://bain.felixlohmeier.de/images/01_ubuntu_xfce.png)
+![Screenshot Ubuntu XFCE](images/01_ubuntu_xfce.png)
 
 Note:
 - Ubuntu Server 19.10 mit XFCE
@@ -168,7 +168,7 @@ Note:
 git clone https://github.com/felixlohmeier/bibliotheks-und-archivinformatik.git
 ```
 
-![Screenshot git clone](https://bain.felixlohmeier.de/images/01_git-demo_1.png)
+![Screenshot git clone](images/01_git-demo_1.png)
 
 #### Änderung mit Texteditor
 
@@ -177,7 +177,7 @@ cd bibliotheks-und-archivinformatik
 nano 01_technische-grundlagen.md
 ```
 
-![Screenshot nano](https://bain.felixlohmeier.de/images/01_git-demo_2.png)
+![Screenshot nano](images/01_git-demo_2.png)
 
 Note:
 * Beim Aufruf des Programms nano wird das Terminal zu einem Texteditor.
@@ -193,7 +193,7 @@ Note:
 git diff
 ```
 
-![Screenshot git diff](https://bain.felixlohmeier.de/images/01_git-demo_3.png)
+![Screenshot git diff](images/01_git-demo_3.png)
 
 #### Lokaler Status
 
@@ -201,7 +201,7 @@ git diff
 git status
 ```
 
-![Screenshot git status](https://bain.felixlohmeier.de/images/01_git-demo_4.png)
+![Screenshot git status](images/01_git-demo_4.png)
 
 #### Datei zum Päckchen hinzufügen
 
@@ -210,7 +210,7 @@ git add 01_technische-grundlagen.md
 git status
 ```
 
-![Screenshot git add](https://bain.felixlohmeier.de/images/01_git-demo_5.png)
+![Screenshot git add](images/01_git-demo_5.png)
 
 #### Absender eintragen
 
@@ -219,7 +219,7 @@ git config user.email "mail@felixlohmeier.de"
 git config user.name "Felix Lohmeier"
 ```
 
-![Screenshot git config](https://bain.felixlohmeier.de/images/01_git-demo_6.png)
+![Screenshot git config](images/01_git-demo_6.png)
 
 Note:
 * Es werden Schreibrechte für das Git Repository benötigt, um Änderungen direkt einbringen zu können. Die Authentifizierung erfolgt über die E-Mail-Adresse.
@@ -231,7 +231,7 @@ Note:
 git commit -m "Test Päckchen"
 ```
 
-![Screenshot git commit](https://bain.felixlohmeier.de/images/01_git-demo_7.png)
+![Screenshot git commit](images/01_git-demo_7.png)
 
 #### Päckchen abschicken
 
@@ -240,13 +240,13 @@ git status
 git push
 ```
 
-![Screenshot git push](https://bain.felixlohmeier.de/images/01_git-demo_8.png)
+![Screenshot git push](images/01_git-demo_8.png)
 
 #### Ergebnis auf GitHub
 
 [Das Päckchen ("commit") bei GitHub](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/commit/caa6dc8dd640e0d1df86780288f84e0c47b81bef)
 
-![Screenshot GitHub](https://bain.felixlohmeier.de/images/01_git-demo_9.png)
+![Screenshot GitHub](images/01_git-demo_9.png)
 
 ### Blog mit GitHub Pages
 
