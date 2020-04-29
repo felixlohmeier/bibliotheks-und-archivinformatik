@@ -58,6 +58,8 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Lerntagebuch Sarah Clavadetscher](https://sarahclavadetscher.github.io/bain-lernblog/)
 * [Lerntagebuch Franziska Corradini](https://librarygirllost.github.io/bain-learning-by-doing/)
 * [Lerntagebuch Erica von Flüe](https://mimbulus89.wordpress.com/)
+* [Lerntagebuch Miklos Frank](https://bainmf.wordpress.com)
+* [Lerntagebuch Daniel Fröhli](https://ltbdf.wordpress.com)
 * [Lerntagebuch Muriel Fuhrer](https://muirgheal.gitlab.io/lerntagebuch_bain/)
 * [Lerntagebuch Martina Gerber](https://lerntagebuchbain.wordpress.com)
 * [Lerntagebuch Maximilian Grüninger](https://bain.grueninger-webdesign.ch/)
@@ -70,6 +72,8 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Lerntagebuch Lea Reinhold](https://leaena22.github.io/BAIN-2.0/)
 * [Lerntagebuch Seraina Rutschmann](https://serainowitsch.github.io/bain/)
 * [Lerntagebuch Rachel Noemi Thommen](https://rachel-noemi-thommen.github.io/Lerntagebuch/)
+* [Lerntagebuch Matilda Z'Graggen](https://bainlernt.wordpress.com)
+* [Lerntagebuch Anya Zysset-Baschera](https://bainaz.github.io/BAINLT/)
 
 ## Modulbeschreibung
 
