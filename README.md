@@ -65,7 +65,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Lerntagebuch Maximilian Grüninger](https://bain.grueninger-webdesign.ch/)
 * [Lerntagebuch Kim Hunziker](https://kimhunzikerbain.wordpress.com)
 * [Lerntagebuch Sidney Manhart](https://sidney-manhart.github.io)
-* [Lerntagebuch Samuel Martin](https://bain.samuelnmartin.ch)
+* [Lerntagebuch Samuel Martin](https://flatland.samuelnmartin.ch)
 * [Lerntagebuch Michael Mathys](https://michaelmathys.github.io/BAIN/Lerntagebuch)
 * [Lerntagebuch Mona Meier](https://bainlerntagebuchmonameier.jimdofree.com)
 * [Lerntagebuch Nadine Kramer](https://kramerbain.wixsite.com/website)
