@@ -53,7 +53,7 @@ Hinweise für Lehrende:
 
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
-* [Lerntagebuch Ibrahim Aközel](https://akoezeibrahi.github.io/Willkommen-auf-meinem-Blog-Bain20-/)
+* [Lerntagebuch Ibrahim Aközel](https://akoezeibrahi.github.io/Blog-Bain20-Akoezel/)
 * [Lerntagebuch Alicja Bednarzewska](https://alset2103.github.io/Lerntagebuch-BAIN/)
 * [Lerntagebuch Sarah Clavadetscher](https://sarahclavadetscher.github.io/bain-lernblog/)
 * [Lerntagebuch Franziska Corradini](https://librarygirllost.github.io/bain-learning-by-doing/)
