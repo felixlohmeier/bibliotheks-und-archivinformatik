@@ -1,9 +1,7 @@
-# Repository-Software DSpace-CRIS
+# Suchmaschinen und Discovery-Systeme
 
-## Transformation von Metadaten mit OpenRefine
+## Funktion von Suchmaschinen am Beispiel von Solr
 
-## XSLT Crosswalks mit MarcEdit
+## Installation und Konfiguration von VuFind
 
-## Austauschprotokolle für Metadaten (OAI-PMH, SRU)
-
-## Nutzung von JSON-APIs
+## Marktüberblick Discovery-Systeme
