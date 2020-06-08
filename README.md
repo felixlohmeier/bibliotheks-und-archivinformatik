@@ -42,6 +42,7 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
    - Installation und Konfiguration von VuFind
    - Marktüberblick Discovery-Systeme
 7. [Linked Data](07_linked-data.md) (06.06.2020)
+   - Testumgebung für Server-Software
    - Suchanfragen mit SPARQL am Beispiel des Wikidata Query Service
    - Metadaten anreichern mit OpenRefine und Wikidata
 
