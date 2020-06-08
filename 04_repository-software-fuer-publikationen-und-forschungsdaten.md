@@ -96,6 +96,7 @@ Beispiel für Portal auf Basis von OAI-PMH: Die [Bielefeld Academic Search Engin
 * Weitere Demo-Installationen:
   * DSpace 5.x mit DSpace-CRIS: <https://dspace-cris.4science.it/> (nur lesend)
   * DSpace 7.x: <https://dspace7-demo.atmire.com> (nur lesend)
+* Suchmaschinenoptimierung (SEO): [Abschnitt im Nutzerhandbuch von DSpace zu SEO](https://wiki.lyrasis.org/display/DSDOC5x/Search+Engine+Optimization)
 
 ## Marktüberblick Repository-Software
 
