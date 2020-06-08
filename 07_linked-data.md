@@ -53,7 +53,7 @@ Wir schauen uns hier in den verbleibenden zwei Lektionen das praktische Beispiel
 ### Tutorial
 
 * Alex Stinson hat ein schönes Tutorial geschrieben, das eigentlich für Lehrende gedacht ist, aber auch individuell bearbeitet werden kann. Nach einer Einleitung, die sich an Lehrende richtet, kommt unter der Überschrift "Writing a Query" das Skript.
-* **Aufgabe (30 Minuten): ** Bearbeiten Sie das Tutorial ab der Überschrift "Writing a Query": https://medium.com/freely-sharing-the-sum-of-all-knowledge/writing-a-wikidata-query-discovering-women-writers-from-north-africa-d020634f0f6c
+* Aufgabe (30 Minuten): Bearbeiten Sie das Tutorial ab der Überschrift "Writing a Query": https://medium.com/freely-sharing-the-sum-of-all-knowledge/writing-a-wikidata-query-discovering-women-writers-from-north-africa-d020634f0f6c
 
 ### Literatur
 
