@@ -74,7 +74,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Lerntagebuch Seraina Rutschmann](https://serainowitsch.github.io/bain/)
 * [Lerntagebuch Rachel Noemi Thommen](https://rachel-noemi-thommen.github.io/Lerntagebuch/)
 * [Lerntagebuch Matilda Z'Graggen](https://bainlernt.wordpress.com)
-* [Lerntagebuch Anya Zysset-Baschera](https://bainaz.github.io/BAINLT/)
+* [Lerntagebuch Anya Zysset-Baschera](https://bainltaz.wordpress.com)
 
 ## Modulbeschreibung
 
