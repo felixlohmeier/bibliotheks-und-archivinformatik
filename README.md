@@ -63,7 +63,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Lerntagebuch Daniel Fröhli](https://ltbdf.wordpress.com)
 * [Lerntagebuch Muriel Fuhrer](https://muirgheal.gitlab.io/lerntagebuch_bain/)
 * [Lerntagebuch Martina Gerber](https://lerntagebuchbain.wordpress.com)
-* [Lerntagebuch Maximilian Grüninger](https://bain.grueninger-webdesign.ch/)
+* [Lerntagebuch Maximilian Grüninger](https://ismay7.github.io/Lerntagebuch-FS20-BAIN)
 * [Lerntagebuch Kim Hunziker](https://kimhunzikerbain.wordpress.com)
 * [Lerntagebuch Sidney Manhart](https://sidney-manhart.github.io)
 * [Lerntagebuch Samuel Martin](https://flatland.samuelnmartin.ch)
