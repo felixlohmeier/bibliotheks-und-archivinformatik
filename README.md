@@ -54,15 +54,14 @@ Hinweise für Lehrende:
 
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
-* [Lerntagebuch Ibrahim Aközel](https://akoezeibrahi.github.io/Blog-Bain20-Akoezel/)
-* [Lerntagebuch Alicja Bednarzewska](https://alset2103.github.io/Lerntagebuch-BAIN/)
+* [Lerntagebuch Ibrahim Aközel](https://akoezeibrahi.github.io/Blogbeitraege_BAIN20_Akoezel/)
+* [Lerntagebuch Alicja Bednarzewska](https://alset2103.github.io/LerntagebuchBAIN/)
 * [Lerntagebuch Sarah Clavadetscher](https://sarahclavadetscher.github.io/bain-lernblog/)
 * [Lerntagebuch Franziska Corradini](https://librarygirllost.github.io/bain-learning-by-doing/)
 * [Lerntagebuch Erica von Flüe](https://mimbulus89.wordpress.com/)
 * [Lerntagebuch Miklos Frank](https://bainmf.wordpress.com)
 * [Lerntagebuch Daniel Fröhli](https://ltbdf.wordpress.com)
-* [Lerntagebuch Muriel Fuhrer](https://muirgheal.gitlab.io/lerntagebuch_bain/)
-* [Lerntagebuch Martina Gerber](https://lerntagebuchbain.wordpress.com)
+* [Lerntagebuch Muriel Fuhrer](https://muirgheal.gitlab.io/lerntagebuch_bain_iw_2020/)
 * [Lerntagebuch Maximilian Grüninger](https://ismay7.github.io/Lerntagebuch-FS20-BAIN)
 * [Lerntagebuch Kim Hunziker](https://kimhunzikerbain.wordpress.com)
 * [Lerntagebuch Sidney Manhart](https://sidney-manhart.github.io)
