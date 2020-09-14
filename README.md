@@ -1,79 +1,67 @@
 # Skript zum Kurs "Bibliotheks- und Archivinformatik"
 
-Dieses Skript entsteht in der Zeit von März bis Mai 2020 im Rahmen der folgenden Lehrveranstaltung:
+Dieses Skript entsteht in der Zeit von September bis Dezember 2020 im Rahmen der folgenden Lehrveranstaltung:
 
-- Kurs "Bibliotheks- und Archivinformatik"
-- Dozent: [Felix Lohmeier](http://felixlohmeier.de)
-- Frühlingssemester 2020
+- Kurs "Bibliotheks- und Archivinformatik" (BAIN)
+- Dozenten: [Felix Lohmeier](http://felixlohmeier.de), [Sebastian Meyer](https://twitter.com/_meyse_/)
+- Herbstsemester 2020
 - Lehrauftrag an der [FH Graubünden - Studiengang Information Science](https://www.fhgr.ch/studium/bachelorangebot/wirtschaft-und-dienstleistung/information-science/)
-- Bachelor, 4. Semester, 4 ECTS
+- Bachelor, 4 ECTS
 
 ## Gemeinsames Dokument
 
 Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [CodiMD](https://github.com/codimd/server)-Installation [bei der GWDG](https://pad.gwdg.de/). Alle, die den Link kennen, können es bearbeiten. Zur Formatierung wird [Markdown](https://www.markdownguide.org/basic-syntax/) verwendet.
 
-* [Gemeinsames Dokument](https://pad.gwdg.de/-r6PYpRjScC-w0JuI_Ovcg?both)
+* [Gemeinsames Dokument](https://pad.gwdg.de/Tf-htntTR8COelT3Wgodzg?both)
 
 ## Inhalte
 
-1. [Technische Grundlagen](01_technische-grundlagen.md) (13.03.2020)
+1. [Technische Grundlagen](01_technische-grundlagen.md) (10.09.2020)
+   - Schaubild zu Lehrinhalten
    - Einrichtung der Arbeitsumgebung (Linux)
    - Grundlagen der Unix Shell
    - Versionskontrolle mit Git
-2. [Funktion und Aufbau von Bibliothekssystemen](02_funktion-und-aufbau-von-bibliothekssystemen.md) (03.04.2020)
+   - Blog mit GitHub Pages
+2. [Funktion und Aufbau von Bibliothekssystemen](02_funktion-und-aufbau-von-bibliothekssystemen.md) (25.09.2020 / 02.10.2020)
    - Metadatenstandards in Bibliotheken (MARC21)
    - Installation und Konfiguration von Koha
    - Marktüberblick Bibliothekssysteme
-3. [Funktion und Aufbau von Archivsystemen](03_funktion-und-aufbau-von-archivsystemen.md) (24.04.2020)
+3. [Funktion und Aufbau von Archivsystemen](03_funktion-und-aufbau-von-archivsystemen.md) (09.10.2020)
    - Metadatenstandards in Archiven (ISAD(G) und EAD)
    - Installation und Konfiguration von ArchivesSpace
    - Marktüberblick Archivsysteme
-4. [Repository-Software für Publikationen und Forschungsdaten](04_repository-software-fuer-publikationen-und-forschungsdaten.md) (24.04.2020)
+4. [Repository-Software für Publikationen und Forschungsdaten](04_repository-software-fuer-publikationen-und-forschungsdaten.md) (16.10.2020)
    - Installation und Konfiguration von DSpace
    - Open Access und Open Data
    - Marktüberblick Repository-Software
-5. [Metadaten modellieren und Schnittstellen nutzen](05_metadaten-modellieren-und-schnittstellen-nutzen.md) (05.06.2020)
+5. [Metadaten modellieren und Schnittstellen nutzen](05_metadaten-modellieren-und-schnittstellen-nutzen.md) (30.10.2020 / 20.11.2020)
    - Transformation von Metadaten mit OpenRefine
    - XSLT Crosswalks mit MarcEdit
    - Austauschprotokolle für Metadaten (OAI-PMH, SRU)
+   - Weitere Tools zur Metadatentransformation
    - Nutzung von JSON-APIs
-6. [Suchmaschinen und Discovery-Systeme](06_suchmaschinen-und-discovery-systeme.md) (05.06.2020)
+6. [Suchmaschinen und Discovery-Systeme](06_suchmaschinen-und-discovery-systeme.md) (27.11.2020 / 11.12.2020)
    - Funktion von Suchmaschinen am Beispiel von Solr
    - Installation und Konfiguration von VuFind
    - Marktüberblick Discovery-Systeme
-7. [Linked Data](07_linked-data.md) (06.06.2020)
-   - Testumgebung für Server-Software
-   - Suchanfragen mit SPARQL am Beispiel des Wikidata Query Service
+   - Schaubild zu Lehrinhalten
+7. [Linked Data](07_linked-data.md) (18.12.2020)
    - Metadaten anreichern mit OpenRefine und Wikidata
-
-Hinweise für Lehrende:
-
-* [Azure Lab einrichten](azure-lab-einrichten.md)
+   - Suchanfragen mit SPARQL am Beispiel des Wikidata Query Service
+   - Aktuelle Datenmodelle für Metadaten (BIBFRAME, RiC)
+   - Empfehlenswerte Tutorials zum Selbstlernen
 
 ## Lerntagebücher
 
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
-* [Lerntagebuch Ibrahim Aközel](https://akoezeibrahi.github.io/Blogbeitraege_BAIN20_Akoezel/)
-* [Lerntagebuch Alicja Bednarzewska](https://alset2103.github.io/LerntagebuchBAIN/)
-* [Lerntagebuch Sarah Clavadetscher](https://sarahclavadetscher.github.io/bain-lernblog/)
-* [Lerntagebuch Franziska Corradini](https://librarygirllost.github.io/bain-learning-by-doing/)
-* [Lerntagebuch Erica von Flüe](https://mimbulus89.wordpress.com/)
-* [Lerntagebuch Miklos Frank](https://bainmf.wordpress.com)
-* [Lerntagebuch Daniel Fröhli](https://ltbdf.wordpress.com)
-* [Lerntagebuch Muriel Fuhrer](https://muirgheal.gitlab.io/lerntagebuch_bain_iw_2020/)
-* [Lerntagebuch Maximilian Grüninger](https://ismay7.github.io/Lerntagebuch-FS20-BAIN)
-* [Lerntagebuch Kim Hunziker](https://kimhunzikerbain.wordpress.com)
-* [Lerntagebuch Sidney Manhart](https://sidney-manhart.github.io)
-* [Lerntagebuch Samuel Martin](https://flatland.samuelnmartin.ch)
-* [Lerntagebuch Michael Mathys](https://michaelmathys.github.io/BAIN/Lerntagebuch)
-* [Lerntagebuch Mona Meier](https://bainlerntagebuchmonameier.jimdofree.com)
-* [Lerntagebuch Nadine Kramer](https://kramerbain.wixsite.com/website)
-* [Lerntagebuch Lea Reinhold](https://leaena22.github.io/BAIN-2.0/)
-* [Lerntagebuch Seraina Rutschmann](https://serainowitsch.github.io/bain/)
-* [Lerntagebuch Rachel Noemi Thommen](https://rachel-noemi-thommen.github.io/Lerntagebuch/)
-* [Lerntagebuch Matilda Z'Graggen](https://bainlernt.wordpress.com)
-* [Lerntagebuch Anya Zysset-Baschera](https://bainltaz.wordpress.com)
+* [Giulia D'Amico](https://damicogiulia.github.io/BAIN-Blog/)
+* [Regina Eicher](https://gins-ctrl.github.io/Lerntagebuch_HS20/)
+* [Sandra Flückiger](https://fluecksandra.github.io)
+* [Shanna Grütter](https://shannarachel.github.io/storys)
+* [Martina Gubser](https://tinablabla.github.io/bainotes/)
+* [Gaby Leuenberger](https://regrebneuel.github.io/bain-log/)
+* [Charles Winkler](https://charleswinkler.github.io)
 
 ## Modulbeschreibung
 
@@ -89,9 +77,14 @@ Nach erfolgreicher Teilnahme am Modul sind die Studierenden in der Lage:
 
 ## Skripte der Vorjahre
 
+Frühlingssemester 2020:
+
+* Zenodo: [10.5281/zenodo.3885498](https://doi.org/10.5281/zenodo.3885498)
+* GitHub: [v3.0](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/releases/tag/v3.0)
+
 Herbstsemester 2019:
 
-* Zenodo: [10.5281/zenodo.3701841](https://zenodo.org/record/3701841)
+* Zenodo: [10.5281/zenodo.3701841](https://doi.org/10.5281/zenodo.3701841)
 * GitHub: [v2.0](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/releases/tag/v2.0)
 
 Herbstsemester 2017:
