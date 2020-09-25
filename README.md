@@ -57,7 +57,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 
 * [Giulia D'Amico](https://damicogiulia.github.io/BAIN-Blog/)
 * [Regina Eicher](https://gins-ctrl.github.io/Lerntagebuch_HS20/)
-* [Sandra Flückiger](https://fluecksandra.github.io)
+* [Sandra Flückiger](https://fluecksandra.github.io)*
 * [Shanna Grütter](https://shannarachel.github.io/storys)
 * [Martina Gubser](https://tinablabla.github.io/bainotes/)
 * [Gaby Leuenberger](https://regrebneuel.github.io/bain-log/)
