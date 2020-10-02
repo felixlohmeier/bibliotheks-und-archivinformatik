@@ -62,6 +62,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Martina Gubser](https://tinablabla.github.io/bainotes/)
 * [Gaby Leuenberger](https://regrebneuel.github.io/bain-log/)
 * [Charles Winkler](https://charleswinkler.github.io)
+* [Remo Bischoff](https://remooda.github.io/bain/)
 
 ## Modulbeschreibung
 
