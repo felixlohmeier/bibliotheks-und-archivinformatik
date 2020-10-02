@@ -71,6 +71,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Vanessa Seyffert](https://vseyffert.github.io/bainseyffert/)
 * [Melanie Müller](https://rumolin.github.io/lerntagebuch-bain/)
 * [Jo Hoitink](https://thanjoan.github.io/lerntagebuch_bain) 
+* [Karin K. Bühler](https://kkbuhler.github.io/BAIN)
 
 ## Modulbeschreibung
 
