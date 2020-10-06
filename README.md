@@ -73,6 +73,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Jo Hoitink](https://thanjoan.github.io/lerntagebuch_bain) 
 * [Karin K. Bühler](https://kkbuhler.github.io/BAIN)
 * [Remo Bischoff](https://remooda.github.io/bain/)
+* [Stefanie Moser](https://stemorit.github.io/BAIN-Lerntagebuch/)
 
 ## Modulbeschreibung
 
