@@ -56,24 +56,23 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
 * [Giulia D'Amico](https://damicogiulia.github.io/BAIN-Blog/)
+* [Lea Bächli](https://leabaechli.github.io/bain/)
+* [Remo Bischoff](https://remooda.github.io/bain/)
+* [Karin K. Bühler](https://kkbuhler.github.io/BAIN)
 * [Regina Eicher](https://gins-ctrl.github.io/Lerntagebuch_HS20/)
-* [Sandra Flückiger](https://fluecksandra.github.io)*
+* [Sandra Flückiger](https://fluecksandra.github.io)
 * [Shanna Grütter](https://shannarachel.github.io/storys)
 * [Martina Gubser](https://tinablabla.github.io/bainotes/)
-* [Gaby Leuenberger](https://regrebneuel.github.io/bain-log/)
-* [Charles Winkler](https://charleswinkler.github.io)
-* [Tamara Mächler](https://lillanord.github.io/lerntagebuch/)
-* [Sakura](https://sakura-72.github.io/my-bain-blog/)
-* [Lea Bächli](https://leabaechli.github.io/bain/)
-* [Alex Muster](https://alexmuster.github.io/lerntageblog)
-* [Florian Riedmann](https://github.com/xXxjaegerxXx/lerntagebuch)
-* [Shanna Grütter](https://shannarachel.github.io/storys)
-* [Vanessa Seyffert](https://vseyffert.github.io/bainseyffert/)
-* [Melanie Müller](https://rumolin.github.io/lerntagebuch-bain/)
 * [Jo Hoitink](https://thanjoan.github.io/lerntagebuch_bain) 
-* [Karin K. Bühler](https://kkbuhler.github.io/BAIN)
-* [Remo Bischoff](https://remooda.github.io/bain/)
+* [Gaby Leuenberger](https://regrebneuel.github.io/bain-log/)
+* [Tamara Mächler](https://lillanord.github.io/lerntagebuch/)
 * [Stefanie Moser](https://stemorit.github.io/BAIN-Lerntagebuch/)
+* [Alex Muster](https://alexmuster.github.io/lerntageblog)
+* [Melanie Müller](https://rumolin.github.io/lerntagebuch-bain/)
+* [Florian Riedmann](https://github.com/xXxjaegerxXx/lerntagebuch)
+* [Sakura](https://sakura-72.github.io/my-bain-blog/)
+* [Vanessa Seyffert](https://vseyffert.github.io/bainseyffert/)
+* [Charles Winkler](https://charleswinkler.github.io)
 
 ## Modulbeschreibung
 
