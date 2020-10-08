@@ -124,15 +124,6 @@ Aufgaben:
 1. Bearbeiten Sie das zweite Kapitel [Navigating the filesystem](https://librarycarpentry.org/lc-shell/02-navigating-the-filesystem/index.html) der Library Carpentry Lesson zur Unix Shell
 2. Bearbeiten Sie das dritte Kapitel [Working with files and directories](https://librarycarpentry.org/lc-shell/03-working-with-files-and-folders/index.html) der Library Carpentry Lesson zur Unix Shell
 
-## Fragen?
-
-* Copy & Paste im Terminal
-  * probieren Sie Rechtsklick
-  * Tastaturkürzel im Terminal: STRG+SHIFT+C und STRG+SHIFT+V
-  * Linux-weit funktioniert Paste mit SHIFT+EINFÜGEN
-* Probleme beim Netzwerkzugriff
-  * müssen wir beim IT-Support anfragen
-
 ## Tipps zur Unix Shell
 
 * Nutzen Sie immer die Tab-Taste für die Autovervollständigung.
@@ -154,7 +145,121 @@ Note:
 
 # Versionskontrolle mit git
 
-(folgt)
+* Aus Zeitgründen schauen wir uns nur Grundfunktionen von `git` an.
+* Wenn Sie im Anschluss selbst üben möchten, bietet Library Carpentry dazu [ausführliche Lehrmaterialien](<https://librarycarpentry.org/lc-git/>)
+
+Note:
+
+- Durch die Plattform GitHub, auf der Informatiker\*innen Ihren Quellcode ablegen, ist das Versionskontrollsystem Git sehr populär geworden. Es ist nicht nur für die Entwicklung von Software, sondern generell für die Zusammenarbeit in Projekten extrem hilfreich.
+
+## Wozu Git?
+
+* Git ist eine Software zur Versionskontrolle
+* Ermöglicht die Arbeit an Textdateien auf mehreren Computern und/oder mit mehreren Personen zu synchronisieren.
+* Jede Änderung wird nachvollziehbar.
+* Funktioniert mit allen Textdateien, also geeignet für Code, Plain Text oder auch Tabellen (CSV).
+
+Note:
+* Git wurde entwickelt für die gemeinsame Software-Entwicklung; heute gibt es weitere Anwendungsfälle (z.B. Texte, Präsentationen oder Forschungsdaten).
+
+## Unterschied Git und GitHub
+
+* Git kann zunächst auch lokal auf einem Computer verwendet werden.
+* Wenn ein Git Repository im Netz bereitgestellt werden soll, braucht es eine Installation von Git auf einem Webserver.
+* Das kann man selber machen oder eine Plattform nutzen. Die bekannteste ist [GitHub](https://www.github.com).
+
+Note:
+- GitHub ist ein 2007 gegründetes Unternehmen, das 2018 aufgekauft wurde. Die meisten Dienstleistungen sind kostenfrei, aber das muss nicht unbedingt so bleiben. Es ist so erfolgreich, dass praktisch jedes Open-Source-Projekt dort seinen Code ablegt.
+- Alternativen zu GitHub sind unter anderem [GitLab](https://gitlab.com), [BitBucket](https://bitbucket.org) oder auch das Urgestein [SourceForge](https://sourceforge.net).
+- Viele Bibliotheken nutzen GitHub oder GitLab. Es gibt eine gemeinschaftlich gepflegte Liste [BibsOnGitHub](https://github.com/axel-klinger/BibsOnGitHub), auf der [Listen von Bibliotheken](https://axel-klinger.github.io/BibsOnGitHub/libraries.html) und [deren Repositorien](https://axel-klinger.github.io/BibsOnGitHub/repositories.html) eingesehen werden können.
+
+## GitHub vs. GitLab
+
+* Open Source Software findet sich auf beiden Plattformen.
+* Nur GitLab (in der Community Edition) ist selbst Open Source. Hier ist der Quellcode von GitLab: <https://gitlab.com/gitlab-org/gitlab>
+
+## Übung: Link zum Lerntagebuch ergänzen
+
+* Als Beispiel nutzen wir das [GitHub Repository dieses Kurses](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik), in dem die Lehrmaterialien liegen.
+* Sie ergänzen darin den Link zu Ihrem Lerntagebuch.
+* So gehen wir vor:
+  1. Kopie des Repositories erstellen ("Fork")
+  2. Dateien aus Ihrem Fork herunterladen ("clone")
+  3. Link zu Ihrem Lerntagebuch in `README.md` einfügen
+  4. Die Änderung mit einer Notiz hochladen ("commit")
+  5. Übernahme der Änderung anfragen ("Pull request")
+
+### Schritt 1: Kopie des Repositories erstellen
+
+* Bei GitHub einloggen
+* Repository aufrufen: https://github.com/felixlohmeier/bibliotheks-und-archivinformatik
+* Oben rechts auf Button "Fork" klicken
+
+### Schritt 2: Dateien herunterladen
+
+Um die Dateien aus Ihrem Fork herunterzuladen ("klonen") geben Sie den folgenden Befehl ins Terminal ein.
+
+Ersetzen Sie dabei `...` durch den Link zu Ihrem Fork.
+
+```shell
+git clone ...
+```
+
+### Schritt 3: Änderung lokal durchführen
+
+1. Datei `README.md` in Texteditor öffnen und Link zu Ihrem Lerntagebuch in Abschnitt "Lerntagebücher" einfügen.
+
+2. Lassen Sie sich von `git` die Änderungen anzeigen:
+
+    ```shell
+    git diff
+    ```
+
+3. Lassen Sie sich von `git` die geänderten Dateien anzeigen:
+
+    ```shell
+    git status
+    ```
+
+### Schritt 4: Änderung hochladen
+
+1. Datei zum Päckchen hinzufügen
+
+    ```shell
+    git add README.md
+    ```
+
+2. Absender eintragen (mit Ihren Daten ersetzen)
+
+    ```shell
+    git config user.email "mail@felixlohmeier.de"
+    git config user.name "Felix Lohmeier"
+    ```
+
+3. Packzettel beilegen und Päckchen schließen
+
+    ```shell
+    git commit -m "Link zu meinem Lerntagebuch"
+    ```
+
+4. Päckchen abschicken
+
+    ```shell
+    git push
+    ```
+
+### Schritt 5: Pull Request erstellen
+
+* Mit wenigen Sekunden Verzögerung sollte Ihre Änderung nun auch bei GitHub angekommen sein.
+* Öffnen Sie Ihren Fork bei GitHub.
+* Klicken Sie auf den Link "Pull request". Dann erscheint ein Vergleich. Klicken Sie dort auf den Button "Create pull request".
+* Vervollständigen Sie das Formular und klicken Sie auf den Button "Create pull request".
+
+### Ergebnis auf GitHub
+
+Sie finden Ihren Pull Request im ursprünglichen Repository bei GitHub im Tab "Pull requests":
+
+<https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/pulls>
 
 # Blog mit GitHub Pages
 
