@@ -183,7 +183,7 @@ sudo systemctl restart apache2
 sudo koha-passwd bibliothek
 ```
 
-## Übung: Manuelle Bedienung
+### Übung: Manuelle Bedienung
 
 **Aufgabe (20 Minuten)**: Damit Sie ein Gespür für das System erhalten, machen wir nun ein Minimalbeispiel für einen vereinfachten Bibliotheksworkflow:
 
@@ -194,7 +194,7 @@ sudo koha-passwd bibliothek
 
 Schauen Sie sich dabei auch ein wenig um, welche Optionen das Bibliothekssystem Koha bietet.
 
-### Buch erfassen
+#### Buch erfassen
 
 Start > Katalogisierung > Neuer Titel > Schnellaufnahme
 
@@ -205,21 +205,21 @@ Start > Katalogisierung > Neuer Titel > Schnellaufnahme
     * `p - Barcode` muss vergeben werden (sonst können wir später nicht ausleihen)
     * Unten Button "Exemplar hinzufügen" nicht vergessen
 
-### Benutzer anlegen
+#### Benutzer anlegen
 
 * Start > Benutzer > Benutzer-Schnellerfassung
 * Hinzufügen Benutzer: Name und Ausweisnummer vergeben
 
-### Buch an Theke ausleihen
+#### Buch an Theke ausleihen
 
 * Oben im Suchschlitz Reiter Ausleihe wählen, Ausweisnummer eingeben und abschicken
 * Dann in Box "Ausleihe an" den Exemplarbarcode eingeben und Ausleihe abschicken
 
-### Buch an Theke zurücknehmen
+#### Buch an Theke zurücknehmen
 
 * Oben im Suchschlitz Reiter Rückgabe wählen, Barcode eingeben und abschicken
 
-## Übung: Datenimport
+### Übung: Datenimport
 
 **Aufgabe (20 Minuten)**: Koha verfügt über einige Schnittstellen. Hier ein kleines Beispiel für semi-automatische Erfassung ("copy cataloging"):
 
@@ -227,7 +227,7 @@ Start > Katalogisierung > Neuer Titel > Schnellaufnahme
 2. "Copy Cataloging"
 3. Datenexport
 
-### Z39.50 Server einrichten
+#### Z39.50 Server einrichten
 
 Start > Administration > Z39.50/SRU-Server / Neuer SRU-Server
 
@@ -242,7 +242,7 @@ Start > Administration > Z39.50/SRU-Server / Neuer SRU-Server
 Note:
 * Im Netzwerk der FHGR sind aus Sicherheitsgründen einige Ports gesperrt. Daher können wir mit unserer virtuellen Maschine einige Z39.50 Server wie z.B. von NEBIS auf Port 9909 nicht erreichen.
 
-### "Copy Cataloging"
+#### "Copy Cataloging"
 
 Start > Katalogisierung > Import über Z39.50/SRU
 
@@ -251,7 +251,7 @@ Start > Katalogisierung > Import über Z39.50/SRU
 * Im folgenden Katalogisierungsbildschirm können Sie versuchen zu speichern. Es muss aber auf jeden Fall noch der Medientyp in Feld `942c` ausgewählt werden (ein Pflichtfeld).
 * Im nächsten Bildschirm einen Barcode vergeben und Exemplar hinzufügen.
 
-## Exkurs: Datenexport und Schnittstellen
+### Exkurs: Datenexport und Schnittstellen
 
 * Koha unterstützt dateibasierten Datenexport und diverse Schnittstellen.
 * Wir nutzen hier die Schnittstelle OAI-PMH.
@@ -263,11 +263,11 @@ Start > Katalogisierung > Import über Z39.50/SRU
   * Aggregation für Verbundrecherchen
   * Datenbereitstellung für Digitalisierung, Hackathons, etc.
 
-## Übung: OAI-PMH
+### Übung: OAI-PMH
 
 **Aufgabe (20 Minuten)**: Aktivieren Sie die OAI-PMH-Schnittstelle und prüfen Sie, ob die von Ihnen erstellten Datensätze darüber abrufbar sind
 
-### Schnittstelle einrichten
+#### Schnittstelle einrichten
 
 Administration > Globale Systemparameter > Web Services
 * OAI-PMH: Aktiviere
@@ -275,7 +275,7 @@ Administration > Globale Systemparameter > Web Services
 * Button "Alle Web Services Parameter speichern"
 * Siehe auch: <http://manual.koha-community.org/3.12/en/administration.html#oaiprefs>
 
-### Schnittstelle abfragen
+#### Schnittstelle abfragen
 
 * Die Basisurl lautet bei uns: <http://bibliothek.meine-schule.org/cgi-bin/koha/oai.pl>
 * Klicken Sie oben auf die Links "Identify", "Metadata Formats" usw.
@@ -312,7 +312,7 @@ Administration > Globale Systemparameter > Web Services
 * Alma ist cloudbasiert, d.h. zentrale Installation auf Servern von Ex Libris und regelmäßige Updates.
 * Kritiker befürchten langfristig Nachteile durch die Abhängigkeit vom Hersteller Ex Libris und dessen Marktmacht (Vendor-Lock-in).
 
-# Aufgaben
+## Aufgaben
 
 Bis zum nächsten Termin:
 

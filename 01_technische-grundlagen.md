@@ -6,7 +6,7 @@
 * Versionskontrolle mit git (45 Minuten)
 * Blog mit GitHub Pages (15 Minuten)
 
-# Schaubild zu Lehrinhalten
+## Schaubild zu Lehrinhalten
 
 ![Schaubild zu Lehrinhalten](images/01_schaubild.png)
 
@@ -19,15 +19,15 @@ Note:
 * Abschließend werden die MARC21-XML-Daten in die Discovery-Lösung VuFind eingespielt.
 * Wir lernen die Systeme, Schnittstellen, Tools und Formate Schritt für Schritt kennen. Am Ende des Kurses sollten Sie das Schaubild dann in eigenen Worten erklären können.
 
-# Einrichtung der Arbeitsumgebung (Linux)
+## Einrichtung der Arbeitsumgebung (Linux)
 
-## Arbeitsumgebung
+### Arbeitsumgebung
 
 * Jede/r erhält eine virtuelle Maschine der FH Graubünden mit Ubuntu Linux.
 * Sie haben volle Administrationsrechte.
 * Dozenten haben zur Unterstützung und Fehlerbehebung ebenfalls Zugriff darauf.
 
-## Linux
+### Linux
 
 * Die meisten Webserver laufen auf Linux.
 * Wir verwenden [Ubuntu](https://ubuntu.com) in der Version 20.04 LTS.
@@ -36,7 +36,7 @@ Note:
 Note:
 - Normalerweise werden Linux-Server aus Sicherheitsgründen ohne grafische Oberfläche administriert, also nur über die Kommandozeile.
 
-## Zugriff auf die virtuelle Maschine
+### Zugriff auf die virtuelle Maschine
 
 1. Per VPN mit dem Netzwerk der FHGR verbinden
 2. <https://horizon.fh-htwchur.ch> aufrufen
@@ -48,13 +48,13 @@ Note:
 - Bei Eingabe des Passworts ggf. mit Copy & Paste arbeiten, um Probleme mit dem Tastaturlayout zu umgehen.
 - Copy & Paste funktioniert besser mit der Zusatzsoftware.
 
-## Übung: Verbindung testen
+### Übung: Verbindung testen
 
 Bitte verbinden Sie sich jetzt mit der virtuellen Maschine. Nach dem Login sollte es etwa so aussehen:
 
 ![Screenshot des Ubuntu-Desktops](images/01_ubuntu.png)
 
-## Grundeinstellungen
+### Grundeinstellungen
 
 1. Favoriten
     * Unten links Anwendungsmenü öffnen
@@ -68,7 +68,7 @@ Bitte verbinden Sie sich jetzt mit der virtuellen Maschine. Nach dem Login sollt
 Note:
 - Teilnehmer\*innen mit Mac? Dann im Applikationsmenü "Region & Language" und dort das Keyboard Layout "German (Switzerland, Macintosh)" ergänzen und auswählen
 
-## Programme installieren
+### Programme installieren
 
 1. Programmverzeichnis aktualisieren
 
@@ -87,7 +87,7 @@ Note:
 - Änderungen werden ausführlich angezeigt, diese müssen dann nochmal mit `Y` bestätigt werden.
 - Die Paketverwaltung unter Linux ist vergleichbar mit einem App-Store von Apple oder Google.
 
-# Grundlagen der Unix Shell
+## Grundlagen der Unix Shell
 
 * Wird benötigt zur Administration von Servern
 * Ist aber auch zur Automatisierung von kleineren Aufgaben beliebt (Shell-Scripte)
@@ -96,7 +96,7 @@ Note:
 - Die Unix Shell werden wir im Kurs öfter für Installation und Konfiguration der Software verwenden. Daher beginnen wir hier mit einer Wiederholung der wichtigsten Kommandos, damit uns das später leichter fällt.
 - Es gibt verschiedene Varianten der Shell. Ubuntu verwendet Bash.
 
-## Download der Materialien
+### Download der Materialien
 
 1. In das Home-Verzeichnis wechseln
 
@@ -117,14 +117,14 @@ Note:
     rm shell-lesson.zip
     ```
 
-## Übungen
+### Übungen
 
 Aufgaben:
 
 1. Bearbeiten Sie das zweite Kapitel [Navigating the filesystem](https://librarycarpentry.org/lc-shell/02-navigating-the-filesystem/index.html) der Library Carpentry Lesson zur Unix Shell
 2. Bearbeiten Sie das dritte Kapitel [Working with files and directories](https://librarycarpentry.org/lc-shell/03-working-with-files-and-folders/index.html) der Library Carpentry Lesson zur Unix Shell
 
-## Tipps zur Unix Shell
+### Tipps zur Unix Shell
 
 * Nutzen Sie immer die Tab-Taste für die Autovervollständigung.
 * Seien Sie faul, verwenden Sie Ihre persönliche Befehlshistorie (Pfeiltaste nach oben / Suche in der Historie mit `STRG`+`R`).
@@ -134,7 +134,7 @@ Aufgaben:
 Note:
 - Alle Programme in der Unix Shell sind ähnlich aufgebaut. Wenn Sie das Grundprinzip mit der Unterscheidung von Programm und Parametern verinnerlicht haben, dann hilft Ihnen auch die integrierte Hilfe (`--help`) weiter.
 
-## Redirects und Pipes
+### Redirects und Pipes
 
 ![Library Carpentry Illustration Redirects and Pipes](images/01_redirects-and-pipes.png)
 
@@ -143,7 +143,7 @@ Note:
 2. Stattdessen kann das Ergebnis aber auch in eine Datei umgelenkt werden mit der spitzen Klammer `>`
 3. Das Ergebnis eines Programms kann mit "Pipes" (`|`) direkt weiterverarbeitet werden. Welche Ausgabe erwarten Sie?
 
-# Versionskontrolle mit git
+## Versionskontrolle mit git
 
 * Aus Zeitgründen schauen wir uns nur Grundfunktionen von `git` an.
 * Wenn Sie im Anschluss selbst üben möchten, bietet Library Carpentry dazu [ausführliche Lehrmaterialien](<https://librarycarpentry.org/lc-git/>)
@@ -152,7 +152,7 @@ Note:
 
 - Durch die Plattform GitHub, auf der Informatiker\*innen Ihren Quellcode ablegen, ist das Versionskontrollsystem Git sehr populär geworden. Es ist nicht nur für die Entwicklung von Software, sondern generell für die Zusammenarbeit in Projekten extrem hilfreich.
 
-## Wozu Git?
+### Wozu Git?
 
 * Git ist eine Software zur Versionskontrolle
 * Ermöglicht die Arbeit an Textdateien auf mehreren Computern und/oder mit mehreren Personen zu synchronisieren.
@@ -162,7 +162,7 @@ Note:
 Note:
 * Git wurde entwickelt für die gemeinsame Software-Entwicklung; heute gibt es weitere Anwendungsfälle (z.B. Texte, Präsentationen oder Forschungsdaten).
 
-## Unterschied Git und GitHub
+### Unterschied Git und GitHub
 
 * Git kann zunächst auch lokal auf einem Computer verwendet werden.
 * Wenn ein Git Repository im Netz bereitgestellt werden soll, braucht es eine Installation von Git auf einem Webserver.
@@ -173,12 +173,12 @@ Note:
 - Alternativen zu GitHub sind unter anderem [GitLab](https://gitlab.com), [BitBucket](https://bitbucket.org) oder auch das Urgestein [SourceForge](https://sourceforge.net).
 - Viele Bibliotheken nutzen GitHub oder GitLab. Es gibt eine gemeinschaftlich gepflegte Liste [BibsOnGitHub](https://github.com/axel-klinger/BibsOnGitHub), auf der [Listen von Bibliotheken](https://axel-klinger.github.io/BibsOnGitHub/libraries.html) und [deren Repositorien](https://axel-klinger.github.io/BibsOnGitHub/repositories.html) eingesehen werden können.
 
-## GitHub vs. GitLab
+### GitHub vs. GitLab
 
 * Open Source Software findet sich auf beiden Plattformen.
 * Nur GitLab (in der Community Edition) ist selbst Open Source. Hier ist der Quellcode von GitLab: <https://gitlab.com/gitlab-org/gitlab>
 
-## Übung: Link zum Lerntagebuch ergänzen
+### Übung: Link zum Lerntagebuch ergänzen
 
 * Als Beispiel nutzen wir das [GitHub Repository dieses Kurses](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik), in dem die Lehrmaterialien liegen.
 * Sie ergänzen darin den Link zu Ihrem Lerntagebuch.
@@ -189,13 +189,13 @@ Note:
   4. Die Änderung mit einer Notiz hochladen ("commit")
   5. Übernahme der Änderung anfragen ("Pull request")
 
-### Schritt 1: Kopie des Repositories erstellen
+#### Schritt 1: Kopie des Repositories erstellen
 
 * Bei GitHub einloggen
 * Repository aufrufen: https://github.com/felixlohmeier/bibliotheks-und-archivinformatik
 * Oben rechts auf Button "Fork" klicken
 
-### Schritt 2: Dateien herunterladen
+#### Schritt 2: Dateien herunterladen
 
 Um die Dateien aus Ihrem Fork herunterzuladen ("klonen") geben Sie den folgenden Befehl ins Terminal ein.
 
@@ -205,7 +205,7 @@ Ersetzen Sie dabei `...` durch den Link zu Ihrem Fork.
 git clone ...
 ```
 
-### Schritt 3: Änderung lokal durchführen
+#### Schritt 3: Änderung lokal durchführen
 
 1. Datei `README.md` in Texteditor öffnen und Link zu Ihrem Lerntagebuch in Abschnitt "Lerntagebücher" einfügen.
 
@@ -221,7 +221,7 @@ git clone ...
     git status
     ```
 
-### Schritt 4: Änderung hochladen
+#### Schritt 4: Änderung hochladen
 
 1. Datei zum Päckchen hinzufügen
 
@@ -248,27 +248,27 @@ git clone ...
     git push
     ```
 
-### Schritt 5: Pull Request erstellen
+#### Schritt 5: Pull Request erstellen
 
 * Mit wenigen Sekunden Verzögerung sollte Ihre Änderung nun auch bei GitHub angekommen sein.
 * Öffnen Sie Ihren Fork bei GitHub.
 * Klicken Sie auf den Link "Pull request". Dann erscheint ein Vergleich. Klicken Sie dort auf den Button "Create pull request".
 * Vervollständigen Sie das Formular und klicken Sie auf den Button "Create pull request".
 
-### Ergebnis auf GitHub
+#### Ergebnis auf GitHub
 
 Sie finden Ihren Pull Request im ursprünglichen Repository bei GitHub im Tab "Pull requests":
 
 <https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/pulls>
 
-# Blog mit GitHub Pages
+## Blog mit GitHub Pages
 
 * Mit GitHub Pages lassen sich statische Webseiten direkt aus den Dateien im GitHub Repository generieren und auf Servern von GitHub kostenfrei veröffentlichen.
 * GitHub verwendet dazu den (hauseigenen) Static-Site-Generator [Jekyll](https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll).
   * Die Software nimmt Markdown- und HTML-Dateien und generiert daraus eine komplette Webseite.
   * Die Darstellung (Themes) lässt sich über eine Konfigurationsdatei einstellen.
 
-# Aufgabe: Lerntagebuch
+## Aufgabe: Lerntagebuch
 
 Bis zum nächsten Termin:
 
