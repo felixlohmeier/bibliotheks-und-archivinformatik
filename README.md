@@ -69,7 +69,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Stefanie Moser](https://stemorit.github.io/BAIN-Lerntagebuch/)
 * [Alex Muster](https://alexmuster.github.io/lerntageblog)
 * [Melanie Müller](https://rumolin.github.io/lerntagebuch-bain/)
-* [Florian Riedmann](https://github.com/xXxjaegerxXx/lerntagebuch)
+* [Florian Riedmann](https://xxxjaegerxxx.github.io/lerntagebuch)
 * [Sakura](https://sakura-72.github.io/my-bain-blog/)
 * [Vanessa Seyffert](https://vseyffert.github.io/bainseyffert/)
 * [Charles Winkler](https://charleswinkler.github.io)
