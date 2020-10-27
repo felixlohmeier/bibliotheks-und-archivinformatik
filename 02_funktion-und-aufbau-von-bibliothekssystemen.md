@@ -38,7 +38,7 @@ Note:
 ### Einführung in Koha
 
 * Webseite: <https://koha-community.org>
-* Weltweites Open Source Projekt, gegründet 1999 in Neuseeland, heute  mit Beteiligung von Unternehmen wie ByWater Solutions, Biblibre,  Catalyst IT, PTFS Europe, Theke Solutions
+* Weltweites Open Source Projekt, gegründet 1999 in Neuseeland, heute mit Beteiligung von Unternehmen wie ByWater Solutions, Biblibre, Catalyst IT, PTFS Europe, Theke Solutions
 * Status des Projekts: Siehe [Statistik bei Open Hub](https://www.openhub.net/p/koha)
 
 Note:
@@ -154,13 +154,14 @@ Wir verwenden ein Tutorial von Stephan Tetzel, das auf deutsch und englisch verf
 **Aufgabe**: Bitte bearbeiten Sie das Tutorial, um die Grundkonfiguration von Koha vorzunehmen. Das Tutorial besteht aus 6 Kapiteln (die Links zu den weiteren Kapiteln sind immer am Anfang der Blogartikel):
 
 1. Installation und Einrichtung einer ersten Bibliothek
-    * Die Grundinstallation haben wir bereits durchgeführt. Starten Sie in [Kapitel 1](https://zefanjas.de/wie-man-koha-installiert-und-fuer-schulen-einrichtet-teil-1/) unter der Überschrift "Koha einrichten".
+  * Die Grundinstallation haben wir bereits durchgeführt. Starten Sie in [Kapitel 1](https://zefanjas.de/wie-man-koha-installiert-und-fuer-schulen-einrichtet-teil-1/) unter der Überschrift "Koha einrichten".
 2. Das bibliografische Framework
-    * Hier bitte nur lesen, den Export/Import nicht durchführen.
+  * Hier bitte nur lesen, den Export/Import nicht durchführen.
 3. Grundeinstellungen
-    - In der neuen Koha-Version 20.05 wurde der Parameter "OpacMainUserBlock" für die Willkommensnachricht von den Systemeinstellungen in das Nachrichten-Werkzeug verschoben (Werkzeuge > Nachrichten > Neuer Eintrag).
+  * In der neuen Koha-Version 20.05 wurde der Parameter "OpacMainUserBlock" für die Willkommensnachricht von den Systemeinstellungen in das Nachrichten-Werkzeug verschoben (Werkzeuge > Nachrichten > Neuer Eintrag).
 
 Optional:
+
 4. Buchaufnahme
 5. Drucken von Etiketten
 6. Ausleihkonditionen
@@ -199,11 +200,11 @@ Schauen Sie sich dabei auch ein wenig um, welche Optionen das Bibliothekssystem 
 Start > Katalogisierung > Neuer Titel > Schnellaufnahme
 
 1. Neuer Marc Datensatz: Pflichtfelder ausfüllen
-    * `000` und `008` werden automatisch befüllt beim Anklicken
-    * In `245a` muss ein Titel vergeben werden
+  * `000` und `008` werden automatisch befüllt beim Anklicken
+  * In `245a` muss ein Titel vergeben werden
 2. Exemplar hinzufügen
-    * `p - Barcode` muss vergeben werden (sonst können wir später nicht ausleihen)
-    * Unten Button "Exemplar hinzufügen" nicht vergessen
+  * `p - Barcode` muss vergeben werden (sonst können wir später nicht ausleihen)
+  * Unten Button "Exemplar hinzufügen" nicht vergessen
 
 #### Benutzer anlegen
 
@@ -257,7 +258,6 @@ Start > Katalogisierung > Import über Z39.50/SRU
 * Wir nutzen hier die Schnittstelle OAI-PMH.
 * OAI-PMH steht für [Open Archives Initiative Protocol for Metadata Harvesting](https://www.openarchives.org/pmh/) und ermöglicht regelmäßiges automatisiertes Abrufen von Änderungen.
 * Im Themenblock "Metadaten modellieren und Schnittstellen nutzen" gehen wir noch genauer darauf ein. Vorab: Was nützt es meiner Bibliothek?
-
   * Abruf der Daten zur Weiterverarbeitung (z. B. Discovery-System, Digitalisierung)
   * Erstellung von z. B. Regionalbibliografien oder Themenportalen
   * Aggregation für Verbundrecherchen
@@ -286,7 +286,7 @@ Administration > Globale Systemparameter > Web Services
 * Koha Anwenderhandbuch des Bibliothekservice-Zentrum Baden-Württemberg: <https://wiki.bsz-bw.de/display/KOHA/Dokumentation> (für ältere Versionen geschrieben)
 * Felix Hemme (2016): Katalogisierung mit dem Open-Source-Bibliothekssystem Koha – unter Berücksichtigung des Metadatenstandards MARC 21 und dem Regelwerk RDA. Bachelorarbeit im Studiengang Bibliotheksmanagement der FH Potsdam. <https://nbn-resolving.org/urn:nbn:de:kobv:525-13882>
 * Implementation Checklist: <https://koha-community.org/manual/20.05/en/html/implementation_checklist.html>
-* Fred King: How to use Koha, MarcEdit, a Raspberry Pi, and a Chicken  (optional) to create an ILS for under $100 (September 2019, Vortrag auf  Koha-Konferenz): <http://avengingchicken.online/misc/installing_koha_on_raspberry-pi-4.pdf>
+* Fred King: How to use Koha, MarcEdit, a Raspberry Pi, and a Chicken (optional) to create an ILS for under $100 (September 2019, Vortrag auf Koha-Konferenz): <http://avengingchicken.online/misc/installing_koha_on_raspberry-pi-4.pdf>
 
 ## Marktüberblick Bibliothekssysteme
 
@@ -315,8 +315,8 @@ Administration > Globale Systemparameter > Web Services
 ### Unterschiede zwischen wiss. und öff. Bibliothekssoftware
 
 - Traditionell gibt es große Unterschiede zwischen wissenschaftlichen und öffentlichen Bibliotheken (darunter Schulbibliotheken)
-- Bibliotheksmanagementsoftware für öffentliche Bibliotheken enthält oft Module für  Veranstaltungsmanagement oder Content-Management (Webseiten),  legt  Schwerpunkte auf optischer Darstellung (Buchcover, Themenschwerpunkte)  und bindet Plattformen für E-Books und Hörbücher ein.
-- Bibliotheksmanagementsoftware für wissenschaftliche Bibliotheken legt Schwerpunkte auf Erschließung,  E-Ressourcen-Management (elektronische Zeitschriften) und komplexe  Geschäftsgänge
+- Bibliotheksmanagementsoftware für öffentliche Bibliotheken enthält oft Module für Veranstaltungsmanagement oder Content-Management (Webseiten), legt Schwerpunkte auf optischer Darstellung (Buchcover, Themenschwerpunkte) und bindet Plattformen für E-Books und Hörbücher ein.
+- Bibliotheksmanagementsoftware für wissenschaftliche Bibliotheken legt Schwerpunkte auf Erschließung, E-Ressourcen-Management (elektronische Zeitschriften) und komplexe Geschäftsgänge
 
 ## Aufgaben
 

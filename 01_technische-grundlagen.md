@@ -57,13 +57,13 @@ Bitte verbinden Sie sich jetzt mit der virtuellen Maschine. Nach dem Login sollt
 ### Grundeinstellungen
 
 1. Favoriten
-    * Unten links Anwendungsmenü öffnen
-    * Programm suchen (`Terminal` und `Text Editor`)
-    * Rechtsklick auf Icon und `Add to Favorites` wählen
+  * Unten links Anwendungsmenü öffnen
+  * Programm suchen (`Terminal` und `Text Editor`)
+  * Rechtsklick auf Icon und `Add to Favorites` wählen
 
 2. Startseite im Firefox Browser
-    * Die [Übersichtsseite des gemeinsamen Dokuments](https://pad.gwdg.de/Tf-htntTR8COelT3Wgodzg?both#) aufrufen
-    * Icon vor der URL (Schloss) per Drag & Drop auf Home-Button ziehen
+  * Die [Übersichtsseite des gemeinsamen Dokuments](https://pad.gwdg.de/Tf-htntTR8COelT3Wgodzg?both#) aufrufen
+  * Icon vor der URL (Schloss) per Drag & Drop auf Home-Button ziehen
 
 Note:
 - Teilnehmer\*innen mit Mac? Dann im Applikationsmenü "Region & Language" und dort das Keyboard Layout "German (Switzerland, Macintosh)" ergänzen und auswählen
@@ -273,7 +273,7 @@ Sie finden Ihren Pull Request im ursprünglichen Repository bei GitHub im Tab "P
 Bis zum nächsten Termin:
 
 1. Lerntagebuch einrichten
-   * Vorlage für ein Lerntagebuch mit GitHub Pages: <https://github.com/felixlohmeier/lerntagebuch>
-   * Link bitte auf der Übersichtsseite der gemeinsamen Dokumente ergänzen: <https://pad.gwdg.de/Tf-htntTR8COelT3Wgodzg>
+  * Vorlage für ein Lerntagebuch mit GitHub Pages: <https://github.com/felixlohmeier/lerntagebuch>
+  * Link bitte auf der Übersichtsseite der gemeinsamen Dokumente ergänzen: <https://pad.gwdg.de/Tf-htntTR8COelT3Wgodzg>
 2. Einführungsartikel (wo bin ich gestartet?)
 3. Beitrag zu dieser Lehreinheit "Technische Grundlagen"
