@@ -31,8 +31,8 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
    - Installation und Konfiguration von ArchivesSpace
    - Marktüberblick Archivsysteme
 4. [Repository-Software für Publikationen und Forschungsdaten](04_repository-software-fuer-publikationen-und-forschungsdaten.md) (16.10.2020)
-   - Installation und Konfiguration von DSpace
    - Open Access und Open Data
+   - Übungen mit DSpace
    - Marktüberblick Repository-Software
 5. [Metadaten modellieren und Schnittstellen nutzen](05_metadaten-modellieren-und-schnittstellen-nutzen.md) (30.10.2020 / 20.11.2020)
    - Transformation von Metadaten mit OpenRefine
