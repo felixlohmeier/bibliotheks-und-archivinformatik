@@ -1,10 +1,10 @@
 # Technische Grundlagen
 
-* Schaubild zu Lehrinhalten (10 Minuten)
-* Einrichtung der Arbeitsumgebung (Linux) (20 Minuten)
-* Grundlagen der Unix Shell (45 Minuten)
-* Versionskontrolle mit git (45 Minuten)
-* Blog mit GitHub Pages (15 Minuten)
+* Schaubild zu Lehrinhalten
+* Einrichtung der Arbeitsumgebung (Linux)
+* Grundlagen der Unix Shell
+* Versionskontrolle mit git
+* Blog mit GitHub Pages
 
 ## Schaubild zu Lehrinhalten
 
@@ -268,7 +268,7 @@ Sie finden Ihren Pull Request im ursprünglichen Repository bei GitHub im Tab "P
   * Die Software nimmt Markdown- und HTML-Dateien und generiert daraus eine komplette Webseite.
   * Die Darstellung (Themes) lässt sich über eine Konfigurationsdatei einstellen.
 
-## Aufgabe: Lerntagebuch
+## Aufgaben
 
 Bis zum nächsten Termin:
 
