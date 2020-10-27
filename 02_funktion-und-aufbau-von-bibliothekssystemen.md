@@ -312,6 +312,12 @@ Administration > Globale Systemparameter > Web Services
 * Alma ist cloudbasiert, d.h. zentrale Installation auf Servern von Ex Libris und regelmäßige Updates.
 * Kritiker befürchten langfristig Nachteile durch die Abhängigkeit vom Hersteller Ex Libris und dessen Marktmacht (Vendor-Lock-in).
 
+### Unterschiede zwischen wiss. und öff. Bibliothekssoftware
+
+- Traditionell gibt es große Unterschiede zwischen wissenschaftlichen und öffentlichen Bibliotheken (darunter Schulbibliotheken)
+- Bibliotheksmanagementsoftware für öffentliche Bibliotheken enthält oft Module für  Veranstaltungsmanagement oder Content-Management (Webseiten),  legt  Schwerpunkte auf optischer Darstellung (Buchcover, Themenschwerpunkte)  und bindet Plattformen für E-Books und Hörbücher ein.
+- Bibliotheksmanagementsoftware für wissenschaftliche Bibliotheken legt Schwerpunkte auf Erschließung,  E-Ressourcen-Management (elektronische Zeitschriften) und komplexe  Geschäftsgänge
+
 ## Aufgaben
 
 Bis zum nächsten Termin:
