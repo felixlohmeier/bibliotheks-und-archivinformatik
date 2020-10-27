@@ -37,8 +37,6 @@
 - DSpace 6.x: 2016 erstmalig veröffentlicht, wird gepflegt, aber nicht mehr weiterentwickelt.
 - DSpace 7.x: Veröffentlichung in 2020 geplant, neue Technologien im Frontend (Angular) und Backend (neue REST API).
 
-------
-
 ### DSpace Demo
 
 Aus Zeitgründen keine Installation, nur Test mit öffentlich zugänglicher Demo.
@@ -104,8 +102,6 @@ Note:
   - [Weltweit](https://v2.sherpa.ac.uk/view/repository_visualisations/1.html)
   - [Schweiz](https://v2.sherpa.ac.uk/view/repository_by_country/Switzerland.default.html)
 - [Open Access Repository Ranking 2015](https://web.archive.org/web/20160110005003/http://repositoryranking.org/) (via Wayback-Machine)
-
-------
 
 ### Relevante Systeme in D/A/CH
 
