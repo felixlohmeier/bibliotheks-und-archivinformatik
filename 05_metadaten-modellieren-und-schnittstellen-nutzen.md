@@ -1,13 +1,12 @@
 # Metadaten modellieren und Schnittstellen nutzen
 
-1. Zwischenstand (Schaubild)
-2. Austauschprotokolle für Metadaten (OAI-PMH, SRU)
-3. Metadaten über OAI-PMH harvesten mit VuFindHarvest
-4. XSLT Crosswalks mit MarcEdit
-5. Transformation von Metadaten mit OpenRefine
-6. Metadatenstandard LIDO
-7. Weitere Tools zur Metadatentransformation
-8. Nutzung von JSON-APIs
+- Zwischenstand (Schaubild)
+- Austauschprotokolle für Metadaten (OAI-PMH, SRU)
+- Metadaten über OAI-PMH harvesten mit VuFindHarvest
+- XSLT Crosswalks mit MarcEdit
+- Transformation von Metadaten mit OpenRefine
+- Weitere Tools zur Metadatentransformation
+- Nutzung von JSON-APIs
 
 ## Zwischenstand (Schaubild)
 
@@ -39,6 +38,11 @@ Note:
 * Vorgehen:
   1. Sicherstellen, dass die OAI-PMH-Endpoints für Koha, ArchivesSpace und DSpace verfügbar sind
   2. Mit dem Tool die Daten abrufen und als XML auf der Festplatte speichern
+
+Note:
+
+* VuFind ist Solr-basiertes Discovery-System (wie Primo)
+* VuFindHarvest ist OAI-Harvester (auch unabhängig von VuFind einsetzbar)
 
 ### ArchivesSpace Fehlerkorrektur
 
@@ -112,7 +116,7 @@ php bin/harvest_oai.php --url=http://example.com/oai_server --metadataPrefix=oai
 
 ### MarcEdit 7 installieren
 
-* MarcEdit ist eine kostenlos nutzbare Software aber nicht Open Source.
+* MarcEdit ist eine kostenlos nutzbare Software aber nicht Open Source (siehe [Lizenz](https://marcedit.reeset.net/marcedit-end-user-license-agreement))
 * Sie ist die meistgenutzte Zusatzsoftware für die Arbeit mit MARC21.
 * Offizielle Webseite: <https://marcedit.reeset.net>
 * Installation von Mono (MarcEdit ist in .NET geschrieben und benötigt unter Linux diese Laufzeitumgebung) und des Unicode Fonts "Noto":
@@ -184,14 +188,242 @@ Note:
 * OpenRefine benötigt JAVA. Das haben wir schon auf unserer virtuellen Maschine, weil wir es für ArchivesSpace installiert hatten.
 * `./` ist unter Linux eine Abkürzung für "in diesem Verzeichnis". Einfach nur `refine` reicht hier nicht aus, weil das Terminal dann nicht sicher weiß, ob Sie einen systemweit installierten Befehl `refine` oder die Datei `refine` im aktuellen Verzeichnis meinen. Daher muss zum Ausführen von Dateien im selben Verzeichnis das `./` vorangestellt werden.
 
+### Einführung in OpenRefine
+
+* Claim
+* Einsatzbereiche
+* Anwender\*innen
+* Formate
+* Einsatzmöglichkeiten
+* Historie
+
+#### Claim von OpenRefine
+
+>  "A free, open source, powerful tool for working with messy data"
+
+* grafische Oberfläche, die einer klassischen Tabellenverarbeitungssoftware ähnelt
+* dient der Analyse, Bereinigung, Konvertierung und Anreicherung von Daten
+* wird in der Regel lokal auf einem Computer installiert und über den Browser bedient
+
+#### Einsatzbereiche
+
+![OpenRefine 2020 Survey Results: Tasks](https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2020survey/4.png)
+
+Note:
+
+* Aus Umfrage vom OpenRefine-Team, n = 178
+
+#### Anwender\*innen
+
+![OpenRefine 2020 Survey Results: Communities](https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2020survey/1.png)
+
+#### Von OpenRefine unterstützte Formate
+
+* Besonders geeignet für tabellarische Daten (CSV, TSV, XLS, XLSX und auch TXT mit Trennzeichen oder festen Spaltenbreiten)
+* Einfaches "flaches" XML (z.B. MARCXML) oder JSON ist mit etwas Übung noch relativ einfach zu modellieren
+* Komplexes XML mit Hierarchien (z.B. EAD) ist möglich, aber nur mit Zusatztools
+* Kann auch in Kombination mit MarcEdit für Analyse und Transformation von MARC21 benutzt werden
+
+#### Einsatzmöglichkeiten von OpenRefine
+
+* Exploration von Datenlieferungen
+* Vereinheitlichung und Bereinigung (zur Datenqualität in der Praxis siehe Präsentation von Peter Király ["Validating 126 million MARC records"](https://docs.google.com/presentation/d/e/2PACX-1vRU4J_rln00UVD7pNPT0_02NOad0HfSk_UKqRI0v29y8QkMAplEDlyjc0Ot_VE_paV6WBW29Fh_V-iN/pub))
+* Abgleich mit Normdaten ("Reconciliation") in Wikidata, GND und VIAF
+* Für lokalen Einsatz ausgelegt (Installation auf Webservern und Automatisierung möglich, aber nur mit Zusatzsoftware)
+
+#### Historie
+
+<https://github.com/OpenRefine/OpenRefine/graphs/contributors>
+
+Note:
+
+* 2010-05: Freebase Gridworks
+* 2011-12-11: Google Refine 2.5
+* 2015-04-30: OpenRefine 2.6 rc1
+* 2017-06-18: OpenRefine 2.7
+* 2020-09-06: OpenRefine 3.4
+
 ### Übung Library Carpentry Lesson
 
 **Aufgabe (4 Stunden)**
 
 * Bearbeiten Sie die [Lehrmaterialien von Library Carpentry zu OpenRefine](https://librarycarpentry.org/lc-open-refine/)
 
-## Metadatenstandard LIDO
+### Übung: CSV nach MARCXML mit OpenRefine
+
+* Wir nutzen die Funktion [Templating Exporter](https://github.com/OpenRefine/OpenRefine/wiki/Exporters#templating-exporter). Diese findet sich oben rechts im Menü Export > Templating
+* Beschreibung des MARC21 Formats für bibliografische Daten mit Liste der Felder: <https://www.loc.gov/marc/bibliographic/>
+* Beispieldatei der Library of Congress für MARC21 mit mehreren Dokumenten: <https://www.loc.gov/standards/marcxml/xml/collection.xml>
+
+Note:
+* Das Vorgehen ist ähnlich wie bei XSLT Crosswalks, nur dass das "Template" hier direkt bearbeitet werden kann und nicht bereits fest steht, wie bei MarcEdit.
+* OpenRefine verwendet eine eigene Template-Sprache (GREL) statt XSLT.
+
+#### Voraussetzung für die Übung
+
+* OpenRefine (lokal oder auf dem Server)
+* Ein Projekt mit den Beispieldaten aus der Library Carpentry Lesson.
+* Schnell neu zu erstellen mit: Create > Web Addresses (URL)
+
+```
+https://raw.githubusercontent.com/LibraryCarpentry/lc-open-refine/gh-pages/data/doaj-article-sample.csv
+```
+
+#### Vorlage als Ausgangsbasis
+
+* Prefix:
+    ```xml
+    <collection xmlns="http://www.loc.gov/MARC21/slim">
+    ```
+* Row Separator: (Zeilenumbruch)
+* Suffix:
+    ```xml
+    </collection>
+    ```
+
+* Row Template:
+
+    ```xml
+    <record>
+    <leader>     nab a22     uu 4500</leader>
+    <controlfield tag="001">{{cells['URL'].value.replace('https://doaj.org/article/','').escape('xml')}}</controlfield>
+    <datafield tag="022" ind1=" " ind2=" ">
+        <subfield code="a">{{cells['ISSNs'].value.escape('xml')}}</subfield>
+    </datafield>
+    <datafield tag="100" ind1="0" ind2=" ">
+        <subfield code="a">{{cells['Authors'].value.split('|')[0].escape('xml')}}</subfield>
+    </datafield>
+    <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">{{cells["Title"].value.escape('xml')}}</subfield>
+    </datafield>{{
+    forEach(cells['Authors'].value.split('|').slice(1), v ,'
+    <datafield tag="700" ind1="0" ind2=" ">
+        <subfield code="a">' + v.escape('xml') + '</subfield>
+    </datafield>')
+    }}
+    </record>
+    ```
+
+#### Aufgabe 1: "Reverse Engineering"
+
+* Beschreiben Sie anhand des Vergleichs der Ausgangsdaten mit dem Ergebnis mit ihren eigenen Worten welche Transformationen für die jeweiligen Felder durchgeführt wurden.
+* Versuchen Sie die Aufgabe in der Gruppenarbeit zunächst einzeln zu lösen (10 min) und diskutieren Sie dann in der Gruppe.
+* Dokumentieren Sie abschließend bitte hier das Gruppenergebnis.
+
+#### Aufgabe 2: Template ergänzen
+
+* Suchen Sie für weitere Spalten in den DOAJ-Daten die Entsprechung in MARC21: <https://www.loc.gov/marc/bibliographic/>
+* Erstellen Sie geeignete Regeln im Template, um die Daten der gewählten Spalten in MARC21 zu transformieren.
+* Dokumentieren Sie das gewählte MARC21-Feld und den zugehörigen Abschnitt aus dem Template.
+
+#### Hinweise zur Vervollständigung
+
+Wenn die Spalten leere Zellen enthalten, dann Funktion `forNonBlank()` nutzen. Beispiel:
+
+```xml
+{{
+forNonBlank(
+    cells['DOI'].value,
+    v,
+    '<datafield tag="024" ind1="7" ind2=" ">
+        <subfield code="a">' + v.escape('xml') + '</subfield>
+        <subfield code="2">doi</subfield>
+    </datafield>',
+    ''
+)
+}}
+```
+
+#### Exkurs: XML-Deklaration
+
+* Um verarbeitenden Programmen mitzuteilen, dass es sich bei einer (Text-)Datei um XML handelt, wird dies üblicherweise am Anfang der Datei "deklariert":
+  ```
+  <?xml version="1.0" encoding="utf-8" standalone="yes"?>
+  ```
+  * Es handelt sich um eine XML-Datei
+  * Sie entspricht dem XML-Standard in Version 1.0
+  * Die Zeichenkodierung erfolgt im Standard Unicode
+  * Die Datei enthält eine Dokumenttypdefinition (DTD)
+* Nur `version` ist eine Pflichtangabe, `encoding`-Angaben gehören aber zur guten Praxis
+* Die Reihenfolge der Attribute ist festgelegt!
+
+#### Validieren mit xmllint
+
+* Wir exportieren das Gesamtergebnis als XML in ein neues Verzeichnis.
+* Für die Validierung können Sie das Programm `xmllint` verwenden, das unter Ubuntu vorinstalliert ist.
+* Zum Abgleich gegen das offizielle Schema von MARC21 laden wir dieses (XSD) zunächst herunter.
+
+```bash
+wget https://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd
+xmllint *.xml --noout --schema MARC21slim.xsd
+```
 
 ## Weitere Tools zur Metadatentransformation
 
+* Motivation
+* Vergleich mit anderen Tools
+
+### Zur Motivation
+
+Metadaten-Management in der Praxis, hier beim Leibniz-Informationszentrum Wirtschaft (ZBW) in Hamburg:
+* Infoseite: <https://www.zbw.eu/de/ueber-uns/arbeitsschwerpunkte/metadaten/>
+* Videointerview mit Kirsten Jeude: <https://www.youtube.com/watch?v=YwbRTDvt_sA>
+
+### Vergleich mit anderen Tools
+
+* Merkmale von OpenRefine:
+    * grafische Oberfläche: Transformationsergebnisse werden direkt sichtbar
+    * Skriptsprachen (GREL, Jython, Clojure) für komplexe Transformationen
+    * Schwerpunkt auf Datenanreicherung (Reconciliation)
+* Alternative Software:
+    * [Catmandu](https://librecat.org) (Perl)
+    * [Metafacture](https://github.com/metafacture/metafacture-core) (Java)
+    * [MarcEdit](https://marcedit.reeset.net) (für MARC21)
+* Siehe auch: Prof. Magnus Pfeffer (2016): Open Source Software zur Verarbeitung und Analyse von Metadaten. Präsentation auf dem 6. Bibliothekskongress. <http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:0290-opus4-24490>
+
+Note:
+* Generell gilt, dass die passende Software anhand des Anwendungsfalls gewählt werden sollte.
+* In der Praxis wird oft die Software verwendet, die schon gut beherrscht wird. Das macht es manchmal sehr umständlich.
+
 ## Nutzung von JSON-APIs
+
+* Moderne APIs liefern oft Antworten im Format JSON (statt XML wie bei SRU oder OAI-PMH)
+* JSON lässt sich ebenso wie XML im Browser anschauen und gut maschinell verarbeiten
+
+### Beispiel für API: lobid-gnd
+
+<https://lobid.org/gnd/api>
+
+* Suchergebnisse als JSON
+* Datensätze über ID direkt als JSON abrufen
+* Bulk-Downloads mit JSON lines
+* Was kann man damit bauen? Beispiel Autovervollständigung
+
+### Beispiel für Tool: scrAPIr
+
+<https://scrapir.org>
+
+* Das Tool erlaubt Daten von bekannten Webseiten zu beziehen
+* genutzt werden dazu die APIs der Webseiten (in der Regel JSON)
+* es werden auch Vorlagen für Code (Javascript, Python) bereitgestellt
+* Beispiel Google Books: <https://scrapir.org/data-management?api=Google_Books>
+
+### Reconciliation API
+
+* In [W3C Community Group Entity Reconciliation](https://www.w3.org/community/reconciliation/) entwickelter Entwurf für einen Standard: [Reconciliation Service API, v0.1, 20.8.2020](https://reconciliation-api.github.io/specs/0.1/)
+* Übersicht vorhandener Schnittstellen: <https://reconciliation-api.github.io/testbench/>
+* Nur ein kleiner Teil (u.a. Wikidata und lobid-gnd) unterstützt die Funktionen "Suggest" und "Extend Data"
+* Für Wikidata pflegt das OpenRefine-Team die Schnittstelle. Hier gab es leider in letzter Zeit einen Wechsel der URL und Performance-Probleme.
+
+## Aufgaben
+
+Bis zum nächsten Termin:
+
+1. Beitrag im Lerntagebuch zu dieser Lehreinheit
+2. Aufgabe Anreicherung mit lobid-gnd
+
+* Reichern Sie die Autorennamen in den DOAJ-Daten um zusätzliche Informationen (z.B. GND-Nummer und Geburtsjahr) aus lobid-gnd an.
+  * [Allgemeine Anleitung im Blog von lobid-gnd](https://blog.lobid.org/2018/08/27/openrefine.html)
+* Erweitern Sie das Template und exportieren Sie die Daten in XML.
+  * Hinweis: Im MARC21 Format gehören weiterführende Informationen zu Autoren in Unterfelder der Felder 100 und 700. Siehe Beispiele in der [Formatdokumentation](https://www.loc.gov/marc/bibliographic/concise/bd100.html)
+* Berichten Sie über diese Aufgabe in einem extra Artikel in Ihrem Lerntagebuch.
