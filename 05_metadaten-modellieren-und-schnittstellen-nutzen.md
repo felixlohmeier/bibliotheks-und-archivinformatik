@@ -1,6 +1,5 @@
 # Metadaten modellieren und Schnittstellen nutzen
 
-- Zwischenstand (Schaubild)
 - Austauschprotokolle für Metadaten (OAI-PMH, SRU)
 - Metadaten über OAI-PMH harvesten mit VuFindHarvest
 - XSLT Crosswalks mit MarcEdit
@@ -8,7 +7,7 @@
 - Weitere Tools zur Metadatentransformation
 - Nutzung von JSON-APIs
 
-## Zwischenstand (Schaubild)
+Zwischenstand (Schaubild):
 
 ![Schaubild zu Lehrinhalten](images/05_schaubild-v3.png)
 
