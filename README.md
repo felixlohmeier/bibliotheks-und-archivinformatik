@@ -20,7 +20,7 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
    - Schaubild zu Lehrinhalten
    - Einrichtung der Arbeitsumgebung (Linux)
    - Grundlagen der Unix Shell
-   - Versionskontrolle mit Git
+   - Versionskontrolle mit git
    - Blog mit GitHub Pages
 2. [Funktion und Aufbau von Bibliothekssystemen](02_funktion-und-aufbau-von-bibliothekssystemen.md) (25.09.2020 / 02.10.2020)
    - Metadatenstandards in Bibliotheken (MARC21)
@@ -35,20 +35,24 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
    - Übungen mit DSpace
    - Marktüberblick Repository-Software
 5. [Metadaten modellieren und Schnittstellen nutzen](05_metadaten-modellieren-und-schnittstellen-nutzen.md) (30.10.2020 / 20.11.2020)
-   - Transformation von Metadaten mit OpenRefine
-   - XSLT Crosswalks mit MarcEdit
    - Austauschprotokolle für Metadaten (OAI-PMH, SRU)
+   - Metadaten über OAI-PMH harvesten mit VuFindHarvest
+   - XSLT Crosswalks mit MarcEdit
+   - Transformation von Metadaten mit OpenRefine
    - Weitere Tools zur Metadatentransformation
    - Nutzung von JSON-APIs
 6. [Suchmaschinen und Discovery-Systeme](06_suchmaschinen-und-discovery-systeme.md) (27.11.2020 / 11.12.2020)
-   - Funktion von Suchmaschinen am Beispiel von Solr
    - Installation und Konfiguration von VuFind
+   - Funktion von Suchmaschinen am Beispiel von Solr
+   - Übung zur Datenintegration
    - Marktüberblick Discovery-Systeme
-   - Schaubild zu Lehrinhalten
+   - Zwischenfazit
 7. [Linked Data](07_linked-data.md) (18.12.2020)
+   - Ergebnis der Unterrichtsevaluation
+   - Aktuelle Datenmodelle für Metadaten (BIBFRAME, RiC)
+   - Praxisberichte
    - Metadaten anreichern mit OpenRefine und Wikidata
    - Suchanfragen mit SPARQL am Beispiel des Wikidata Query Service
-   - Aktuelle Datenmodelle für Metadaten (BIBFRAME, RiC)
    - Empfehlenswerte Tutorials zum Selbstlernen
 
 ## Lerntagebücher
