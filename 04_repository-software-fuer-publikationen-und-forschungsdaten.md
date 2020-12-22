@@ -87,6 +87,11 @@ Note:
 - OAI-PMH-Schnittstelle der DSpace-Demo (Daten erscheinen dort zeitverzögert): http://demo.dspace.org/oai/request?verb=ListSets
 - Beispiel für Portal auf Basis von OAI-PMH: Die [Bielefeld Academic Search Engine (BASE)](https://pad.gwdg.de/TMS3kWihRGuhKPn1wMJswA?view) "erntet" weltweit OAI-PMH-Schnittstellen und verzeichnet damit weit über 100 Mio. Dokumente.
 
+Note:
+
+* [SWORD](https://en.wikipedia.org/wiki/SWORD_(protocol)) ist eine Schnittstelle, um Publikationen in einem Repository abzuliefern. Damit kann ein Formular mit Dateiupload auf einer Webseite (außerhalb der Repository-Webseite) angeboten werden.
+* Um Daten aus dem Repository auf Webseiten anzuzeigen, z.B. eine Publikationsliste, werden andere Schnittstellen wie [RSS-Feeds](https://de.wikipedia.org/wiki/RSS_(Web-Feed)) verwendet.
+
 ### Literatur zu DSpace
 
 - Videomitschnitte der Präsentationen auf dem D/A/CH-Anwendertreffen 2020: https://wiki.lyrasis.org/display/DSPACE/DSpace-Anwendertreffen+2020
