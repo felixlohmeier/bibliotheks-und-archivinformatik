@@ -6,6 +6,7 @@
 - Transformation von Metadaten mit OpenRefine
 - Weitere Tools zur Metadatentransformation
 - Nutzung von JSON-APIs
+- Metadatenstandard LIDO
 
 Zwischenstand (Schaubild):
 
@@ -69,7 +70,7 @@ Note:
 * Die Software wird bei GitHub veröffentlicht: <https://github.com/vufind-org/vufindharvest>
 * Sie ist in PHP geschrieben. Für die Installation wird composer (Paketverwaltung für PHP) empfohlen.
 
-```bash
+```shell
 sudo apt update
 sudo apt install composer php php-xml
 cd ~
@@ -92,7 +93,7 @@ composer install
   * Speichern Sie die Daten in verschiedenen Ordnern.
 * Beispiel:
 
-```bash
+```shell
 cd ~/vufindharvest-4.0.1
 php bin/harvest_oai.php --url=http://example.com/oai_server --metadataPrefix=oai_dc my_target_dir
 ```
@@ -120,13 +121,13 @@ php bin/harvest_oai.php --url=http://example.com/oai_server --metadataPrefix=oai
 * Offizielle Webseite: <https://marcedit.reeset.net>
 * Installation von Mono (MarcEdit ist in .NET geschrieben und benötigt unter Linux diese Laufzeitumgebung) und des Unicode Fonts "Noto":
 
-```bash
+```shell
 sudo apt install mono-complete fonts-noto
 ```
 
 * Installation von MarcEdit:
 
-```bash
+```shell
 cd ~
 wget https://marcedit.reeset.net/software/marcedit7/marcedit7.run
 chmod +x marcedit7.run
@@ -168,16 +169,16 @@ Note:
 ### Installation OpenRefine 3.4.1
 
 1. Auf der Seite [Download](https://openrefine.org/download.html) das "Linux kit" herunterladen
-    ```bash
+    ```shell
     cd ~
     wget https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz
     ```
 2. Das Tar-Archiv entpacken
-    ```bash
+    ```shell
     tar -xzf openrefine-linux-3.4.1.tar.gz
     ```
 3. In den entpackten Ordner wechseln und dort im Terminal den Befehl "./refine" aufrufen
-    ```bash
+    ```shell
     cd ~/openrefine-3.4.1
     ./refine
     ```
@@ -221,7 +222,7 @@ Note:
 * Besonders geeignet für tabellarische Daten (CSV, TSV, XLS, XLSX und auch TXT mit Trennzeichen oder festen Spaltenbreiten)
 * Einfaches "flaches" XML (z.B. MARCXML) oder JSON ist mit etwas Übung noch relativ einfach zu modellieren
 * Komplexes XML mit Hierarchien (z.B. EAD) ist möglich, aber nur mit Zusatztools
-* Kann auch in Kombination mit MarcEdit für Analyse und Transformation von MARC21 benutzt werden
+* Kann auch [in Kombination mit MarcEdit](https://blog.reeset.net/archives/1873) für Analyse und Transformation von MARC21 benutzt werden
 
 #### Einsatzmöglichkeiten von OpenRefine
 
@@ -336,7 +337,7 @@ forNonBlank(
 #### Exkurs: XML-Deklaration
 
 * Um verarbeitenden Programmen mitzuteilen, dass es sich bei einer (Text-)Datei um XML handelt, wird dies üblicherweise am Anfang der Datei "deklariert":
-  ```
+  ```xml
   <?xml version="1.0" encoding="utf-8" standalone="yes"?>
   ```
   * Es handelt sich um eine XML-Datei
@@ -352,7 +353,7 @@ forNonBlank(
 * Für die Validierung können Sie das Programm `xmllint` verwenden, das unter Ubuntu vorinstalliert ist.
 * Zum Abgleich gegen das offizielle Schema von MARC21 laden wir dieses (XSD) zunächst herunter.
 
-```bash
+```shell
 wget https://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd
 xmllint *.xml --noout --schema MARC21slim.xsd
 ```
@@ -383,6 +384,7 @@ Metadaten-Management in der Praxis, hier beim Leibniz-Informationszentrum Wirtsc
 Note:
 * Generell gilt, dass die passende Software anhand des Anwendungsfalls gewählt werden sollte.
 * In der Praxis wird oft die Software verwendet, die schon gut beherrscht wird. Das macht es manchmal sehr umständlich.
+* Wer eine generische Programmiersprache wie Python gut beherrscht, kommt auch damit zum Ziel. Für Python gibt es übrigens eine Library für MARC21: <https://pymarc.readthedocs.io>
 
 ## Nutzung von JSON-APIs
 
@@ -413,6 +415,46 @@ Note:
 * Übersicht vorhandener Schnittstellen: <https://reconciliation-api.github.io/testbench/>
 * Nur ein kleiner Teil (u.a. Wikidata und lobid-gnd) unterstützt die Funktionen "Suggest" und "Extend Data"
 * Für Wikidata pflegt das OpenRefine-Team die Schnittstelle. Hier gab es leider in letzter Zeit einen Wechsel der URL und Performance-Probleme.
+
+## Metadatenstandard LIDO
+
+* **L**ightweight **I**nformation **D**escribing **O**bjects ist ein auf dem [CIDOC Conceptual Reference Model](http://www.cidoc-crm.org/) (CRM) basierender XML-Standard zur Beschreibung von Kulturobjekten
+  * CIDOC CRM definiert [URI](https://de.wikipedia.org/wiki/Uniform_Resource_Identifier) für Konzepte und Relationen
+  * LIDO verwendet eine an CIDOC CRM orientierte [Terminologie](http://cidoc.mini.icom.museum/working-groups/lido/lido-technical/terminology/)
+  * LIDO folgt dem [Linked Open Data](https://de.wikipedia.org/wiki/Linked_Open_Data)-Paradigma
+* besonderes Merkmal von LIDO ist die ereignis-zentrierte Beschreibung von Objekten (Ereignisse als Entitäten)
+* durch die spezielle Struktur ist die verlustfreie Transformation in andere Formate jedoch schwierig
+
+### LIDO - Struktur
+
+* deskriptive Metadaten:
+  * Identifikation (Titel/Name, Beschreibung, Maße, etc.)
+  * Klassifikation (Art, Gattung, Form, etc.)
+  * **Ereignisse** (Herstellung, Bearbeitung, Besitzwechsel, Restaurierung, etc.)
+  * Relationen (Objekte, Personen, Orte, etc.)
+* administrative Metadaten:
+  * Rechte (Objekt, Datensatz, Nutzung, Verbreitung, etc.)
+  * Datensatz (Identifikation, Urheber, etc.)
+  * Ressourcen (Digitalisat, Nachweis, etc.)
+* Unterscheidung zwischen *display elements* und *index elements*
+
+### LIDO - Einordnung
+
+* Auch LIDO ist letztlich "nur" ein XML-Format, kann also mit denselben Werkzeugen und Methoden verarbeitet werden, die Sie in den vergangenen Lehreinheiten bereits im Umgang mit anderen Formaten kennengelernt haben
+* Das spezielle Konzept von LIDO macht das Format nicht wesentlich komplizierter als andere Formate, es ist lediglich im Vergleich ungewohnt
+
+### LIDO - Crosswalks
+
+* Zur Orientierung sind vielleicht die Transformationsregeln der Deutschen Digitalen Bibliothek (DDB) und der Europeana interessant
+    * DDB
+        * [Excel-Datei mit Mappings](https://www.smb.museum/fileadmin/website/Institute/Institut_fuer_Museumsforschung/Fachstelle_Museum/DDB-LIDO_1.9.xlsx) (v1.9)
+        * [Erklärende Präsentationsfolien](https://www.smb.museum/fileadmin/website/Institute/Institut_fuer_Museumsforschung/Fachstelle_Museum/Visualisierung_DDB-LIDO.pdf) (v1.4)
+    * Europeana (EDM)
+        * [Beschreibung mit Beispiel](https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Mapping_Guidelines_v2.4_102017.pdf) (S. 43ff.)
+* Broschüre [Implementing LIDO](https://www.athenaplus.eu/index.php?en/208/implementing-lido) aus dem EU-Projekt AthenaPlus von 2015
+* Auf der Konferenz ELAG gab es 2018 einen Vortrag zur Aggregation von LIDO-XML Daten in einen "DataHub":
+    * Matthias Vandermaesen: [The Datahub Project: De/blending Museum Data](http://repozitar.techlib.cz/record/1263/files/idr-1263_1.pdf)
+* Catmandu beinhaltet ein [Modul für LIDO](https://github.com/LibreCat/Catmandu-LIDO)
 
 ## Aufgaben
 
