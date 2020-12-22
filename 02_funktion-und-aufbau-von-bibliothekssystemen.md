@@ -168,7 +168,7 @@ Optional:
 
 ### Koha zurücksetzen (falls etwas total schiefgeht)
 
-```bash
+```shell
 sudo koha-remove bibliothek
 sudo apt purge koha-common
 sudo rm -r /usr/share/koha

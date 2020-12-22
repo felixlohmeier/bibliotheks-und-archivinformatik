@@ -132,21 +132,21 @@ Note:
 
 1. Java 8 installieren
 
-  ```bash
+  ```shell
   sudo apt update
   sudo apt install openjdk-8-jre-headless
   ```
 
 2. Zip-Archiv herunterladen und entpacken
 
-  ```bash
+  ```shell
   wget https://github.com/archivesspace/archivesspace/releases/download/v2.8.0/archivesspace-v2.8.0.zip
   unzip -q archivesspace-v2.8.0.zip
   ```
 
 3. ArchivesSpace starten
 
-  ```bash
+  ```shell
   archivesspace/archivesspace.sh
   ```
 
