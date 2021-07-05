@@ -1,0 +1,39 @@
+name: 'Skript zum Kurs "Bibliotheks- und Archivinformatik"'
+creativeWorkStatus: "Published" # Incomplete, Draft, Published
+creator:
+  - givenName: "Felix"
+    familyName: "Lohmeier"
+  - givenName: "Sebastian"
+    familyName: "Meyer"
+description: 'Kurs "Bibliotheks- und Archivinformatik" im Studiengang Information Science der FH Graubünden'
+url: "https://bain.felixlohmeier.de"
+inLanguage: "de"
+license: "https://creativecommons.org/licenses/by/4.0/"
+learningResourceType: "Kurs"
+sourceOrganization:
+  - name: "FH Graubünden"
+    type: "Organization"
+about:
+  - id: "https://w3id.org/kim/hochschulfaechersystematik/n06" # Bibliothekswissenschaft
+  - id: "https://w3id.org/kim/hochschulfaechersystematik/n71" # Informatik
+keywords:
+  - git
+  - markdown
+  - openrefine
+  - sparql
+  - solr
+  - wikidata
+  - xslt
+  - koha
+  - oai-pmh
+  - library-carpentry
+  - code4lib
+  - dspace
+  - archivesspace
+  - marc21
+  - vufind
+  - ead
+  - sru
+  - open-educational-resources
+  - bibliotheksinformatik
+  - marcedit
