@@ -65,15 +65,15 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 
 ## Modulbeschreibung
 
-Im Modul Bibliotheks- und Archivinformatik lernen die Studierenden die in Bibliotheken und Archiven eingesetzten Softwares und Technologien kennen. Funktionsweisen von Bibliothekssystemen (bis hin zu Cloud-Konzepten), Archivinformationssystemen, Publikationsplattformen, Suchportale etc. werden erläutert. Verschiedene quelloffene Software-Lösungen werden evaluiert und im Einsatz über unterschiedliche Datenbestände angewandt. Es wird gezeigt, wie Metadatenstandards und Austauschprotokolle eingesetzt und genutzt werden.
+Im Modul Bibliotheks- und Archivinformatik lernen die Studierenden die in Bibliotheken und Archiven eingesetzten Softwares und Technologien kennen. Funktionsweisen von Bibliothekskatalogen (bis hin zu Cloud-Konzepten), von Publikationsplattformen, Repositories etc. werden erläutert. Verschiedene Suchtechnologien werden analysiert und im Einsatz über unterschiedliche Datenbestände angewandt. Es wird gezeigt, wie Metadatenstandards und Austauschprotokolle eingesetzt und genutzt werden.
 
 Nach erfolgreicher Teilnahme am Modul sind die Studierenden in der Lage:
 
 * die Funktionsweise spezifischer Bibliothekssoftware zu verstehen
 * die richtige Software für eine spezifische Aufgabe zu evaluieren
-* Daten in ein Suchportal zu integrieren
-* Bibliothekarische und archivarische Metadaten (z.B. MARC, MARCXML, Dublin Core, EAD, BIBFRAME) zu modellieren und diese mit entsprechenden Protokollen / Anwendungen zu übertragen
-* Crosswalks zwischen unterschiedlichen Metadatenformaten zu konzipieren und anzuwenden
+* Suchmaschinen zu konfigurieren
+* Bibliothekarische und archivarische Metadaten (z.B. MARC, MARCXML, MODS, Dublin Core, EAD, BIBFRAME) zu modellieren und diese mit entsprechenden Protokollen / Anwendungen zu übertragen
+* Crosswalks zwischen unterschiedlichen Metadatenformaten zu programmieren
 
 ## Skripte der Vorjahre
 
