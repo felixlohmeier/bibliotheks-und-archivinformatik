@@ -61,13 +61,14 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
 
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
-https://github.com/JoyRW/bibliotheks-und-archivinformatik.git
-[Anna Hilgert](https://github.com/hilgeann/bibliotheks-und-archivinformatik.git)
-	- [Julia Zingg](https://github.com/JZingg/LerntagebuchBAIN_HS21.git)
-https://jahnsievers.github.io/Lerntagebuch-BAIN/
-https://github.com/marhee48/bibliotheks-und-archivinformatik.git
-* [Simon Mettler](https://github.com/simon-mettler/lernblog-bain)
-Jannik: https://github.com/TonyTestimony/bibliotheks-und-archivinformatik.git
+* [Jannik Christen](https://tonytestimony.github.io/Lerntagebuch-BAIN/)
+* [Martin Heeb](https://marhee48.github.io/Lerntagebuch-BAIN/)
+* [Anna Hilgert](https://hilgeann.github.io/Lerntagebuch_BAIN/)
+* [Jacqueline Küng](https://schaglin.github.io/Mein-Lerntagebuch/)
+* [Jahn Sievers](https://jahnsievers.github.io/Lerntagebuch-BAIN/)
+* [Simon Mettler](https://simon-mettler.github.io/lernblog-bain/)
+* [Joy Walser](https://joyrw.github.io/Lerntagebuch/)
+* [Julia Zingg](https://jzingg.github.io/LerntagebuchBAIN_HS21/)
 
 ## Modulbeschreibung
 
