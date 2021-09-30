@@ -38,7 +38,7 @@ Note:
 ### Zugriff auf die virtuelle Maschine
 
 1. Mit dem Netzwerk der FHGR verbinden (ggf. via VPN)
-2. <https://horizon.fh-htwchur.ch> aufrufen
+2. <https://horizon.fhgr.ch> aufrufen
 3. Zugriff auf die virtuelle Maschine (Ubuntu) entweder direkt über den Browser (HTML5) oder über eine Zusatzsoftware (Horizon Client)
 
 Sie können sich an allen drei Punkten (VPN, Horizon und Ubuntu) mit Ihrem persönlichen FHGR-Konto anmelden. Achtung: Beim Anmeldebildschirm von Ubuntu ist ein US-Tastaturlayout eingestellt.
@@ -172,7 +172,7 @@ Note:
 Note:
 
 - Darauf folgt eine Passwortabfrage (nochmal das gleiche)
-- Änderungen werden komplex angezeigt, diese müssen dann nochmal mit `J` (oder Enter) bestätigt werden
+- Änderungen werden komplex angezeigt, diese müssen dann nochmal mit `Y` (oder Enter) bestätigt werden
 - Die Paketverwaltung unter Linux ist vergleichbar mit einem App-Store von Apple oder Google
 
 ### Übung: Link zum Lerntagebuch ergänzen
