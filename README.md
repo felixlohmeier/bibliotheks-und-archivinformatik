@@ -61,6 +61,7 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
 
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
+
 https://github.com/marhee48/bibliotheks-und-archivinformatik.git
 
 ## Modulbeschreibung
