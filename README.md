@@ -61,6 +61,7 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
 
 Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenntnissen berichten und sich mit den Inhalten des Seminars auseinandersetzen.
 
+[Anna Hilgert](https://github.com/hilgeann/bibliotheks-und-archivinformatik.git)
 	- [Julia Zingg](https://github.com/JZingg/LerntagebuchBAIN_HS21.git)
 https://jahnsievers.github.io/Lerntagebuch-BAIN/
 https://github.com/marhee48/bibliotheks-und-archivinformatik.git
