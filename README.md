@@ -70,6 +70,11 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Joy Walser](https://joyrw.github.io/Lerntagebuch/)
 * [Julia Zingg](https://jzingg.github.io/LerntagebuchBAIN_HS21/)
 * [Christina Clerici](https://github.com/MomoVasco/Lerntagebuch/)
+* [Sandra Freiburghaus](https://fribsle.github.io/lerntagebuch/)
+[Sebastian Preher](https://needforsleepundersheet2.github.io/BAIN_Lerntagebuch_3.0/)[Sebastian Preher](https://needforsleepundersheet2.github.io/BAIN_Lerntagebuch_3.0/)
+* [Alexandra Köchling]
+* [Stephanie Riebe](https://striebe.github.io/BAIN_Lerntagebuch/)
+* [Sarah Roellin](https://sarahr177.github.io/BAIN-Lerntagebuch/)
 
 ## Modulbeschreibung
 
