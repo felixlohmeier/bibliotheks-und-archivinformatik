@@ -104,6 +104,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Vanessa Seyffert](https://vseyffert.github.io/bainseyffert/)
 * [Melanie Müller](https://rumolin.github.io/lerntagebuch-bain/)
 * [Silvan Reis](https://riesling-silvan.github.io/Lerntagebuch/)
+* [Lucien Haeller](https://github.com/lhaeller/lerntagebuch)
 
 ## Modulbeschreibung
 
