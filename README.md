@@ -69,7 +69,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Simon Mettler](https://simon-mettler.github.io/lernblog-bain/)
 * [Joy Walser](https://joyrw.github.io/Lerntagebuch/)
 * [Julia Zingg](https://jzingg.github.io/LerntagebuchBAIN_HS21/)
-* [Melanie Käser](https://github.com/melakae/bain_lerntagebuch/)
+* [Melanie Käser](https://melakae.github.io/bain_lerntagebuch/)
 
 ## Modulbeschreibung
 
