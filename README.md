@@ -91,18 +91,6 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Alexandra Köchling]
 * [Stephanie Riebe](https://striebe.github.io/BAIN_Lerntagebuch/)
 * [Sarah Roellin](https://sarahr177.github.io/BAIN-Lerntagebuch/)
-* [Giulia D'Amico](https://damicogiulia.github.io/BAIN-Blog/)
-* [Regina Eicher](https://gins-ctrl.github.io/Lerntagebuch_HS20/)
-* [Sandra Flückiger](https://fluecksandra.github.io)
-* [Martina Gubser](https://tinablabla.github.io/bainotes/)
-* [Gaby Leuenberger](https://regrebneuel.github.io/bain-log/)
-* [Charles Winkler](https://charleswinkler.github.io)
-* [Lea Bächli](https://leabaechli.github.io/bain/)
-* [Alex Muster](https://alexmuster.github.io/lerntageblog)
-* [Florian Riedmann](https://github.com/xXxjaegerxXx/lerntagebuch)
-* [Shanna Grütter](https://shannarachel.github.io/storys)
-* [Vanessa Seyffert](https://vseyffert.github.io/bainseyffert/)
-* [Melanie Müller](https://rumolin.github.io/lerntagebuch-bain/)
 * [Silvan Reis](https://riesling-silvan.github.io/Lerntagebuch/)
 * [Lucien Haeller](https://github.com/lhaeller/lerntagebuch)
 
