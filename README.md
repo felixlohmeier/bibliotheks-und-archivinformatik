@@ -70,6 +70,27 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Joy Walser](https://joyrw.github.io/Lerntagebuch/)
 * [Julia Zingg](https://jzingg.github.io/LerntagebuchBAIN_HS21/)
 * [Nino Parolari](https://nony-git.github.io/my_lerntagebuch/)
+* [Gene Bichler](https://el-mongo-bongo.github.io/bain_lerntagebuch/)
+* [Nina Ingold](https://uliqwe.github.io/BAINTagebuch/)
+* [Marion Stutz](https://stutzmarion.github.io/Lerntagebuch_BAIN/)
+* [Laura Krüsi](https://github.com/SasquatchfromAlaska/sasquatch_adventures.git)
+* [Caroline Krause](https://ckfhgr.github.io/bain-lerntagebuch/)
+* [Livia Schmid](https://livelchen.github.io/LerntagebuchLiviaSchmid/)
+* [Marina Inglin](https://m-rina.github.io/lerntagebuch/)
+* [Cynthia Kohler](https://cynkoh.github.io/BAIN21_ck/)
+* [Joëlle Meichtry](https://schoscho77.github.io/BAIN_Sloth-O-Nator/)
+* [Nicolas Brauchli] (https://elslothboi.github.io/Lerntagebuch/)
+* [Antonia Stadler](https://tonydamager.github.io/BAIN/)
+* [Jennifer Amoroso](https://saphirba.github.io/BAIN-Lerntagebuch/)
+* [Melanie Käser](https://melakae.github.io/bain_lerntagebuch/)
+* [Talita Fisch](https://github.com/TTly1/bain_gamora.git)
+* [Christina Clerici](https://github.com/MomoVasco/Lerntagebuch/)
+* [Sandra Freiburghaus](https://fribsle.github.io/lerntagebuch/)
+[Sebastian Preher](https://needforsleepundersheet2.github.io/BAIN_Lerntagebuch_3.0/)[Sebastian Preher](https://needforsleepundersheet2.github.io/BAIN_Lerntagebuch_3.0/)
+* [Alexandra Köchling]
+* [Stephanie Riebe](https://striebe.github.io/BAIN_Lerntagebuch/)
+* [Sarah Roellin](https://sarahr177.github.io/BAIN-Lerntagebuch/)
+
 ## Modulbeschreibung
 
 Im Modul Bibliotheks- und Archivinformatik lernen die Studierenden die in Bibliotheken und Archiven eingesetzten Softwares und Technologien kennen. Funktionsweisen von Bibliothekskatalogen (bis hin zu Cloud-Konzepten), von Publikationsplattformen, Repositories etc. werden erläutert. Verschiedene Suchtechnologien werden analysiert und im Einsatz über unterschiedliche Datenbestände angewandt. Es wird gezeigt, wie Metadatenstandards und Austauschprotokolle eingesetzt und genutzt werden.
