@@ -69,7 +69,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Simon Mettler](https://simon-mettler.github.io/lernblog-bain/)
 * [Joy Walser](https://joyrw.github.io/Lerntagebuch/)
 * [Julia Zingg](https://jzingg.github.io/LerntagebuchBAIN_HS21/)
-
+* [Alexandra Köchling]
 ## Modulbeschreibung
 
 Im Modul Bibliotheks- und Archivinformatik lernen die Studierenden die in Bibliotheken und Archiven eingesetzten Softwares und Technologien kennen. Funktionsweisen von Bibliothekskatalogen (bis hin zu Cloud-Konzepten), von Publikationsplattformen, Repositories etc. werden erläutert. Verschiedene Suchtechnologien werden analysiert und im Einsatz über unterschiedliche Datenbestände angewandt. Es wird gezeigt, wie Metadatenstandards und Austauschprotokolle eingesetzt und genutzt werden.
