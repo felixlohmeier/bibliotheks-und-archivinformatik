@@ -93,6 +93,7 @@ Als Prüfungsleistung schreiben Studierende Blogs, in denen sie von ihren Erkenn
 * [Sarah Roellin](https://sarahr177.github.io/BAIN-Lerntagebuch/)
 * [Silvan Reis](https://riesling-silvan.github.io/Lerntagebuch/)
 * [Lucien Haeller](https://github.com/lhaeller/lerntagebuch)
+* [Barbora Plachá](https://github.com/barboraplacha/Lerntagebuch.git)
 
 ## Modulbeschreibung
 
