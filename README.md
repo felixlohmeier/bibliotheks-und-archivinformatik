@@ -67,9 +67,9 @@ Gruppe ISc19vz (Chur):
 * [Martin Heeb](https://marhee48.github.io/Lerntagebuch-BAIN/)
 * [Anna Hilgert](https://hilgeann.github.io/Lerntagebuch_BAIN/)
 * [Jacqueline Küng](https://schaglin.github.io/Mein-Lerntagebuch/)
-* [Jahn Sievers](https://jahnsievers.github.io/Lerntagebuch-BAIN/)
 * [Simon Mettler](https://simon-mettler.github.io/lernblog-bain/)
 * [Barbora Plachá](https://barboraplacha.github.io/Lerntagebuch/)
+* [Jahn Sievers](https://jahnsievers.github.io/Lerntagebuch-BAIN/)
 * [Joy Walser](https://joyrw.github.io/Lerntagebuch/)
 * [Julia Zingg](https://jzingg.github.io/LerntagebuchBAIN_HS21/)
 
