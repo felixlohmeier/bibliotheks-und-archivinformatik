@@ -76,7 +76,7 @@ Gruppe ISc19vz (Chur):
 Gruppe ISc18tzZ (Zürich):
 
 * [Jennifer Amoroso](https://saphirba.github.io/BAIN-Lerntagebuch/)
-* [Simone Behr](https://simonebehr.github.io/LerntagebuchBAIN/)
+* [Simone Behr-Schneider](https://simonebehr.github.io/LerntagebuchBAIN/)
 * [Gene Bichler](https://el-mongo-bongo.github.io/bain_lerntagebuch/)
 * [Nicolas Brauchli](https://elslothboi.github.io/Lerntagebuch/)
 * [Larissa Bucher](https://larri12.github.io/BAIN/)
