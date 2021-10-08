@@ -110,7 +110,7 @@ Gruppe ISc18tzZ (Zürich):
 * [Livia Schmid](https://livelchen.github.io/LerntagebuchLiviaSchmid/)
 * [Antonia Stadler](https://tonydamager.github.io/BAIN/)
 * [Marion Stutz](https://stutzmarion.github.io/Lerntagebuch_BAIN/)
-* [Jessica Weidmann](https://luaynara.github.io/Lerntagebuch-BAIN/)
+* [Jessica Weidmann](https://luaynara.github.io/Lerntagebuch-BAIN-HS2021/)
 
 ## Modulbeschreibung
 
