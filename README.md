@@ -84,6 +84,7 @@ Gruppe ISc18tzZ (Zürich):
 * [Talita Fisch](https://ttly1.github.io/bain_gamora/)
 * [Sandra Freiburghaus](https://fribsle.github.io/lerntagebuch/)
 * [Joëlle Gantenbein](https://jogant.github.io/BAIN-Lerntagebuch/)
+* [Stefan Gröber](https://groebestefan.github.io/LerntagebuchBAIN21/)
 * [Lucien Haeller](http://lucienhaeller.com/lerntagebuch/)
 * [Christine Holz](https://christineholz.github.io/bain_lerntagebuch/)
 * [Marina Inglin](https://m-rina.github.io/lerntagebuch/)
@@ -109,6 +110,7 @@ Gruppe ISc18tzZ (Zürich):
 * [Livia Schmid](https://livelchen.github.io/LerntagebuchLiviaSchmid/)
 * [Antonia Stadler](https://tonydamager.github.io/BAIN/)
 * [Marion Stutz](https://stutzmarion.github.io/Lerntagebuch_BAIN/)
+* [Jessica Weidmann](https://luaynara.github.io/Lerntagebuch-BAIN/)
 
 ## Modulbeschreibung
 
