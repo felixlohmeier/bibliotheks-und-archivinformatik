@@ -100,6 +100,7 @@ Gruppe ISc18tzZ (Zürich):
 * [Adrian Menti](https://menti696.github.io/BAIN_Lerntagebuch_Adrian-Menti/)
 * [Nicole Meyer](https://kekskaempferin.github.io/Lerntagebuch/)
 * [Alan Müller](https://alanmueller.github.io/lerntagebuch/)
+* [Petra Novak] ()
 * [Lisa Oehler](https://lisaoehler.github.io/BAIN-Log/)
 * [Nino Parolari](https://nony-git.github.io/my_lerntagebuch/)
 * [Lara Pfister](https://larapfister.github.io/bain-lerntagebuch/)
