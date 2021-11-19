@@ -271,6 +271,11 @@ cd bibliotheks-und-archivinformatik
 
 Sie finden Ihren Pull Request im ursprünglichen Repository bei GitHub im Tab "Pull requests": <https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/pulls>
 
+### Wofür git in Bibliotheken und Archiven?
+
+* Arbeitsfeld "forschungsnahe Dienste", siehe Positionspapier der Kommission für forschungsnahe Dienste des VDB: https://www.o-bib.de/article/view/5718/8434
+* siehe auch "Uses in a library context" in [Library Carpentry Lesson zu git](https://librarycarpentry.org/lc-git/01-what-is-git/index.html): "Local library looking to start a crowdsourcing project" und "Multiple people editing metadata for a collection"
+
 ## Blog mit GitHub Pages
 
 * Mit GitHub Pages lassen sich statische Webseiten direkt aus den Dateien im GitHub Repository generieren und auf Servern von GitHub kostenfrei veröffentlichen.
