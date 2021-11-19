@@ -11,7 +11,6 @@
 erstellt mit [mermaid](https://mermaidjs.github.io/mermaid-live-editor/)
 
 Note:
-
 - In diesem Schaubild sind links die Lokalsysteme (Bibliothekssytem Koha, Archivinformationssystem ArchivesSpace, Repository-Software DSpace) aufgeführt. Diese bieten jeweils eine OAI-Schnittstelle an.
 - Mit einer speziellen Software (hier: VuFindHarvest) werden die Metadaten im jeweils spezifischen Format eingesammelt. Über einen XSLT Crosswalk werden die Daten dann einheitlich in MARC21-XML überführt. Zusätzlich werden Tabellendaten (CSV) mit OpenRefine ebenfalls in MARC21-XML transformiert.
 - Abschließend werden alle MARC21-XML-Daten in die Discovery-Lösung VuFind eingespielt.
@@ -32,7 +31,6 @@ Note:
 * Ubuntu basiert wiederum auf [Debian](https://www.debian.org). Die ganze Familiengeschichte: [GNU/Linux Distributions Timeline](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg)
 
 Note:
-
 - Normalerweise werden Linux-Server aus Sicherheitsgründen ohne grafische Oberfläche administriert, also nur über die Kommandozeile.
 
 ### Zugriff auf die virtuelle Maschine
@@ -131,7 +129,6 @@ Note:
 * Wenn Sie im Anschluss selbst üben möchten, bietet Library Carpentry dazu [ausführliche Lehrmaterialien](<https://librarycarpentry.org/lc-git/>)
 
 Note:
-
 - Durch die Plattform GitHub, auf der Informatiker\*innen Ihren Quellcode ablegen, ist das Versionskontrollsystem Git sehr populär geworden. Es ist nicht nur für die Entwicklung von Software, sondern generell für die Zusammenarbeit in Projekten extrem hilfreich.
 
 ### Wozu Git?
@@ -170,7 +167,6 @@ Note:
     ```
 
 Note:
-
 - Darauf folgt eine Passwortabfrage (nochmal das gleiche)
 - Änderungen werden komplex angezeigt, diese müssen dann nochmal mit `Y` (oder Enter) bestätigt werden
 - Die Paketverwaltung unter Linux ist vergleichbar mit einem App-Store von Apple oder Google
@@ -196,14 +192,13 @@ git config --global user.email "mail@felixlohmeier.de"
 ```
 
 Note:
-
 - Ersetzen Sie die Angaben durch Ihre eigenen und verwenden Sie dieselbe E-Mail-Adresse, mit der Sie sich bei GitHub registriert haben. Dadurch kann GitHub Ihnen alle Änderungen zuordnen.
 - Die Konfiguration ist nur einmalig nötig. Sie wird in Ihrem Home-Verzeichnis gespeichert (```~/.gitconfig```) und künftig für jedes Repository automatisch als Standard verwendet.
 
 #### Schritt 1: Kopie des Repositories erstellen
 
 * Bei GitHub einloggen
-* Repository aufrufen: https://github.com/felixlohmeier/bibliotheks-und-archivinformatik
+* Repository aufrufen: <https://github.com/felixlohmeier/bibliotheks-und-archivinformatik>
 * Oben rechts auf Button "Fork" klicken
 
 #### Schritt 2: Dateien herunterladen
@@ -274,9 +269,7 @@ cd bibliotheks-und-archivinformatik
 
 #### Ergebnis auf GitHub
 
-Sie finden Ihren Pull Request im ursprünglichen Repository bei GitHub im Tab "Pull requests":
-
-<https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/pulls>
+Sie finden Ihren Pull Request im ursprünglichen Repository bei GitHub im Tab "Pull requests": <https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/pulls>
 
 ## Blog mit GitHub Pages
 
