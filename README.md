@@ -32,11 +32,11 @@ Für Notizen und zum Austausch verwenden wir ein gemeinsames Dokument in einer [
    - Metadatenstandards in Archiven (ISAD(G) und EAD)
    - Installation und Konfiguration von ArchivesSpace
    - Marktüberblick Archivsysteme
-4. [Repository-Software für Publikationen und Forschungsdaten](04_repository-software-fuer-publikationen-und-forschungsdaten.md) (Chur: 04.11.2021, Zürich: 05.11.2021)
+4. [Repository-Software für Publikationen und Forschungsdaten](04_repository-software-fuer-publikationen-und-forschungsdaten.md) (Chur: 18.11.2021, Zürich: 19.11.2021)
    - Open Access und Open Data
    - Übungen mit DSpace
    - Marktüberblick Repository-Software
-5. [Metadaten modellieren und Schnittstellen nutzen](05_metadaten-modellieren-und-schnittstellen-nutzen.md) (Chur: 18.11.2021 und 02.12.2021, Zürich: 19.11.2021 und 03.12.2021)
+5. [Metadaten modellieren und Schnittstellen nutzen](05_metadaten-modellieren-und-schnittstellen-nutzen.md) (Chur: 02.12.2021 und 03.12.2021, Zürich: 02.12.2021 und 03.12.2021)
    - Austauschprotokolle für Metadaten (OAI-PMH, SRU)
    - Metadaten über OAI-PMH harvesten mit VuFindHarvest
    - XSLT Crosswalks mit MarcEdit
