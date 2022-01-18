@@ -118,6 +118,35 @@ rm -rf /usr/local/vufind/solr/vufind/biblio/index /usr/local/vufind/solr/vufind/
 Note:
 - Die Beispieldaten umfassen die in den vergangenen Lehreinheiten mit MarcEdit und OpenRefine prozessierten Daten sowie den Export aus Koha. Wir stellen Sie hier bereit, damit Sie einheitliche Daten zur Verfügung haben auch wenn bei den vorherigen Aufgaben etwas durcheinandergekommen ist.
 
+## Marktüberblick Discovery-Systeme
+
+### International (kommerziell)
+
+* Jährlicher Library Systems Report von Marshall Breeding im ALA Magazine: <https://americanlibrariesmagazine.org/2020/05/01/2020-library-systems-report/>
+  * [Suche auf librarytechnology.org](https://librarytechnology.org/products/main.pl) vermittelt guten Überblick
+  * siehe auch [Statistik der Verkaufszahlen](https://librarytechnology.org/products/sales/)
+* Marktführer ist Ex Libris mit [Primo](https://exlibrisgroup.com/de/produkte/primo/inhalts-index/)
+  * Alternative: OCLC mit [WorldCat Discovery](https://www.oclc.org/de/worldcat-discovery.html)
+  * Alternative: EBSCO mit [EDS](https://www.ebsco.com/de-de/wissenschaftliche-bibliotheken/produkte/ebsco-discovery-service)
+  * (Summon wird zugunsten von Primo abgekündigt)
+
+Note:
+- Den Library Systems Report hatten wir uns zuvor bereits angeschaut, damals jedoch mit Blick auf Bibliothekssysteme. Marshall Breeding führt in seinem Bericht aber auch Discovery-Systeme auf.
+- Die Funktionalität eines Discovery-Systems besteht aus mindestens zwei Komponenten: Der Software und den Daten.
+- Kommerzielle Discovery-Systeme verkaufen einen Suchindex meist separat, der vor allem Metadaten zu elektronischen Artikeln enthält.
+
+### International (Open Source)
+
+* Open Source-Alternative: [VuFind](https://vufind.org/vufind/) (ohne eigenen Artikelindex)
+  * Nische: [typo3-find](https://github.com/subugoe/typo3-find)
+* Alternative Zentralindizes: [K10plus-Zentral](https://verbundwiki.gbv.de/display/VZG/K10plus-Zentral), [finc Artikelindex](https://finc.info/services)
+
+### Schweiz: SLSP
+
+* Durch [Swiss Library Service Platform](https://slsp.ch) wurde Ex Libris Alma und damit auch das dazu gehörige Discovery-System Primo VE an den wissenschaftlichen Bibliotheken in der Schweiz eingeführt.
+* Am Mo, 7.12.2020 ist das neue Rechercheportal [swisscovery](https://swisscovery.slsp.ch) gestartet.
+* Ergänzend zu SLSP wird vom Verein swisscollections der Sucheinstieg [swisscollections](https://swisscollections.ch) für Sammlungen angeboten. Dieses Portal wurde mit VuFind und Eigenentwicklungen der UB Basel realisiert.
+
 ## Zwischenfazit
 
 ![Schaubild zu Lehrinhalten](images/schaubild-lehrinhalte.png)
@@ -126,5 +155,5 @@ Note:
 
 Bis zum nächsten Termin:
 
-1. Beitrag im Lerntagebuch zu dieser Lehreinheit
+1. Beitrag im Lerntagebuch zu dieser Lehreinheit (3000 - 4000 Zeichen)
 2. Lehrevaluation
