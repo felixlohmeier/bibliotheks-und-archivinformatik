@@ -116,14 +116,14 @@ Quelle: <https://www.loc.gov/bibframe/faqs/#q04>
 
 ## Praxisberichte
 
-## Entwicklung eines neuen Online-Katalogs für das Deutsche Literaturarchiv Marbach
+### Entwicklung eines neuen Online-Katalogs für das Deutsche Literaturarchiv Marbach
 
 * Katalog (Beta): <https://www.dla-marbach.de/katalog-beta>
 * Informationen zum Projekt: <https://wdv-teamwork.dla-marbach.de/projects/info-opac-ng-hauptprojekt/wiki>
 * Unser Auftrag: Prototyp, Projektkoordination und Datenintegration
 * Geschwindigkeitsmessung mit "Network"-Funktion der Entwicklertools
 
-## Datenintegration für das Portal noah.nrw
+### Datenintegration für das Portal noah.nrw
 
 * Portal für Open-Access-Ressourcen in Nordrhein-Westfalen: https://noah.nrw. Besondere Funktion: Volltextsuche für Digitalisate **und** Born-Digitals.
 * Unser Auftrag: Daten von OAI-Schnittstellen abrufen, einheitlich in Format METS/MODS konvertieren und über eine OAI-Schnittstelle bereitstellen
