@@ -185,42 +185,6 @@ Note:
 * Ziel: Ihre Datensätze erscheinen in der öffentlichen Ansicht unter <http://localhost:8081>. Machen Sie einen Screenshot und laden Sie das Bild hier in das gemeinsame Dokument.
 * Hinweis: Orientieren Sie sich beim Vorgehen an der Übung der NYU: [Create Your Own Record](https://guides.nyu.edu/ld.php?content_id=23198351)
 
-### Import und Export
-
-ArchivesSpace bietet dateibasierten Import und Export in diversen Formaten (EAD, MARCXML, CSV) und auch eine OAI-PMH-Schnittstelle.
-
-In den folgenden zwei Übungen werden wir EAD-Beispieldaten in ArchivesSpace importieren und anschließend in MARCXML exportieren.
-
-#### Übung: Import
-
-**Aufgabe (15 Minuten)**
-
-* Beispieldaten: <https://eadiva.com/sample-ead-files/> (laden Sie die als "a raw XML file" verlinkte Datei der "American Association of Industrial Editors" herunter)
-* Aufgabe: Importieren Sie Beispieldaten im Format EAD in ArchivesSpace. Vergleichen Sie (ganz grob) die Anzeige in ArchivesSpace mit der bei den Beispieldaten verlinkten HTML-Ansicht.
-* Ziel: Dokumentieren Sie Ihre Erkenntnisse ~~unten im gemeinsamen Dokument.~~ in Ihrem Lerntagebuch.
-* Hinweis: Die Import-Funktion finden Sie etwas versteckt unter `Create` > `Background Job` > `Import Data`
-
-Note:
-
-- Import kann etwas länger dauern weil,
-  - wir nur die mitgelieferte Datenbank (für Testzwecke) verwendet haben und keine separate MySQL-Datenbank
-  - EAD ein komplexes Dateiformat ist, was etwas aufwendiger auszuwerten ist (daher auch die mehreren "Cycles" in der Log-Datei)
-  - ArchivesSpace in der Grundeinstellung nur 1 GB RAM benutzt, siehe Dokumentation zu "Tuning": https://archivesspace.github.io/tech-docs/provisioning/tuning.html
-
-#### Übung: Export
-
-**Aufgabe (15 Minuten)**
-
-* Aufgabe:
-  1. Exportieren Sie die von Ihnen zuvor importierten Datensätze im Format MARCXML. Speichern Sie die Datei auf der Festplatte.
-  2. Vergleichen Sie die exportierte MARCXML-Datei kurz mit den in ArchivesSpace vorhandenen Informationen. Ist der Export in MARCXML verlustfrei?
-* Ziel: Dokumentieren Sie Ihre Erkenntnisse unten im gemeinsamen Dokument.
-* Hinweis: Die Export-Funktion finden Sie etwas versteckt in der Button-Leiste bei der "Resource".
-
-Note:
-- Mappingtabellen als XLS (Stand 2013, unklar ob aktuell) stellt ArchivesSpace auf der Webseite zur Verfügung: <https://archivesspace.org/using-archivesspace/migration-tools-and-data-mapping>
-- Technische Dokumentation der Konvertierung in MARCXML (falls jemand die Proogrammiersprache Ruby können sollte): <https://archivesspace.github.io/archivesspace/doc/MarcXMLConverter.html>
-
 ### Literatur zu ArchivesSpace
 
 * Einführungsvideos: <https://www.youtube.com/playlist?list=PL3cxupmXL7WiXaHnpVquPrUUiLiDAMhg0>
@@ -260,5 +224,42 @@ Note:
 
 Bis zum nächsten Termin:
 
-1. Beitrag im Lerntagebuch zu dieser Lehreinheit
+1. Beitrag im Lerntagebuch zu dieser Lehreinheit (3000 - 4000 Zeichen).
 2. Datensätze in ArchivesSpace vervollständigen. Mindestens Accession und Resource. Beides sollte unter <http://localhost:8081> (öffentliche Ansicht) erscheinen.
+3. Übung zu Import und Export (siehe unten) und dazu einen Beitrag im Lerntagebuch verfassen (1000-2000 Zeichen).
+
+### Import und Export
+
+ArchivesSpace bietet dateibasierten Import und Export in diversen Formaten (EAD, MARCXML, CSV) und auch eine OAI-PMH-Schnittstelle.
+
+In den folgenden zwei Übungen werden wir EAD-Beispieldaten in ArchivesSpace importieren und anschließend in MARCXML exportieren.
+
+#### Übung: Import
+
+**Aufgabe (15 Minuten)**
+
+* Beispieldaten: <https://eadiva.com/sample-ead-files/> (laden Sie die als "a raw XML file" verlinkte Datei der "American Association of Industrial Editors" herunter)
+* Aufgabe: Importieren Sie Beispieldaten im Format EAD in ArchivesSpace. Vergleichen Sie (ganz grob) die Anzeige in ArchivesSpace mit der bei den Beispieldaten verlinkten HTML-Ansicht.
+* Ziel: Dokumentieren Sie Ihre Erkenntnisse ~~unten im gemeinsamen Dokument.~~ in Ihrem Lerntagebuch.
+* Hinweis: Die Import-Funktion finden Sie etwas versteckt unter `Create` > `Background Job` > `Import Data`
+
+Note:
+
+- Import kann etwas länger dauern weil,
+  - wir nur die mitgelieferte Datenbank (für Testzwecke) verwendet haben und keine separate MySQL-Datenbank
+  - EAD ein komplexes Dateiformat ist, was etwas aufwendiger auszuwerten ist (daher auch die mehreren "Cycles" in der Log-Datei)
+  - ArchivesSpace in der Grundeinstellung nur 1 GB RAM benutzt, siehe Dokumentation zu "Tuning": https://archivesspace.github.io/tech-docs/provisioning/tuning.html
+
+#### Übung: Export
+
+**Aufgabe (15 Minuten)**
+
+* Aufgabe:
+  1. Exportieren Sie die von Ihnen zuvor importierten Datensätze im Format MARCXML. Speichern Sie die Datei auf der Festplatte.
+  2. Vergleichen Sie die exportierte MARCXML-Datei kurz mit den in ArchivesSpace vorhandenen Informationen. Ist der Export in MARCXML verlustfrei?
+* Ziel: Dokumentieren Sie Ihre Erkenntnisse unten im gemeinsamen Dokument.
+* Hinweis: Die Export-Funktion finden Sie etwas versteckt in der Button-Leiste bei der "Resource".
+
+Note:
+- Mappingtabellen als XLS (Stand 2013, unklar ob aktuell) stellt ArchivesSpace auf der Webseite zur Verfügung: <https://archivesspace.org/using-archivesspace/migration-tools-and-data-mapping>
+- Technische Dokumentation der Konvertierung in MARCXML (falls jemand die Proogrammiersprache Ruby können sollte): <https://archivesspace.github.io/archivesspace/doc/MarcXMLConverter.html>

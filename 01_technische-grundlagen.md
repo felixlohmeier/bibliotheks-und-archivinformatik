@@ -290,5 +290,5 @@ Bis zum nächsten Termin:
 1. Lerntagebuch einrichten
   * Vorlage für ein Lerntagebuch mit GitHub Pages: <https://github.com/felixlohmeier/lerntagebuch>
   * Link bitte auf der Übersichtsseite der gemeinsamen Dokumente ergänzen
-2. Einführungsartikel (wo bin ich gestartet?)
-3. Beitrag zu dieser Lehreinheit "Technische Grundlagen"
+2. Einführungsartikel (wo bin ich gestartet?)  (3000 - 4000 Zeichen)
+3. Beitrag zu dieser Lehreinheit "Technische Grundlagen"  (3000 - 4000 Zeichen)

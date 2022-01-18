@@ -129,8 +129,8 @@ Alle Open Source!
 
 Bis zum nächsten Termin:
 
-1. Beitrag im Lerntagebuch zu dieser Lehreinheit
-2. Übung zur OAI-PMH-Schnittstelle und dazu einen Beitrag im Lerntagebuch verfassen
+1. Beitrag im Lerntagebuch zu dieser Lehreinheit (3000 - 4000 Zeichen)
+2. Übung zur OAI-PMH-Schnittstelle und dazu einen Beitrag im Lerntagebuch verfassen (1000-2000 Zeichen)
   * Laden Sie von Ihnen erstellte Daten in der DSpace-Demo über die OAI-PMH-Schnittstelle (Daten erscheinen dort zeitverzögert ca. 1 Tag)
   * Achtung: Daten auf [demo.dspace.org](http://demo.dspace.org) werden jeden Samstag nachts gelöscht.
   * Rufen Sie bei einer von Ihnen erstellten Community unter http://demo.dspace.org/oai/request?verb=ListSets den Link "Records" auf

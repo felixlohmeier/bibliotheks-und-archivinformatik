@@ -473,7 +473,7 @@ Note:
 
 Bis zum nächsten Termin:
 
-1. Beitrag im Lerntagebuch zu dieser Lehreinheit
+1. Beitrag im Lerntagebuch zu dieser Lehreinheit (3000 - 4000 Zeichen)
 2. Installation VuFind (siehe unten) bitte möglichst frühzeitig, damit wir bei Problemen noch unterstützen können
 3. Übung "Konfiguration Suche und Facetten" (siehe unten) und dazu einen Beitrag im Lerntagebuch verfassen (1000-2000 Zeichen)
 

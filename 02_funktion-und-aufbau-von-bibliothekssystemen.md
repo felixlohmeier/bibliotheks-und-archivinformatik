@@ -399,7 +399,7 @@ Note:
 
 Bis zum nächsten Termin:
 
-1. Beitrag im Lerntagebuch zu dieser Lehreinheit
+1. Beitrag im Lerntagebuch zu dieser Lehreinheit (3000 - 4000 Zeichen)
 2. Installation ArchivesSpace (siehe unten)
 
 ### Installation ArchivesSpace 3.1.0
