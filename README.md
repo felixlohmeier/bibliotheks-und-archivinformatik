@@ -1,6 +1,6 @@
 # Skript zum Kurs "Bibliotheks- und Archivinformatik"
 
-Dieses Skript entsteht in der Zeit von September 2021 bis Januar 2022 im Rahmen der folgenden Lehrveranstaltung:
+Dieses Skript entstand in der Zeit von September 2021 bis Januar 2022 im Rahmen der folgenden Lehrveranstaltung:
 
 - Kurs "Bibliotheks- und Archivinformatik" (BAIN)
 - Dozenten: [Felix Lohmeier](http://felixlohmeier.de), [Sebastian Meyer](https://twitter.com/_meyse_/)
@@ -128,6 +128,11 @@ Nach erfolgreicher Teilnahme am Modul sind die Studierenden in der Lage:
 ## Skripte der Vorjahre
 
 Herbstsemester 2021:
+
+* Zenodo: [10.5281/zenodo.5925567](https://doi.org/10.5281/zenodo.5925567)
+* GitHub: [v5.0](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/releases/tag/v5.0)
+
+Herbstsemester 2020:
 
 * Zenodo: [10.5281/zenodo.4386963](https://doi.org/10.5281/zenodo.4386963)
 * GitHub: [v4.0](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik/releases/tag/v4.0)
